@@ -9,7 +9,7 @@
     "scipy": "1.17.1",
     "torch": "2.13.0"
   },
-  "file_count": 226,
+  "file_count": 250,
   "files": [
     {
       "bytes": 4306,
@@ -99,7 +99,7 @@
     {
       "bytes": 36073,
       "path": "04_experiments\\results\\vq_fountain_reproducibility_manifest_2026-07-16.md",
-      "sha256": "1c98a269d898ab6bc7ab351c65bf47819bbd994cb1f36ae5c1d1a4ec34f18b4e"
+      "sha256": "92e82817d3c97b39f6ba707951018c9834d0e60beab065e62845be85cfcdf7cd"
     },
     {
       "bytes": 4100,
@@ -749,7 +749,7 @@
     {
       "bytes": 50536,
       "path": "05_artifacts\\results\\raw\\vq_fountain_reproducibility_manifest.json",
-      "sha256": "13c926329472128e020933eb8679727a5f318903f243d39c3dac8146516fb2e8"
+      "sha256": "5d5a98bdaac5d29c0266cd5b30e486c595517b21aacf3b13aec856dd8e2cdfba"
     },
     {
       "bytes": 5337,
@@ -1102,14 +1102,134 @@
       "sha256": "a82da49842adaff98ef4df8daa00cf1428a9c5862384431c07a65287941c3258"
     },
     {
+      "bytes": 2208,
+      "path": "paper_vq_fountain\\Elsevier\\README_JISA.md",
+      "sha256": "4b4a1dbaa61e81158b34525e87641896217503aa18a4de9a6197a6267e65b50c"
+    },
+    {
+      "bytes": 76688,
+      "path": "paper_vq_fountain\\Elsevier\\cas-common.sty",
+      "sha256": "e95a01f4b33531d01ade231669fcc1e42f52193dddcb22ead5b63240eb952f8f"
+    },
+    {
+      "bytes": 4395,
+      "path": "paper_vq_fountain\\Elsevier\\cas-dc.cls",
+      "sha256": "9f7dd6cfc91f7ce52d0db29579894662e1dd8ae96d42cf18d6d0c697e42464f5"
+    },
+    {
+      "bytes": 31802,
+      "path": "paper_vq_fountain\\Elsevier\\cas-model2-names.bst",
+      "sha256": "6f6204eb7670d762042ab363c2d05cf87196052bfbdf6dbee51a1327a8ce479a"
+    },
+    {
+      "bytes": 15808,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_ablation_crc.pdf",
+      "sha256": "e79daab5cd120a7cb65a2c990ccedf8026af78d9c41e9a456f5d7698b4a3ff49"
+    },
+    {
+      "bytes": 16834,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_attack_family.pdf",
+      "sha256": "03d29b46043ff42c62c56d8d1c853f1a9d269be2a86ccadee7e4d68e4a4f0729"
+    },
+    {
+      "bytes": 16238,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_detector_auc.pdf",
+      "sha256": "416491e8a3b5f6dfec8a5dadc34f8c1949438b17244310a274e469d626016790"
+    },
+    {
+      "bytes": 106141,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_generated_samples.pdf",
+      "sha256": "d62c9612eaa90eb56d8c20a1461e3621f077716e616a041d3da73509766ad6a3"
+    },
+    {
+      "bytes": 15919,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_hard_channel_cost.pdf",
+      "sha256": "8a68ac6002bed2724a46a2b861b16a2c353c4b42bf54aaadffb70976c0dbe800"
+    },
+    {
+      "bytes": 17026,
+      "path": "paper_vq_fountain\\Elsevier\\figures\\fig_recovery_margin.pdf",
+      "sha256": "7f5d446415050798fe86c0fdd21a0f61f4612906f57f693ea2fe7966f3f88679"
+    },
+    {
+      "bytes": 393,
+      "path": "paper_vq_fountain\\Elsevier\\highlights.txt",
+      "sha256": "b887f8dd01d692b439c6c5064ca06bfcc73c5e0c250580842db58c51320ea023"
+    },
+    {
+      "bytes": 2067,
+      "path": "paper_vq_fountain\\Elsevier\\manifest.txt",
+      "sha256": "a73f1a2366697c58c23ca2b5d6189a86631a6a8a849d3993ca7f330b08a1c671"
+    },
+    {
+      "bytes": 8314,
+      "path": "paper_vq_fountain\\Elsevier\\references.bib",
+      "sha256": "ea534f466b89633a50cfad8d9ce5f6642dbbc5ca1e47a437207385e15545df05"
+    },
+    {
+      "bytes": 8764,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-email.jpeg",
+      "sha256": "51cadbff5919f51f76f6f9238b18c9b5d512ea9234cb6d7fef7b53d9767fa845"
+    },
+    {
+      "bytes": 3676,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-facebook.jpeg",
+      "sha256": "ee892a2efc41325af58c7aa5c9356249d68524e796ed2e2da391652a9d2e4294"
+    },
+    {
+      "bytes": 7946,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-gplus.jpeg",
+      "sha256": "7a903863812ac3b33d64c5f774ea549793d2657880874ca6e7d4243f5a51516b"
+    },
+    {
+      "bytes": 6124,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-linkedin.jpeg",
+      "sha256": "3fa7b9ead03ed5d1976316aa1d69157eeeaefae04fab568a4d704185755f7f9f"
+    },
+    {
+      "bytes": 4655,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-twitter.jpeg",
+      "sha256": "bf2765da8cc4cc58fef109fd0f864b4fc39d7ba8e8040c8633542076ccdc91ef"
+    },
+    {
+      "bytes": 7736,
+      "path": "paper_vq_fountain\\Elsevier\\thumbnails\\cas-url.jpeg",
+      "sha256": "66e3c16ef98e082d61397c9644ccae92c227bae49fd7eba5bcad4a6623fd67d5"
+    },
+    {
+      "bytes": 15808,
+      "path": "paper_vq_fountain\\figures\\fig_ablation_crc.pdf",
+      "sha256": "e79daab5cd120a7cb65a2c990ccedf8026af78d9c41e9a456f5d7698b4a3ff49"
+    },
+    {
+      "bytes": 16834,
+      "path": "paper_vq_fountain\\figures\\fig_attack_family.pdf",
+      "sha256": "03d29b46043ff42c62c56d8d1c853f1a9d269be2a86ccadee7e4d68e4a4f0729"
+    },
+    {
+      "bytes": 16238,
+      "path": "paper_vq_fountain\\figures\\fig_detector_auc.pdf",
+      "sha256": "416491e8a3b5f6dfec8a5dadc34f8c1949438b17244310a274e469d626016790"
+    },
+    {
+      "bytes": 106141,
+      "path": "paper_vq_fountain\\figures\\fig_generated_samples.pdf",
+      "sha256": "d62c9612eaa90eb56d8c20a1461e3621f077716e616a041d3da73509766ad6a3"
+    },
+    {
+      "bytes": 15919,
+      "path": "paper_vq_fountain\\figures\\fig_hard_channel_cost.pdf",
+      "sha256": "8a68ac6002bed2724a46a2b861b16a2c353c4b42bf54aaadffb70976c0dbe800"
+    },
+    {
+      "bytes": 17026,
+      "path": "paper_vq_fountain\\figures\\fig_recovery_margin.pdf",
+      "sha256": "7f5d446415050798fe86c0fdd21a0f61f4612906f57f693ea2fe7966f3f88679"
+    },
+    {
       "bytes": 507,
       "path": "paper_vq_fountain\\highlights.txt",
       "sha256": "2ee9bc6d1d8845af01bfd4401d5e040c56ca61369ce3ee18b8860b6e81896508"
-    },
-    {
-      "bytes": 54421,
-      "path": "paper_vq_fountain\\main.tex",
-      "sha256": "fe29c51990703b73e0bbef7dc0211a6218423f95e49c080a77686ce56a9959dd"
     },
     {
       "bytes": 8314,
@@ -1137,15 +1257,24 @@
       "sha256": "0d23b001bd4a6e4de464478f16ad20f49c062351279e6f3054fc24a2e31b547a"
     },
     {
-      "bytes": 4474,
+      "bytes": 4922,
       "path": "tools\\freeze_vq_fountain_manifest.py",
-      "sha256": "56818963636ab3197d19b5d8b0e32a099471f5940b16b641f5df8aa7dcc7bfe2"
+      "sha256": "b5e6062422d963dbd445c4863c9de822795782e48fcf0effeea7088ecd58b654"
     }
   ],
   "patterns": [
-    "paper_vq_fountain/main.tex",
     "paper_vq_fountain/references.bib",
     "paper_vq_fountain/highlights.txt",
+    "paper_vq_fountain/figures/*.pdf",
+    "paper_vq_fountain/Elsevier/README_JISA.md",
+    "paper_vq_fountain/Elsevier/highlights.txt",
+    "paper_vq_fountain/Elsevier/manifest.txt",
+    "paper_vq_fountain/Elsevier/references.bib",
+    "paper_vq_fountain/Elsevier/cas-dc.cls",
+    "paper_vq_fountain/Elsevier/cas-common.sty",
+    "paper_vq_fountain/Elsevier/cas-model2-names.bst",
+    "paper_vq_fountain/Elsevier/figures/*.pdf",
+    "paper_vq_fountain/Elsevier/thumbnails/*.jpeg",
     "05_artifacts/code/vq_fountain/**/*.py",
     "05_artifacts/code/vq_fountain/README.md",
     "05_artifacts/code/vq_fountain/requirements-real-model.txt",

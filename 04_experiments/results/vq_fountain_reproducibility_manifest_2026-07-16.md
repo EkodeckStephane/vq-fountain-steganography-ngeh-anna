@@ -2,7 +2,7 @@
 
 Date: 2026-07-16
 
-Frozen files: 226
+Frozen files: 250
 
 ## Dependency Versions
 
@@ -36,7 +36,7 @@ Frozen files: 226
 | `04_experiments\results\vq_fountain_public_baseline_execution_audit_2026-07-15.md` | 889 | `1588703bea9c2aa1177dfaababc217a05d49ffab9f337b7e46f1946348eb1b02` |
 | `04_experiments\results\vq_fountain_real_model_smokes_2026-07-15.md` | 990 | `d928d68b3572afef14193e2f7348bd7f253e1c99bbc46217e395a57a94cf585f` |
 | `04_experiments\results\vq_fountain_real_vqgan_stage2_payload_2026-07-15.md` | 3690 | `fb573efef414262e882e62019898de07ad2f708a16beaeae6b7be828ece668ab` |
-| `04_experiments\results\vq_fountain_reproducibility_manifest_2026-07-16.md` | 36073 | `1c98a269d898ab6bc7ab351c65bf47819bbd994cb1f36ae5c1d1a4ec34f18b4e` |
+| `04_experiments\results\vq_fountain_reproducibility_manifest_2026-07-16.md` | 36073 | `92e82817d3c97b39f6ba707951018c9834d0e60beab065e62845be85cfcdf7cd` |
 | `04_experiments\results\vq_fountain_second_model_baseline_deep_audit_2026-07-15.md` | 4100 | `b0356af4386a3ce783d87706bf907efa94a17e00ad926e939a76df74e4f12bed` |
 | `04_experiments\results\vq_fountain_spam_steganalysis_2026-07-15.md` | 1302 | `f719682237cb1f3a22166965bc585b378e0095855c99b17f75b2d52b5d85c33f` |
 | `04_experiments\results\vq_fountain_stage2_limit_closure_2026-07-15.md` | 4484 | `c4f1e389873c5bd827d46be78b0f08cf767fdca8ead1a0777cdc6fd9a1ab02a0` |
@@ -166,7 +166,7 @@ Frozen files: 226
 | `05_artifacts\results\raw\vq_fountain_real_vqgan_srm_steganalysis_payload64.json` | 1117 | `e3a7f3369bf5f36fcbdee0adc1feef28154e1d8516065fffe7da89689d9f8a7f` |
 | `05_artifacts\results\raw\vq_fountain_real_vqmodel_smoke.json` | 261 | `96dfd8e6b106610525f3c6dc89ab3315898a91f022eb5c444dfa51fdf5105101` |
 | `05_artifacts\results\raw\vq_fountain_real_vqmodel_smoke.png` | 6190 | `21f0e82a99a1f8c5cb103682f42e00469bd029e6d79fd901d2460240cb9fd8ad` |
-| `05_artifacts\results\raw\vq_fountain_reproducibility_manifest.json` | 50536 | `13c926329472128e020933eb8679727a5f318903f243d39c3dac8146516fb2e8` |
+| `05_artifacts\results\raw\vq_fountain_reproducibility_manifest.json` | 50536 | `5d5a98bdaac5d29c0266cd5b30e486c595517b21aacf3b13aec856dd8e2cdfba` |
 | `05_artifacts\results\raw\vq_fountain_scale_quality_security_probe_1000x3.json` | 5337 | `ea944f2632286e73043f3117c1aeef224162442b021e9acc1897deae275c26ba` |
 | `05_artifacts\results\raw\vq_fountain_synthetic_stage0.json` | 262775 | `0d1d613ae6f15948703321174a3dd027613fc4a3930caa9aa7fe43a0e2df20f6` |
 | `05_artifacts\results\raw\vq_fountain_token_recovery_probe.json` | 58215 | `50d55d37f57ede996c5bb84361fc2f0a4136e6b84b9a0b5913240418fd0f1d58` |
@@ -237,11 +237,35 @@ Frozen files: 226
 | `05_artifacts\results\tables\vq_fountain_token_stability_bossbase_1000.csv` | 127548 | `fe8b1a36012f967e0f8743b1ca754dc65d518e6475de7e435d740e31a8fb2b5c` |
 | `05_artifacts\results\tables\vq_fountain_token_stability_localraw_1000.csv` | 131893 | `29f9bfd0678a30c9250c86abaf81d8fd224dc96e084dd604b8383d1bef27b719` |
 | `05_artifacts\results\tables\vq_fountain_token_stability_stage1.csv` | 861 | `a82da49842adaff98ef4df8daa00cf1428a9c5862384431c07a65287941c3258` |
+| `paper_vq_fountain\Elsevier\README_JISA.md` | 2208 | `4b4a1dbaa61e81158b34525e87641896217503aa18a4de9a6197a6267e65b50c` |
+| `paper_vq_fountain\Elsevier\cas-common.sty` | 76688 | `e95a01f4b33531d01ade231669fcc1e42f52193dddcb22ead5b63240eb952f8f` |
+| `paper_vq_fountain\Elsevier\cas-dc.cls` | 4395 | `9f7dd6cfc91f7ce52d0db29579894662e1dd8ae96d42cf18d6d0c697e42464f5` |
+| `paper_vq_fountain\Elsevier\cas-model2-names.bst` | 31802 | `6f6204eb7670d762042ab363c2d05cf87196052bfbdf6dbee51a1327a8ce479a` |
+| `paper_vq_fountain\Elsevier\figures\fig_ablation_crc.pdf` | 15808 | `e79daab5cd120a7cb65a2c990ccedf8026af78d9c41e9a456f5d7698b4a3ff49` |
+| `paper_vq_fountain\Elsevier\figures\fig_attack_family.pdf` | 16834 | `03d29b46043ff42c62c56d8d1c853f1a9d269be2a86ccadee7e4d68e4a4f0729` |
+| `paper_vq_fountain\Elsevier\figures\fig_detector_auc.pdf` | 16238 | `416491e8a3b5f6dfec8a5dadc34f8c1949438b17244310a274e469d626016790` |
+| `paper_vq_fountain\Elsevier\figures\fig_generated_samples.pdf` | 106141 | `d62c9612eaa90eb56d8c20a1461e3621f077716e616a041d3da73509766ad6a3` |
+| `paper_vq_fountain\Elsevier\figures\fig_hard_channel_cost.pdf` | 15919 | `8a68ac6002bed2724a46a2b861b16a2c353c4b42bf54aaadffb70976c0dbe800` |
+| `paper_vq_fountain\Elsevier\figures\fig_recovery_margin.pdf` | 17026 | `7f5d446415050798fe86c0fdd21a0f61f4612906f57f693ea2fe7966f3f88679` |
+| `paper_vq_fountain\Elsevier\highlights.txt` | 393 | `b887f8dd01d692b439c6c5064ca06bfcc73c5e0c250580842db58c51320ea023` |
+| `paper_vq_fountain\Elsevier\manifest.txt` | 2067 | `a73f1a2366697c58c23ca2b5d6189a86631a6a8a849d3993ca7f330b08a1c671` |
+| `paper_vq_fountain\Elsevier\references.bib` | 8314 | `ea534f466b89633a50cfad8d9ce5f6642dbbc5ca1e47a437207385e15545df05` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-email.jpeg` | 8764 | `51cadbff5919f51f76f6f9238b18c9b5d512ea9234cb6d7fef7b53d9767fa845` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-facebook.jpeg` | 3676 | `ee892a2efc41325af58c7aa5c9356249d68524e796ed2e2da391652a9d2e4294` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-gplus.jpeg` | 7946 | `7a903863812ac3b33d64c5f774ea549793d2657880874ca6e7d4243f5a51516b` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-linkedin.jpeg` | 6124 | `3fa7b9ead03ed5d1976316aa1d69157eeeaefae04fab568a4d704185755f7f9f` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-twitter.jpeg` | 4655 | `bf2765da8cc4cc58fef109fd0f864b4fc39d7ba8e8040c8633542076ccdc91ef` |
+| `paper_vq_fountain\Elsevier\thumbnails\cas-url.jpeg` | 7736 | `66e3c16ef98e082d61397c9644ccae92c227bae49fd7eba5bcad4a6623fd67d5` |
+| `paper_vq_fountain\figures\fig_ablation_crc.pdf` | 15808 | `e79daab5cd120a7cb65a2c990ccedf8026af78d9c41e9a456f5d7698b4a3ff49` |
+| `paper_vq_fountain\figures\fig_attack_family.pdf` | 16834 | `03d29b46043ff42c62c56d8d1c853f1a9d269be2a86ccadee7e4d68e4a4f0729` |
+| `paper_vq_fountain\figures\fig_detector_auc.pdf` | 16238 | `416491e8a3b5f6dfec8a5dadc34f8c1949438b17244310a274e469d626016790` |
+| `paper_vq_fountain\figures\fig_generated_samples.pdf` | 106141 | `d62c9612eaa90eb56d8c20a1461e3621f077716e616a041d3da73509766ad6a3` |
+| `paper_vq_fountain\figures\fig_hard_channel_cost.pdf` | 15919 | `8a68ac6002bed2724a46a2b861b16a2c353c4b42bf54aaadffb70976c0dbe800` |
+| `paper_vq_fountain\figures\fig_recovery_margin.pdf` | 17026 | `7f5d446415050798fe86c0fdd21a0f61f4612906f57f693ea2fe7966f3f88679` |
 | `paper_vq_fountain\highlights.txt` | 507 | `2ee9bc6d1d8845af01bfd4401d5e040c56ca61369ce3ee18b8860b6e81896508` |
-| `paper_vq_fountain\main.tex` | 54421 | `fe29c51990703b73e0bbef7dc0211a6218423f95e49c080a77686ce56a9959dd` |
 | `paper_vq_fountain\references.bib` | 8314 | `ea534f466b89633a50cfad8d9ce5f6642dbbc5ca1e47a437207385e15545df05` |
 | `tools\audit_public_baselines.py` | 7684 | `e312610ed7afcc819904cef5fa3d2e320f69550f23576cca1037647cab6438f9` |
 | `tools\check_vq_fountain_final_gate.py` | 23793 | `21cbf163cb504a053ea8203ffa1707b101a6e5c60ae35b085c9106daf6bee98d` |
 | `tools\check_vq_fountain_readiness.py` | 5540 | `e2623c703cb612bc4434184af96bb2586c1567ac875c30b8be50cdd736b9c08c` |
 | `tools\convert_vqgan_f4_checkpoint.py` | 5875 | `0d23b001bd4a6e4de464478f16ad20f49c062351279e6f3054fc24a2e31b547a` |
-| `tools\freeze_vq_fountain_manifest.py` | 4474 | `56818963636ab3197d19b5d8b0e32a099471f5940b16b641f5df8aa7dcc7bfe2` |
+| `tools\freeze_vq_fountain_manifest.py` | 4922 | `b5e6062422d963dbd445c4863c9de822795782e48fcf0effeea7088ecd58b654` |

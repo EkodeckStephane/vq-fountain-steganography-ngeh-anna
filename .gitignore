@@ -1,6 +1,8 @@
 # Article source/PDF must stay local and must not be pushed to GitHub.
 paper_vq_fountain/main.tex
 paper_vq_fountain/main.pdf
+paper_vq_fountain/Elsevier/*.tex
+paper_vq_fountain/Elsevier/*.pdf
 paper/*.tex
 paper/*.pdf
 
@@ -13,6 +15,7 @@ paper/*.pdf
 *.toc
 *.lof
 *.lot
+*.abs
 *.fls
 *.fdb_latexmk
 *.synctex.gz

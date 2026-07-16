@@ -9,9 +9,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_GLOBS = [
-    "paper_vq_fountain/main.tex",
     "paper_vq_fountain/references.bib",
     "paper_vq_fountain/highlights.txt",
+    "paper_vq_fountain/figures/*.pdf",
+    "paper_vq_fountain/Elsevier/README_JISA.md",
+    "paper_vq_fountain/Elsevier/highlights.txt",
+    "paper_vq_fountain/Elsevier/manifest.txt",
+    "paper_vq_fountain/Elsevier/references.bib",
+    "paper_vq_fountain/Elsevier/cas-dc.cls",
+    "paper_vq_fountain/Elsevier/cas-common.sty",
+    "paper_vq_fountain/Elsevier/cas-model2-names.bst",
+    "paper_vq_fountain/Elsevier/figures/*.pdf",
+    "paper_vq_fountain/Elsevier/thumbnails/*.jpeg",
     "05_artifacts/code/vq_fountain/**/*.py",
     "05_artifacts/code/vq_fountain/README.md",
     "05_artifacts/code/vq_fountain/requirements-real-model.txt",

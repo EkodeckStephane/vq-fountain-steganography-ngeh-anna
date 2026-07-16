@@ -1,0 +1,7 @@
+Highlights
+
+* Coverless VQ steganography recovers payloads without auxiliary indexes.
+* Fountain coding enables exact 64-byte and 128-byte hard-channel recovery.
+* Ablations isolate the roles of projection binning, anchors, and scheduling.
+* Passive evidence is reported as detector-bounded, not as a security proof.
+* SOTA claims are separated by capacity, auxiliary channel, and robustness.

@@ -33,6 +33,8 @@ Explicitly excluded from GitHub:
 
 - `paper_vq_fountain/main.tex`
 - `paper_vq_fountain/main.pdf`
+- `paper_vq_fountain/Elsevier/*.tex`
+- `paper_vq_fountain/Elsevier/*.pdf`
 
 Technically large binary artifacts above normal GitHub limits are also not
 committed directly. They remain local and are recorded through manifests and
@@ -64,10 +66,18 @@ article structure with:
 - passive detector analysis;
 - cost and attack-family analysis;
 - executable non-coverless baseline discussion;
-- execution trace;
+- a reproducibility and data-availability section with the GitHub artifact
+  link, without embedding local command traces in the article;
 - claim boundary and limitations;
 - appendices with per-seed and ablation traces;
 - expanded bibliography with more than twenty cited references.
+
+The active article was also prepared locally as a potential Elsevier/JISA
+submission package under `paper_vq_fountain/Elsevier/`. That local package uses
+the Elsevier CAS double-column class (`cas-dc`) and includes highlights,
+figures, local references, CAS support files, and a JISA preparation README.
+The JISA manuscript source and compiled PDF remain local-only and are excluded
+from the GitHub artifact repository.
 
 ## Main Supported Claim
 
@@ -107,7 +117,7 @@ The legacy/internal alias is still produced for compatibility:
 
 `tools/freeze_vq_fountain_manifest.py` records:
 
-- 226 files;
+- 250 files;
 - SHA256 hashes;
 - dependency versions for core Python packages.
 
@@ -436,6 +446,16 @@ pdflatex -interaction=nonstopmode main.tex
 pdflatex -interaction=nonstopmode main.tex
 ```
 
+Compile local Elsevier/JISA CAS draft:
+
+```powershell
+cd paper_vq_fountain\Elsevier
+pdflatex -interaction=nonstopmode main_jisa_casdc.tex
+bibtex main_jisa_casdc
+pdflatex -interaction=nonstopmode main_jisa_casdc.tex
+pdflatex -interaction=nonstopmode main_jisa_casdc.tex
+```
+
 Check LaTeX log:
 
 ```powershell
@@ -457,6 +477,7 @@ rg -n "undefined|Citation.*undefined|Reference.*undefined|Rerun to|LaTeX Warning
 | `ETEHGAN/` | Legacy prototype preserved for traceability. |
 | `paper/` | Legacy ETHEGAN LaTeX draft. |
 | `paper_vq_fountain/` | Active local VQ-Fountain article. |
+| `paper_vq_fountain/Elsevier/` | Local Elsevier/JISA CAS preparation package; manuscript `.tex` and PDF are excluded from GitHub. |
 | `tools/` | Verification, conversion, figure, and manifest scripts. |
 
 ## GitHub Artifact Preparation Rule
@@ -466,6 +487,9 @@ Before pushing artifacts, ensure `.gitignore` excludes:
 ```gitignore
 paper_vq_fountain/main.tex
 paper_vq_fountain/main.pdf
+paper_vq_fountain/Elsevier/*.tex
+paper_vq_fountain/Elsevier/*.pdf
+*.abs
 ```
 
 The GitHub artifact repository may include the README, code, results, scripts,
