@@ -1,0 +1,5 @@
+Self-contained packet recovery removes auxiliary location metadata.
+Effective payload is reported after ECC and packet overhead.
+ECC-128 trades payload for 100/100 clean recovery on both datasets.
+Residual and steganalysis-aware ablations expose quality-recovery trade-offs.
+JPEG, blur, resize, and passive detectability remain open limitations.

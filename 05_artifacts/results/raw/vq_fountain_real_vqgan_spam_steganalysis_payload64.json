@@ -1,0 +1,34 @@
+{
+  "calibration_count": 256,
+  "calibration_seed": "real-vqgan-calibration-v1",
+  "calibration_threshold": 0.9,
+  "generated_image_counts": [
+    48,
+    48,
+    48
+  ],
+  "payload_seeds": [
+    "spam64-a",
+    "spam64-b",
+    "spam64-c"
+  ],
+  "row": {
+    "block_size": 1,
+    "detector": "SPAM-style residual cooccurrence + logistic regression",
+    "feature_dim": 1388,
+    "macro_cell_size": 2,
+    "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+    "model_subfolder": "",
+    "overhead": 4.0,
+    "payload_bytes": 64,
+    "payload_images": 144,
+    "payload_seed_count": 3,
+    "reference_images": 144,
+    "residual_truncation": 3,
+    "spam_detector_accuracy": 0.5049505,
+    "spam_detector_auc": 0.52627451,
+    "stable_pool_0": 40,
+    "stable_pool_1": 22,
+    "symbols_per_image": 8
+  }
+}

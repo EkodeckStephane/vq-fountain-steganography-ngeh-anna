@@ -1,0 +1,1300 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "payload_bpp_requested": 0.25,
+    "nominal_bpp_used": 0.25,
+    "effective_user_bpp": 0.185546875,
+    "payload_bytes": 6080,
+    "images": 80,
+    "train_images": 40,
+    "test_images": 40,
+    "feature_count": 86,
+    "detector": "logistic regression on simple residual and LSB summary features",
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.95,
+    "train_auc": 1.0,
+    "test_auc": 0.995
+  },
+  "rows": [
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01661.jpg",
+      "group": 0,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.013669462874531746
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01661.jpg",
+      "group": 0,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9974129796028137
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01662.jpg",
+      "group": 1,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0011689323000609875
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01662.jpg",
+      "group": 1,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.999968409538269
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01663.jpg",
+      "group": 2,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01663.jpg",
+      "group": 2,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01664.jpg",
+      "group": 3,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.007303271908313036
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01664.jpg",
+      "group": 3,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9195666313171387
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01665.jpg",
+      "group": 4,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01665.jpg",
+      "group": 4,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00960.jpg",
+      "group": 5,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 1.5658679686225696e-08
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00960.jpg",
+      "group": 5,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.983934223651886
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00961.jpg",
+      "group": 6,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00961.jpg",
+      "group": 6,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00962.jpg",
+      "group": 7,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.8950044512748718
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00962.jpg",
+      "group": 7,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9998694658279419
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00963.jpg",
+      "group": 8,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.011800541542470455
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00963.jpg",
+      "group": 8,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9997194409370422
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00964.jpg",
+      "group": 9,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00964.jpg",
+      "group": 9,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00965.jpg",
+      "group": 10,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.08990659564733505
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00965.jpg",
+      "group": 10,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9983388185501099
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00966.jpg",
+      "group": 11,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00966.jpg",
+      "group": 11,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00967.jpg",
+      "group": 12,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00967.jpg",
+      "group": 12,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00968.jpg",
+      "group": 13,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00968.jpg",
+      "group": 13,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00969.jpg",
+      "group": 14,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.004938575904816389
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00969.jpg",
+      "group": 14,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9784581065177917
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00970.jpg",
+      "group": 15,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00970.jpg",
+      "group": 15,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00971.jpg",
+      "group": 16,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00971.jpg",
+      "group": 16,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00972.jpg",
+      "group": 17,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00972.jpg",
+      "group": 17,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00973.jpg",
+      "group": 18,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.029068470001220703
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00973.jpg",
+      "group": 18,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9984170198440552
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00974.jpg",
+      "group": 19,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.5749809145927429
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00974.jpg",
+      "group": 19,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9984815716743469
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00975.jpg",
+      "group": 20,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.04278062283992767
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00975.jpg",
+      "group": 20,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.7685748338699341
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00976.jpg",
+      "group": 21,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9653663635253906
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00976.jpg",
+      "group": 21,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999980926513672
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00977.jpg",
+      "group": 22,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 8.991105278255418e-05
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00977.jpg",
+      "group": 22,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9960148334503174
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00978.jpg",
+      "group": 23,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00978.jpg",
+      "group": 23,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00979.jpg",
+      "group": 24,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 8.349351446668152e-06
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00979.jpg",
+      "group": 24,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9941914677619934
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00980.jpg",
+      "group": 25,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.024235300719738007
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00980.jpg",
+      "group": 25,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.959321141242981
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00981.jpg",
+      "group": 26,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 3.4499364574003266e-06
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00981.jpg",
+      "group": 26,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999889135360718
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00982.jpg",
+      "group": 27,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00982.jpg",
+      "group": 27,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00983.jpg",
+      "group": 28,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00983.jpg",
+      "group": 28,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00984.jpg",
+      "group": 29,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.06851128488779068
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00984.jpg",
+      "group": 29,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9991795420646667
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00985.jpg",
+      "group": 30,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0012226449325680733
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00985.jpg",
+      "group": 30,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999028444290161
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00986.jpg",
+      "group": 31,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00986.jpg",
+      "group": 31,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00987.jpg",
+      "group": 32,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.01446587685495615
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00987.jpg",
+      "group": 32,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9983665347099304
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00988.jpg",
+      "group": 33,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0008670667884871364
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00988.jpg",
+      "group": 33,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9986705780029297
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00989.jpg",
+      "group": 34,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00989.jpg",
+      "group": 34,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00491.jpg",
+      "group": 35,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00491.jpg",
+      "group": 35,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00492.jpg",
+      "group": 36,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.013682764023542404
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00492.jpg",
+      "group": 36,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9977859258651733
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00493.jpg",
+      "group": 37,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.02362213097512722
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00493.jpg",
+      "group": 37,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9930036664009094
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00494.jpg",
+      "group": 38,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00494.jpg",
+      "group": 38,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00495.jpg",
+      "group": 39,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.009604793041944504
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00495.jpg",
+      "group": 39,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9998828172683716
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00496.jpg",
+      "group": 40,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 2.2158505089464597e-05
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00496.jpg",
+      "group": 40,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9915634393692017
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00497.jpg",
+      "group": 41,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00497.jpg",
+      "group": 41,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00498.jpg",
+      "group": 42,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.09571845084428787
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00498.jpg",
+      "group": 42,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999650716781616
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00499.jpg",
+      "group": 43,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0345374271273613
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00499.jpg",
+      "group": 43,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.995157778263092
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00500.jpg",
+      "group": 44,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00500.jpg",
+      "group": 44,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00501.jpg",
+      "group": 45,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.5502939224243164
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00501.jpg",
+      "group": 45,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9978135824203491
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00502.jpg",
+      "group": 46,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.008748505264520645
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00502.jpg",
+      "group": 46,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.6806319355964661
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00503.jpg",
+      "group": 47,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.03231481835246086
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00503.jpg",
+      "group": 47,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9993587136268616
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00504.jpg",
+      "group": 48,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00504.jpg",
+      "group": 48,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00505.jpg",
+      "group": 49,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00505.jpg",
+      "group": 49,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00506.jpg",
+      "group": 50,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00506.jpg",
+      "group": 50,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00507.jpg",
+      "group": 51,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00507.jpg",
+      "group": 51,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00508.jpg",
+      "group": 52,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00508.jpg",
+      "group": 52,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00509.jpg",
+      "group": 53,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00509.jpg",
+      "group": 53,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00510.jpg",
+      "group": 54,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0025752345100045204
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00510.jpg",
+      "group": 54,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9860705733299255
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00511.jpg",
+      "group": 55,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0072492994368076324
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00511.jpg",
+      "group": 55,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9633131623268127
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00512.jpg",
+      "group": 56,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00512.jpg",
+      "group": 56,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00513.jpg",
+      "group": 57,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00513.jpg",
+      "group": 57,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00514.jpg",
+      "group": 58,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00514.jpg",
+      "group": 58,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00515.jpg",
+      "group": 59,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00515.jpg",
+      "group": 59,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00516.jpg",
+      "group": 60,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.07875431329011917
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00516.jpg",
+      "group": 60,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9996224641799927
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00517.jpg",
+      "group": 61,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00517.jpg",
+      "group": 61,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00518.jpg",
+      "group": 62,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00518.jpg",
+      "group": 62,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00519.jpg",
+      "group": 63,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00519.jpg",
+      "group": 63,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00520.jpg",
+      "group": 64,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00520.jpg",
+      "group": 64,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00521.jpg",
+      "group": 65,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00521.jpg",
+      "group": 65,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00522.jpg",
+      "group": 66,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.059316400438547134
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00522.jpg",
+      "group": 66,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9990290403366089
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00523.jpg",
+      "group": 67,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.056659601628780365
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00523.jpg",
+      "group": 67,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9444944858551025
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00524.jpg",
+      "group": 68,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.013499394059181213
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00524.jpg",
+      "group": 68,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9911984801292419
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00525.jpg",
+      "group": 69,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00525.jpg",
+      "group": 69,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00526.jpg",
+      "group": 70,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.04490015283226967
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00526.jpg",
+      "group": 70,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9989074468612671
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00527.jpg",
+      "group": 71,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.004420025274157524
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00527.jpg",
+      "group": 71,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.999683141708374
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00528.jpg",
+      "group": 72,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.019796064123511314
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00528.jpg",
+      "group": 72,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9984651803970337
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00529.jpg",
+      "group": 73,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00529.jpg",
+      "group": 73,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00530.jpg",
+      "group": 74,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00530.jpg",
+      "group": 74,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00531.jpg",
+      "group": 75,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00531.jpg",
+      "group": 75,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00532.jpg",
+      "group": 76,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00532.jpg",
+      "group": 76,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00533.jpg",
+      "group": 77,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00533.jpg",
+      "group": 77,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00534.jpg",
+      "group": 78,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.00026810477720573545
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00534.jpg",
+      "group": 78,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9966942071914673
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00535.jpg",
+      "group": 79,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.017803622409701347
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\airplanes\\test_00535.jpg",
+      "group": 79,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9980735778808594
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "aead_supported_locally": true,
+  "providers": {
+    "cryptography": true,
+    "pycryptodome": true
+  },
+  "implemented_mechanism": "AES-256-GCM before ETHEGAN packetization",
+  "recommended_mechanism": "AES-GCM or XChaCha20-Poly1305 before ETHEGAN packetization",
+  "claim_status": "supported",
+  "blockers": [],
+  "self_test": {
+    "aead": "AES-256-GCM",
+    "provider": "pycryptodome",
+    "payload_bytes": 33,
+    "encrypted_bytes": 61,
+    "correct_key_recovers_plaintext": true,
+    "wrong_key_authentication_fails": true,
+    "wrong_associated_data_authentication_fails": true,
+    "ready_for_pre_packet_encryption": true
+  },
+  "policy": "Payload confidentiality may be claimed only for payloads encrypted before packetization with AEAD and rejected on authentication failure."
+}

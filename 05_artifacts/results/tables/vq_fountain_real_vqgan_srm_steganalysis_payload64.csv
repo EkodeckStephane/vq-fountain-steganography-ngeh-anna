@@ -1,0 +1,2 @@
+model_dir,model_subfolder,detector,payload_bytes,block_size,overhead,macro_cell_size,symbols_per_image,payload_seed_count,payload_images,reference_images,stable_pool_0,stable_pool_1,residual_truncation,feature_dim,srm_detector_auc_mean,srm_detector_auc_std,srm_detector_accuracy_mean,srm_detector_accuracy_std,splits
+05_artifacts\models\vqgan_f4_8192_diffusers_converted,,SRM-style residual cooccurrence ensemble + PCA logistic regression,64,1,4.0,2,8,3,144,144,40,22,3,86652,0.49521569,0.03518799,0.4970297,0.0350892,5

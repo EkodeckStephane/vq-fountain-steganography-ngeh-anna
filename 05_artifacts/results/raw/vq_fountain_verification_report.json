@@ -1,0 +1,433 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "first5_readiness_gate",
+      "passed": true
+    },
+    {
+      "name": "final_ablation_suite",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_final_ablation_suite.csv",
+      "size_bytes": 2805
+    },
+    {
+      "name": "cost_search",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_cost_search_crop_offset.csv",
+      "size_bytes": 12539
+    },
+    {
+      "name": "combined_attacks",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_combined_attacks.csv",
+      "size_bytes": 13841
+    },
+    {
+      "name": "combined_drop25_cost_search",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_combined_drop25_cost_search.csv",
+      "size_bytes": 5279
+    },
+    {
+      "name": "anchor_security_projection",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_anchor_security_projection_256.csv",
+      "size_bytes": 976
+    },
+    {
+      "name": "anchor_security_naive",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_anchor_security_naive_256.csv",
+      "size_bytes": 985
+    },
+    {
+      "name": "real_vqgan_conversion",
+      "passed": true,
+      "path": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted\\conversion_report.json",
+      "size_bytes": 577
+    },
+    {
+      "name": "real_vqgan_primary_payload",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe.csv",
+      "size_bytes": 990
+    },
+    {
+      "name": "real_vqgan_hard_attacks",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_hard_attacks.csv",
+      "size_bytes": 1029
+    },
+    {
+      "name": "real_vqgan_drop_attacks",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_drop_attacks.csv",
+      "size_bytes": 865
+    },
+    {
+      "name": "real_vqgan_payload8",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload8.csv",
+      "size_bytes": 859
+    },
+    {
+      "name": "real_vqgan_payload32_multiseed",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload32_multiseed.csv",
+      "size_bytes": 2305
+    },
+    {
+      "name": "real_vqgan_payload64_multiseed",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload64_multiseed.csv",
+      "size_bytes": 2328
+    },
+    {
+      "name": "real_vqgan_payload128_multiseed",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload128_multiseed.csv",
+      "size_bytes": 2365
+    },
+    {
+      "name": "real_vqgan_quality_security",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security.csv",
+      "size_bytes": 406
+    },
+    {
+      "name": "real_vqgan_quality_security64",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security_payload64.csv",
+      "size_bytes": 425
+    },
+    {
+      "name": "real_vqgan_quality_security128",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security_payload128.csv",
+      "size_bytes": 427
+    },
+    {
+      "name": "real_vqgan_128px",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_128px.csv",
+      "size_bytes": 1037
+    },
+    {
+      "name": "real_vqgan_compvis_payload16",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_compvis_payload16.csv",
+      "size_bytes": 1010
+    },
+    {
+      "name": "real_vqgan_deep_steganalysis",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis.csv",
+      "size_bytes": 270
+    },
+    {
+      "name": "real_vqgan_deep_steganalysis64",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis_payload64.csv",
+      "size_bytes": 270
+    },
+    {
+      "name": "real_vqgan_deep_steganalysis128",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis_payload128.csv",
+      "size_bytes": 281
+    },
+    {
+      "name": "real_vqgan_spam_steganalysis",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis.csv",
+      "size_bytes": 423
+    },
+    {
+      "name": "real_vqgan_spam_steganalysis64",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis_payload64.csv",
+      "size_bytes": 424
+    },
+    {
+      "name": "real_vqgan_spam_steganalysis128_seed1",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis_payload128_seed1.csv",
+      "size_bytes": 424
+    },
+    {
+      "name": "real_vqgan_srm_steganalysis64",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_srm_steganalysis_payload64.csv",
+      "size_bytes": 522
+    },
+    {
+      "name": "hidden_baseline_smoke",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\hidden_baseline_smoke.csv",
+      "size_bytes": 1300
+    },
+    {
+      "name": "dct_spread_baseline",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\dct_spread_baseline.csv",
+      "size_bytes": 1030
+    },
+    {
+      "name": "baseline_execution_audit",
+      "passed": true,
+      "path": "05_artifacts\\baselines\\baseline_execution_audit.json",
+      "size_bytes": 2414
+    },
+    {
+      "actual_exact": "True",
+      "expected_exact": true,
+      "name": "ablation_coding_fountain",
+      "passed": true
+    },
+    {
+      "actual_exact": "False",
+      "expected_exact": false,
+      "name": "ablation_coding_repetition",
+      "passed": true
+    },
+    {
+      "actual_exact": "False",
+      "expected_exact": false,
+      "name": "ablation_sampling_naive",
+      "passed": true
+    },
+    {
+      "actual_exact": "False",
+      "expected_exact": false,
+      "name": "ablation_schedule_random",
+      "passed": true
+    },
+    {
+      "matches": 1,
+      "name": "cost_32B_overhead2_images8",
+      "passed": true
+    },
+    {
+      "matches": 1,
+      "name": "cost_64B_overhead2_5_images16",
+      "passed": true
+    },
+    {
+      "failures": 0,
+      "name": "combined_non_drop_attacks_overhead2_5_all_exact",
+      "passed": true
+    },
+    {
+      "matches": 1,
+      "name": "drop25_32B_overhead4_images16",
+      "passed": true
+    },
+    {
+      "matches": 1,
+      "name": "drop25_64B_overhead4_images24",
+      "passed": true
+    },
+    {
+      "naive": "0.03112697",
+      "name": "projection_anchor_leakage_below_naive",
+      "passed": true,
+      "projection": "0.0"
+    },
+    {
+      "naive": "0.01351906",
+      "name": "projection_anchor_jsd_below_naive",
+      "passed": true,
+      "projection": "0.01041678"
+    },
+    {
+      "converted_tensor_count": 205,
+      "name": "real_vqgan_conversion_complete",
+      "passed": true,
+      "target_tensor_count": 205
+    },
+    {
+      "failures": [],
+      "missing": [],
+      "name": "real_vqgan_primary_4B_exact",
+      "passed": true,
+      "payload_bytes": 4
+    },
+    {
+      "failures": [],
+      "missing": [],
+      "name": "real_vqgan_hard_4B_exact",
+      "passed": true,
+      "payload_bytes": 4
+    },
+    {
+      "failures": [],
+      "missing": [],
+      "name": "real_vqgan_drop_4B_exact",
+      "passed": true,
+      "payload_bytes": 4
+    },
+    {
+      "failures": [],
+      "missing": [],
+      "name": "real_vqgan_payload8_exact",
+      "passed": true,
+      "payload_bytes": 8
+    },
+    {
+      "failures": [],
+      "name": "real_vqgan_payload32_multiseed_all_exact",
+      "passed": true,
+      "rows": 6
+    },
+    {
+      "name": "real_vqgan_payload32_has_three_test_seeds",
+      "passed": true,
+      "seed_count": 3
+    },
+    {
+      "failures": [],
+      "name": "real_vqgan_payload64_multiseed_all_exact",
+      "passed": true,
+      "rows": 6
+    },
+    {
+      "name": "real_vqgan_payload64_has_three_test_seeds",
+      "passed": true,
+      "seed_count": 3
+    },
+    {
+      "attacks": [
+        "clean",
+        "crop090+jpeg85+drop25"
+      ],
+      "name": "real_vqgan_payload64_has_clean_and_hard_attacks",
+      "passed": true
+    },
+    {
+      "failures": [],
+      "name": "real_vqgan_payload128_multiseed_all_exact",
+      "passed": true,
+      "rows": 6
+    },
+    {
+      "name": "real_vqgan_payload128_has_three_test_seeds",
+      "passed": true,
+      "seed_count": 3
+    },
+    {
+      "attacks": [
+        "clean",
+        "crop090+jpeg85+drop25"
+      ],
+      "name": "real_vqgan_payload128_has_clean_and_hard_attacks",
+      "passed": true
+    },
+    {
+      "name": "real_vqgan_feature_detector_near_chance",
+      "passed": true,
+      "sklearn_detector_accuracy": "0.5483871",
+      "sklearn_detector_auc": "0.49115505"
+    },
+    {
+      "name": "real_vqgan_feature_detector64_near_chance",
+      "passed": true,
+      "sklearn_detector_accuracy": "0.53465347",
+      "sklearn_detector_auc": "0.48862745"
+    },
+    {
+      "name": "real_vqgan_feature_detector128_near_chance",
+      "passed": true,
+      "sklearn_detector_accuracy": "0.53513514",
+      "sklearn_detector_auc": "0.56077606"
+    },
+    {
+      "failures": [],
+      "name": "real_vqgan_128px_all_exact",
+      "passed": true,
+      "rows": 2
+    },
+    {
+      "failures": [],
+      "name": "real_vqgan_second_model_compvis_all_exact",
+      "passed": true,
+      "rows": 2
+    },
+    {
+      "cnn_detector_accuracy": "0.5",
+      "cnn_detector_auc": "0.51092612",
+      "name": "real_vqgan_cnn_detector_near_chance",
+      "passed": true
+    },
+    {
+      "cnn_detector_accuracy": "0.57",
+      "cnn_detector_auc": "0.5332",
+      "name": "real_vqgan_cnn_detector64_near_chance",
+      "passed": true
+    },
+    {
+      "cnn_detector_accuracy": "0.52173913",
+      "cnn_detector_auc": "0.48653119",
+      "name": "real_vqgan_cnn_detector128_near_chance",
+      "passed": true
+    },
+    {
+      "name": "real_vqgan_spam_detector_below_alert_threshold",
+      "passed": true,
+      "spam_detector_accuracy": "0.56451613",
+      "spam_detector_auc": "0.56919875",
+      "threshold": "0.4 <= AUC <= 0.6"
+    },
+    {
+      "name": "real_vqgan_spam_detector64_below_alert_threshold",
+      "passed": true,
+      "spam_detector_accuracy": "0.5049505",
+      "spam_detector_auc": "0.52627451",
+      "threshold": "0.4 <= AUC <= 0.6"
+    },
+    {
+      "name": "real_vqgan_srm_detector64_below_alert_threshold",
+      "passed": true,
+      "srm_detector_accuracy_mean": "0.4970297",
+      "srm_detector_auc_mean": "0.49521569",
+      "srm_detector_auc_std": "0.03518799",
+      "threshold": "0.4 <= mean AUC <= 0.6"
+    },
+    {
+      "name": "real_vqgan_spam_detector128_single_seed_smoke",
+      "passed": true,
+      "payload_seed_count": "1",
+      "spam_detector_accuracy": "0.33870968",
+      "spam_detector_auc": "0.39958377",
+      "threshold": "0.35 <= AUC <= 0.65 for single-seed smoke only"
+    },
+    {
+      "mean_bit_error_rate": 0.313333334,
+      "name": "hidden_baseline_run_is_measured",
+      "passed": true,
+      "rows": 5
+    },
+    {
+      "crop090_exact_recovery": "False",
+      "crop090_recorded": true,
+      "expected_exact_attacks": [
+        "clean",
+        "jpeg85",
+        "resize075",
+        "blur1"
+      ],
+      "failures": [],
+      "missing": [],
+      "name": "dct_spread_baseline_expected_attacks_exact",
+      "passed": true,
+      "payload_bits": 32
+    },
+    {
+      "all_public_baselines_accounted": true,
+      "executable_baseline_count": 2,
+      "name": "public_baselines_accounted_and_required_executables_ready",
+      "passed": true,
+      "required_executable_baselines_ready": true
+    }
+  ]
+}

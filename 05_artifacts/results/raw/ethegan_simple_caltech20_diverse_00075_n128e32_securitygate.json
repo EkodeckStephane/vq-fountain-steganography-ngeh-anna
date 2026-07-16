@@ -1,0 +1,340 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "payload_bpp_requested": 0.0075,
+    "nominal_bpp_used": 0.007476806640625,
+    "effective_user_bpp": 0.001953125,
+    "payload_bytes": 64,
+    "images": 20,
+    "train_images": 10,
+    "test_images": 10,
+    "feature_count": 86,
+    "detector": "logistic regression on simple residual and LSB summary features",
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.55,
+    "train_auc": 1.0,
+    "test_auc": 0.72
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\accordion_test_01641.jpg",
+      "group": 0,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.06883639097213745
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\accordion_test_01641.jpg",
+      "group": 0,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.4377395510673523
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\airplanes_test_00491.jpg",
+      "group": 1,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\airplanes_test_00491.jpg",
+      "group": 1,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\anchor_test_03484.jpg",
+      "group": 2,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0009926565689966083
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\anchor_test_03484.jpg",
+      "group": 2,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.007419672328978777
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ant_test_00086.jpg",
+      "group": 3,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ant_test_00086.jpg",
+      "group": 3,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\background_google_test_04580.jpg",
+      "group": 4,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\background_google_test_04580.jpg",
+      "group": 4,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\barrel_test_01752.jpg",
+      "group": 5,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\barrel_test_01752.jpg",
+      "group": 5,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bass_test_02362.jpg",
+      "group": 6,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bass_test_02362.jpg",
+      "group": 6,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\beaver_test_02447.jpg",
+      "group": 7,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.19275794923305511
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\beaver_test_02447.jpg",
+      "group": 7,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.2386348843574524
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\binocular_test_03481.jpg",
+      "group": 8,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.627223551273346
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\binocular_test_03481.jpg",
+      "group": 8,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.999737560749054
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bonsai_test_02476.jpg",
+      "group": 9,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bonsai_test_02476.jpg",
+      "group": 9,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brain_test_03351.jpg",
+      "group": 10,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.002067449502646923
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brain_test_03351.jpg",
+      "group": 10,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9955611228942871
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brontosaurus_test_01437.jpg",
+      "group": 11,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.8568412661552429
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brontosaurus_test_01437.jpg",
+      "group": 11,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9674059152603149
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\buddha_test_03501.jpg",
+      "group": 12,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\buddha_test_03501.jpg",
+      "group": 12,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\butterfly_test_00098.jpg",
+      "group": 13,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.8997262120246887
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\butterfly_test_00098.jpg",
+      "group": 13,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999998807907104
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\camera_test_01732.jpg",
+      "group": 14,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.8314324617385864
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\camera_test_01732.jpg",
+      "group": 14,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.8860232830047607
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cannon_test_03468.jpg",
+      "group": 15,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0031293719075620174
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cannon_test_03468.jpg",
+      "group": 15,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.05558118224143982
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\car_side_test_02744.jpg",
+      "group": 16,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\car_side_test_02744.jpg",
+      "group": 16,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ceiling_fan_test_02222.jpg",
+      "group": 17,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ceiling_fan_test_02222.jpg",
+      "group": 17,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cellphone_test_01802.jpg",
+      "group": 18,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cellphone_test_01802.jpg",
+      "group": 18,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\chair_test_02030.jpg",
+      "group": 19,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.09240997582674026
+    },
+    {
+      "image": "05_artifacts\\data\\security_gate\\caltech20_diverse\\chair_test_02030.jpg",
+      "group": 19,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.18905892968177795
+    }
+  ]
+}

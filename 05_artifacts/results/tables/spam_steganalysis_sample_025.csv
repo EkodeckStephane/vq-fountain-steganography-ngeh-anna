@@ -1,0 +1,5 @@
+image,group,kind,label,split,score
+05_artifacts\data\sample_images\000000001503.jpg,0,cover,0,test,1.0
+05_artifacts\data\sample_images\000000001503.jpg,0,stego,1,test,1.0
+05_artifacts\data\sample_images\dog_0031.jpg,1,cover,0,train,
+05_artifacts\data\sample_images\dog_0031.jpg,1,stego,1,train,

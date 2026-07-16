@@ -1,0 +1,131 @@
+{
+  "calibration_summary": {
+    "best_by_value": {
+      "0": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3808,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3914,
+          "unique_received_tokens": 20
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5264,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5727,
+          "unique_received_tokens": 20
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 5986,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 8184,
+          "unique_received_tokens": 31
+        },
+        {
+          "majority_fraction": 0.980469,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2966,
+          "unique_received_tokens": 41
+        }
+      ],
+      "1": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2101,
+          "unique_received_tokens": 36
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2133,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2973,
+          "unique_received_tokens": 14
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 4628,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 7921,
+          "unique_received_tokens": 42
+        }
+      ]
+    },
+    "count": 64,
+    "stable_pool_0": 7,
+    "stable_pool_1": 5,
+    "threshold": 0.9
+  },
+  "rows": [
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 2,
+      "calibration_count": 64,
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 0,
+      "crc_valid_symbols": 14,
+      "dropped_images": 0,
+      "encoded_symbols": 14,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 14,
+      "failure": "",
+      "image_count": 14,
+      "latent_side": 16,
+      "macro_cell_size": 4,
+      "macro_cells_per_image": 16,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "overhead": 1.0,
+      "packet_bytes": 14,
+      "payload_bytes": 2,
+      "recovered_symbols": 14,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_smoke_symbols1.png",
+      "source_symbols": 7,
+      "stable_pool_0": 7,
+      "stable_pool_1": 5,
+      "symbols_per_image": 1,
+      "token_match_rate": 0.0,
+      "value_match_rate": 1.0
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+payload_bytes,packet_bytes,block_size,bits_per_token,overhead,image_copies,attack,binning,position_mode,margin,source_symbols,encoded_symbols,used_token_slots,raw_capacity_bits,recovered_symbols,exact_symbols,crc_valid_symbols,crc_rejected_symbols,token_match_rate,value_match_rate,exact_recovery,failure,capacity_exhausted
+64,76,4,1,0.5,4,clean,projection,center,2,19,29,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.5,4,jpeg85,projection,center,2,19,29,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.5,4,resize075,projection,center,2,19,29,576,576,18,18,18,0,0.964844,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.5,4,blur1,projection,center,2,19,29,576,576,18,18,18,0,0.881836,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.5,4,noise002,projection,center,2,19,29,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.5,4,crop090,projection,center,2,19,29,576,576,18,0,0,18,0.082031,0.795139,False,no CRC-valid symbols available,True
+64,76,4,1,0.5,8,clean,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,8,jpeg85,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,8,resize075,projection,center,2,19,29,928,928,29,29,29,0,0.960449,1.0,True,,False
+64,76,4,1,0.5,8,blur1,projection,center,2,19,29,928,928,29,29,29,0,0.881836,1.0,True,,False
+64,76,4,1,0.5,8,noise002,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,8,crop090,projection,center,2,19,29,928,928,29,0,0,29,0.084473,0.793103,False,no CRC-valid symbols available,False
+64,76,4,1,0.5,12,clean,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,12,jpeg85,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,12,resize075,projection,center,2,19,29,928,928,29,29,29,0,0.961914,1.0,True,,False
+64,76,4,1,0.5,12,blur1,projection,center,2,19,29,928,928,29,29,29,0,0.883138,1.0,True,,False
+64,76,4,1,0.5,12,noise002,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,12,crop090,projection,center,2,19,29,928,928,29,0,0,29,0.08138,0.793103,False,no CRC-valid symbols available,False
+64,76,4,1,0.5,16,clean,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,16,jpeg85,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,16,resize075,projection,center,2,19,29,928,928,29,29,29,0,0.960205,1.0,True,,False
+64,76,4,1,0.5,16,blur1,projection,center,2,19,29,928,928,29,29,29,0,0.882812,1.0,True,,False
+64,76,4,1,0.5,16,noise002,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,16,crop090,projection,center,2,19,29,928,928,29,0,0,29,0.080566,0.793103,False,no CRC-valid symbols available,False
+64,76,4,1,0.5,24,clean,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,24,jpeg85,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,24,resize075,projection,center,2,19,29,928,928,29,29,29,0,0.958008,1.0,True,,False
+64,76,4,1,0.5,24,blur1,projection,center,2,19,29,928,928,29,29,29,0,0.877604,1.0,True,,False
+64,76,4,1,0.5,24,noise002,projection,center,2,19,29,928,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,1,0.5,24,crop090,projection,center,2,19,29,928,928,29,0,0,29,0.080892,0.793103,False,no CRC-valid symbols available,False
+64,76,4,1,0.8,4,clean,projection,center,2,19,35,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.8,4,jpeg85,projection,center,2,19,35,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.8,4,resize075,projection,center,2,19,35,576,576,18,18,18,0,0.964844,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.8,4,blur1,projection,center,2,19,35,576,576,18,18,18,0,0.881836,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.8,4,noise002,projection,center,2,19,35,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 1 missing source blocks,True
+64,76,4,1,0.8,4,crop090,projection,center,2,19,35,576,576,18,0,0,18,0.082031,0.795139,False,no CRC-valid symbols available,True
+64,76,4,1,0.8,8,clean,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,8,jpeg85,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,8,resize075,projection,center,2,19,35,1120,1120,35,35,35,0,0.960449,1.0,True,,False
+64,76,4,1,0.8,8,blur1,projection,center,2,19,35,1120,1120,35,35,35,0,0.881836,1.0,True,,False
+64,76,4,1,0.8,8,noise002,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,8,crop090,projection,center,2,19,35,1120,1120,35,0,0,35,0.08252,0.7875,False,no CRC-valid symbols available,False
+64,76,4,1,0.8,12,clean,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,12,jpeg85,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,12,resize075,projection,center,2,19,35,1120,1120,35,35,35,0,0.961914,1.0,True,,False
+64,76,4,1,0.8,12,blur1,projection,center,2,19,35,1120,1120,35,35,35,0,0.883138,1.0,True,,False
+64,76,4,1,0.8,12,noise002,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,12,crop090,projection,center,2,19,35,1120,1120,35,0,0,35,0.080078,0.7875,False,no CRC-valid symbols available,False
+64,76,4,1,0.8,16,clean,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,16,jpeg85,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,16,resize075,projection,center,2,19,35,1120,1120,35,35,35,0,0.960205,1.0,True,,False
+64,76,4,1,0.8,16,blur1,projection,center,2,19,35,1120,1120,35,35,35,0,0.882812,1.0,True,,False
+64,76,4,1,0.8,16,noise002,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,16,crop090,projection,center,2,19,35,1120,1120,35,0,0,35,0.07959,0.7875,False,no CRC-valid symbols available,False
+64,76,4,1,0.8,24,clean,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,24,jpeg85,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,24,resize075,projection,center,2,19,35,1120,1120,35,35,35,0,0.958008,1.0,True,,False
+64,76,4,1,0.8,24,blur1,projection,center,2,19,35,1120,1120,35,35,35,0,0.877604,1.0,True,,False
+64,76,4,1,0.8,24,noise002,projection,center,2,19,35,1120,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,1,0.8,24,crop090,projection,center,2,19,35,1120,1120,35,0,0,35,0.080241,0.7875,False,no CRC-valid symbols available,False
+64,76,4,2,0.5,4,clean,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,4,jpeg85,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,4,resize075,projection,center,2,19,29,464,928,29,29,29,0,0.958984,1.0,True,,False
+64,76,4,2,0.5,4,blur1,projection,center,2,19,29,464,928,29,29,29,0,0.880859,1.0,True,,False
+64,76,4,2,0.5,4,noise002,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,4,crop090,projection,center,2,19,29,464,928,29,0,0,29,0.083984,0.536638,False,no CRC-valid symbols available,False
+64,76,4,2,0.5,8,clean,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,8,jpeg85,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,8,resize075,projection,center,2,19,29,464,928,29,29,29,0,0.95166,1.0,True,,False
+64,76,4,2,0.5,8,blur1,projection,center,2,19,29,464,928,29,29,29,0,0.874023,1.0,True,,False
+64,76,4,2,0.5,8,noise002,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,8,crop090,projection,center,2,19,29,464,928,29,0,0,29,0.083984,0.536638,False,no CRC-valid symbols available,False
+64,76,4,2,0.5,12,clean,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,12,jpeg85,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,12,resize075,projection,center,2,19,29,464,928,29,29,29,0,0.956055,1.0,True,,False
+64,76,4,2,0.5,12,blur1,projection,center,2,19,29,464,928,29,29,29,0,0.87793,1.0,True,,False
+64,76,4,2,0.5,12,noise002,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,12,crop090,projection,center,2,19,29,464,928,29,0,0,29,0.081055,0.536638,False,no CRC-valid symbols available,False
+64,76,4,2,0.5,16,clean,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,16,jpeg85,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,16,resize075,projection,center,2,19,29,464,928,29,29,29,0,0.955811,1.0,True,,False
+64,76,4,2,0.5,16,blur1,projection,center,2,19,29,464,928,29,29,29,0,0.878906,1.0,True,,False
+64,76,4,2,0.5,16,noise002,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,16,crop090,projection,center,2,19,29,464,928,29,0,0,29,0.080322,0.536638,False,no CRC-valid symbols available,False
+64,76,4,2,0.5,24,clean,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,24,jpeg85,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,24,resize075,projection,center,2,19,29,464,928,29,29,29,0,0.955078,1.0,True,,False
+64,76,4,2,0.5,24,blur1,projection,center,2,19,29,464,928,29,29,29,0,0.875,1.0,True,,False
+64,76,4,2,0.5,24,noise002,projection,center,2,19,29,464,928,29,29,29,0,1.0,1.0,True,,False
+64,76,4,2,0.5,24,crop090,projection,center,2,19,29,464,928,29,0,0,29,0.080729,0.536638,False,no CRC-valid symbols available,False
+64,76,4,2,0.8,4,clean,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,4,jpeg85,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,4,resize075,projection,center,2,19,35,560,1120,35,35,35,0,0.958984,1.0,True,,False
+64,76,4,2,0.8,4,blur1,projection,center,2,19,35,560,1120,35,34,34,1,0.876953,0.998214,True,,False
+64,76,4,2,0.8,4,noise002,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,4,crop090,projection,center,2,19,35,560,1120,35,0,0,35,0.087891,0.535714,False,no CRC-valid symbols available,False
+64,76,4,2,0.8,8,clean,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,8,jpeg85,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,8,resize075,projection,center,2,19,35,560,1120,35,35,35,0,0.95166,1.0,True,,False
+64,76,4,2,0.8,8,blur1,projection,center,2,19,35,560,1120,35,34,34,1,0.87207,0.998214,True,,False
+64,76,4,2,0.8,8,noise002,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,8,crop090,projection,center,2,19,35,560,1120,35,0,0,35,0.085938,0.535714,False,no CRC-valid symbols available,False
+64,76,4,2,0.8,12,clean,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,12,jpeg85,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,12,resize075,projection,center,2,19,35,560,1120,35,35,35,0,0.956055,1.0,True,,False
+64,76,4,2,0.8,12,blur1,projection,center,2,19,35,560,1120,35,34,34,1,0.876628,0.998214,True,,False
+64,76,4,2,0.8,12,noise002,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,12,crop090,projection,center,2,19,35,560,1120,35,0,0,35,0.082357,0.535714,False,no CRC-valid symbols available,False
+64,76,4,2,0.8,16,clean,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,16,jpeg85,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,16,resize075,projection,center,2,19,35,560,1120,35,35,35,0,0.955811,1.0,True,,False
+64,76,4,2,0.8,16,blur1,projection,center,2,19,35,560,1120,35,34,34,1,0.87793,0.998214,True,,False
+64,76,4,2,0.8,16,noise002,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,16,crop090,projection,center,2,19,35,560,1120,35,0,0,35,0.081299,0.535714,False,no CRC-valid symbols available,False
+64,76,4,2,0.8,24,clean,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,24,jpeg85,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,24,resize075,projection,center,2,19,35,560,1120,35,35,35,0,0.955078,1.0,True,,False
+64,76,4,2,0.8,24,blur1,projection,center,2,19,35,560,1120,35,34,34,1,0.874349,0.998214,True,,False
+64,76,4,2,0.8,24,noise002,projection,center,2,19,35,560,1120,35,35,35,0,1.0,1.0,True,,False
+64,76,4,2,0.8,24,crop090,projection,center,2,19,35,560,1120,35,0,0,35,0.08138,0.535714,False,no CRC-valid symbols available,False
+128,140,4,1,0.5,4,clean,projection,center,2,35,53,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.5,4,jpeg85,projection,center,2,35,53,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.5,4,resize075,projection,center,2,35,53,576,576,18,18,18,0,0.964844,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.5,4,blur1,projection,center,2,35,53,576,576,18,18,18,0,0.876953,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.5,4,noise002,projection,center,2,35,53,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.5,4,crop090,projection,center,2,35,53,576,576,18,0,0,18,0.070312,0.760417,False,no CRC-valid symbols available,True
+128,140,4,1,0.5,8,clean,projection,center,2,35,53,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.5,8,jpeg85,projection,center,2,35,53,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.5,8,resize075,projection,center,2,35,53,1152,1152,36,36,36,0,0.95752,1.0,True,,True
+128,140,4,1,0.5,8,blur1,projection,center,2,35,53,1152,1152,36,36,36,0,0.880371,1.0,True,,True
+128,140,4,1,0.5,8,noise002,projection,center,2,35,53,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.5,8,crop090,projection,center,2,35,53,1152,1152,36,0,0,36,0.078613,0.782118,False,no CRC-valid symbols available,True
+128,140,4,1,0.5,12,clean,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,12,jpeg85,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,12,resize075,projection,center,2,35,53,1696,1696,53,53,53,0,0.956706,1.0,True,,False
+128,140,4,1,0.5,12,blur1,projection,center,2,35,53,1696,1696,53,53,53,0,0.880208,1.0,True,,False
+128,140,4,1,0.5,12,noise002,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,12,crop090,projection,center,2,35,53,1696,1696,53,0,0,53,0.075195,0.785967,False,no CRC-valid symbols available,False
+128,140,4,1,0.5,16,clean,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,16,jpeg85,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,16,resize075,projection,center,2,35,53,1696,1696,53,53,53,0,0.956299,1.0,True,,False
+128,140,4,1,0.5,16,blur1,projection,center,2,35,53,1696,1696,53,53,53,0,0.880615,1.0,True,,False
+128,140,4,1,0.5,16,noise002,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,16,crop090,projection,center,2,35,53,1696,1696,53,0,0,53,0.075928,0.785967,False,no CRC-valid symbols available,False
+128,140,4,1,0.5,24,clean,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,24,jpeg85,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,24,resize075,projection,center,2,35,53,1696,1696,53,53,53,0,0.955404,1.0,True,,False
+128,140,4,1,0.5,24,blur1,projection,center,2,35,53,1696,1696,53,53,53,0,0.876139,1.0,True,,False
+128,140,4,1,0.5,24,noise002,projection,center,2,35,53,1696,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,1,0.5,24,crop090,projection,center,2,35,53,1696,1696,53,0,0,53,0.077799,0.785967,False,no CRC-valid symbols available,False
+128,140,4,1,0.8,4,clean,projection,center,2,35,63,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.8,4,jpeg85,projection,center,2,35,63,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.8,4,resize075,projection,center,2,35,63,576,576,18,18,18,0,0.964844,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.8,4,blur1,projection,center,2,35,63,576,576,18,18,18,0,0.876953,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.8,4,noise002,projection,center,2,35,63,576,576,18,18,18,0,1.0,1.0,False,decoder stopped with 17 missing source blocks,True
+128,140,4,1,0.8,4,crop090,projection,center,2,35,63,576,576,18,0,0,18,0.070312,0.760417,False,no CRC-valid symbols available,True
+128,140,4,1,0.8,8,clean,projection,center,2,35,63,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.8,8,jpeg85,projection,center,2,35,63,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.8,8,resize075,projection,center,2,35,63,1152,1152,36,36,36,0,0.95752,1.0,True,,True
+128,140,4,1,0.8,8,blur1,projection,center,2,35,63,1152,1152,36,36,36,0,0.880371,1.0,True,,True
+128,140,4,1,0.8,8,noise002,projection,center,2,35,63,1152,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,1,0.8,8,crop090,projection,center,2,35,63,1152,1152,36,0,0,36,0.078613,0.782118,False,no CRC-valid symbols available,True
+128,140,4,1,0.8,12,clean,projection,center,2,35,63,1728,1728,54,54,54,0,1.0,1.0,True,,True
+128,140,4,1,0.8,12,jpeg85,projection,center,2,35,63,1728,1728,54,54,54,0,1.0,1.0,True,,True
+128,140,4,1,0.8,12,resize075,projection,center,2,35,63,1728,1728,54,54,54,0,0.956706,1.0,True,,True
+128,140,4,1,0.8,12,blur1,projection,center,2,35,63,1728,1728,54,54,54,0,0.879557,1.0,True,,True
+128,140,4,1,0.8,12,noise002,projection,center,2,35,63,1728,1728,54,54,54,0,1.0,1.0,True,,True
+128,140,4,1,0.8,12,crop090,projection,center,2,35,63,1728,1728,54,0,0,54,0.073568,0.78125,False,no CRC-valid symbols available,True
+128,140,4,1,0.8,16,clean,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,16,jpeg85,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,16,resize075,projection,center,2,35,63,2016,2016,63,63,63,0,0.95459,1.0,True,,False
+128,140,4,1,0.8,16,blur1,projection,center,2,35,63,2016,2016,63,63,63,0,0.878662,1.0,True,,False
+128,140,4,1,0.8,16,noise002,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,16,crop090,projection,center,2,35,63,2016,2016,63,0,0,63,0.072266,0.781746,False,no CRC-valid symbols available,False
+128,140,4,1,0.8,24,clean,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,24,jpeg85,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,24,resize075,projection,center,2,35,63,2016,2016,63,63,63,0,0.954264,1.0,True,,False
+128,140,4,1,0.8,24,blur1,projection,center,2,35,63,2016,2016,63,63,63,0,0.874837,1.0,True,,False
+128,140,4,1,0.8,24,noise002,projection,center,2,35,63,2016,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,1,0.8,24,crop090,projection,center,2,35,63,2016,2016,63,0,0,63,0.075358,0.781746,False,no CRC-valid symbols available,False
+128,140,4,2,0.5,4,clean,projection,center,2,35,53,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.5,4,jpeg85,projection,center,2,35,53,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.5,4,resize075,projection,center,2,35,53,576,1152,36,36,36,0,0.958008,1.0,True,,True
+128,140,4,2,0.5,4,blur1,projection,center,2,35,53,576,1152,36,35,35,1,0.873047,0.998264,False,decoder stopped with 1 missing source blocks,True
+128,140,4,2,0.5,4,noise002,projection,center,2,35,53,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.5,4,crop090,projection,center,2,35,53,576,1152,36,0,0,36,0.076172,0.559028,False,no CRC-valid symbols available,True
+128,140,4,2,0.5,8,clean,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,8,jpeg85,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,8,resize075,projection,center,2,35,53,848,1696,53,53,53,0,0.953613,1.0,True,,False
+128,140,4,2,0.5,8,blur1,projection,center,2,35,53,848,1696,53,50,50,3,0.864746,0.996462,True,,False
+128,140,4,2,0.5,8,noise002,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,8,crop090,projection,center,2,35,53,848,1696,53,0,0,53,0.070801,0.556604,False,no CRC-valid symbols available,False
+128,140,4,2,0.5,12,clean,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,12,jpeg85,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,12,resize075,projection,center,2,35,53,848,1696,53,53,53,0,0.957357,1.0,True,,False
+128,140,4,2,0.5,12,blur1,projection,center,2,35,53,848,1696,53,50,50,3,0.871745,0.996462,True,,False
+128,140,4,2,0.5,12,noise002,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,12,crop090,projection,center,2,35,53,848,1696,53,0,0,53,0.072266,0.556604,False,no CRC-valid symbols available,False
+128,140,4,2,0.5,16,clean,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,16,jpeg85,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,16,resize075,projection,center,2,35,53,848,1696,53,53,53,0,0.956787,1.0,True,,False
+128,140,4,2,0.5,16,blur1,projection,center,2,35,53,848,1696,53,50,50,3,0.874268,0.996462,True,,False
+128,140,4,2,0.5,16,noise002,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,16,crop090,projection,center,2,35,53,848,1696,53,0,0,53,0.07373,0.556604,False,no CRC-valid symbols available,False
+128,140,4,2,0.5,24,clean,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,24,jpeg85,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,24,resize075,projection,center,2,35,53,848,1696,53,53,53,0,0.955729,1.0,True,,False
+128,140,4,2,0.5,24,blur1,projection,center,2,35,53,848,1696,53,50,50,3,0.871908,0.996462,True,,False
+128,140,4,2,0.5,24,noise002,projection,center,2,35,53,848,1696,53,53,53,0,1.0,1.0,True,,False
+128,140,4,2,0.5,24,crop090,projection,center,2,35,53,848,1696,53,0,0,53,0.076335,0.556604,False,no CRC-valid symbols available,False
+128,140,4,2,0.8,4,clean,projection,center,2,35,63,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.8,4,jpeg85,projection,center,2,35,63,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.8,4,resize075,projection,center,2,35,63,576,1152,36,36,36,0,0.958008,1.0,True,,True
+128,140,4,2,0.8,4,blur1,projection,center,2,35,63,576,1152,36,35,35,1,0.873047,0.998264,False,decoder stopped with 1 missing source blocks,True
+128,140,4,2,0.8,4,noise002,projection,center,2,35,63,576,1152,36,36,36,0,1.0,1.0,True,,True
+128,140,4,2,0.8,4,crop090,projection,center,2,35,63,576,1152,36,0,0,36,0.076172,0.559028,False,no CRC-valid symbols available,True
+128,140,4,2,0.8,8,clean,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,8,jpeg85,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,8,resize075,projection,center,2,35,63,1008,2016,63,63,63,0,0.953613,1.0,True,,False
+128,140,4,2,0.8,8,blur1,projection,center,2,35,63,1008,2016,63,59,59,4,0.869141,0.996032,True,,False
+128,140,4,2,0.8,8,noise002,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,8,crop090,projection,center,2,35,63,1008,2016,63,0,0,63,0.069824,0.553571,False,no CRC-valid symbols available,False
+128,140,4,2,0.8,12,clean,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,12,jpeg85,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,12,resize075,projection,center,2,35,63,1008,2016,63,63,63,0,0.957357,1.0,True,,False
+128,140,4,2,0.8,12,blur1,projection,center,2,35,63,1008,2016,63,59,59,4,0.874674,0.996032,True,,False
+128,140,4,2,0.8,12,noise002,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,12,crop090,projection,center,2,35,63,1008,2016,63,0,0,63,0.071615,0.553571,False,no CRC-valid symbols available,False
+128,140,4,2,0.8,16,clean,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,16,jpeg85,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,16,resize075,projection,center,2,35,63,1008,2016,63,63,63,0,0.956787,1.0,True,,False
+128,140,4,2,0.8,16,blur1,projection,center,2,35,63,1008,2016,63,59,59,4,0.876465,0.996032,True,,False
+128,140,4,2,0.8,16,noise002,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,16,crop090,projection,center,2,35,63,1008,2016,63,0,0,63,0.073242,0.553571,False,no CRC-valid symbols available,False
+128,140,4,2,0.8,24,clean,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,24,jpeg85,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,24,resize075,projection,center,2,35,63,1008,2016,63,63,63,0,0.955729,1.0,True,,False
+128,140,4,2,0.8,24,blur1,projection,center,2,35,63,1008,2016,63,59,59,4,0.873372,0.996032,True,,False
+128,140,4,2,0.8,24,noise002,projection,center,2,35,63,1008,2016,63,63,63,0,1.0,1.0,True,,False
+128,140,4,2,0.8,24,crop090,projection,center,2,35,63,1008,2016,63,0,0,63,0.076009,0.553571,False,no CRC-valid symbols available,False

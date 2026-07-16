@@ -1,0 +1,3 @@
+image,trial,attack,payload_bpp_requested,nominal_bpp_used,effective_user_bpp,payload_bytes,max_payload_bytes,ecc_bytes,rs_chunks,packet_seed,raw_bit_ber,hard_exact,hard_error,erasure_exact,erasure_error,max_erasures_per_chunk,psnr_db,global_ssim
+05_artifacts\data\sample_images\000000001503.jpg,0,clean,0.1,0.0999755859375,0.0689697265625,2260,2260,64,12,7,0.000724969474969475,True,,True,,0,39.86195387550956,0.9990603721483278
+05_artifacts\data\sample_images\dog_0031.jpg,0,clean,0.1,0.0999755859375,0.0689697265625,2260,2260,64,12,7,0.000724969474969475,True,,True,,0,40.303250521127374,0.999173647561952

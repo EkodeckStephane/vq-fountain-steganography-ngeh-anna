@@ -1,0 +1,501 @@
+﻿{
+    "total":  1523,
+    "offset":  0,
+    "next":  10,
+    "data":  [
+                 {
+                     "paperId":  "5e4f2d5a7765635ca1602c51e6feaf74801cdf24",
+                     "externalIds":  {
+                                         "DOI":  "10.1109/ICNGN67480.2025.11413669",
+                                         "CorpusId":  286329735
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/5e4f2d5a7765635ca1602c51e6feaf74801cdf24",
+                     "title":  "A Short Review on Deep Image Steganography",
+                     "venue":  "2025 International Conference on Intelligent Computing and Next Generation Networks (ICNGN)",
+                     "year":  2025,
+                     "citationCount":  0,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICNGN67480.2025.11413669?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/ICNGN67480.2025.11413669, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2422391217",
+                                         "name":  "Princy Paneru"
+                                     },
+                                     {
+                                         "authorId":  "2422390080",
+                                         "name":  "Mahesh Bista"
+                                     },
+                                     {
+                                         "authorId":  "2381586841",
+                                         "name":  "Himanshu"
+                                     },
+                                     {
+                                         "authorId":  "2335167345",
+                                         "name":  "M. Islam"
+                                     },
+                                     {
+                                         "authorId":  "2290292444",
+                                         "name":  "Hamidreza Salarian"
+                                     },
+                                     {
+                                         "authorId":  "2779854",
+                                         "name":  "Saman Shojae Chaeikar"
+                                     }
+                                 ],
+                     "abstract":  "Deep Steganography is a new paradigm that emerged from the revolutionary evolution of traditional steganographic techniques brought about by the development of deep learning. This new field uses neural networks to incorporate hidden information into digital media that is invisible to both traditional steganalysis tools and human observers. The architectures, embedding mechanisms, and adversarial robustness of deep steganographic techniques are all thoroughly examined in this review paper. In order to enable high-capacity, low-distortion steganographic systems, the study focuses on recent developments in convolutional neural networks (CNNs), generative adversarial networks (GANs), and autoencoders. Eight recent research papers are reviewed in this paper that study about deep image steganography and the different models that they propose. Some of the models reviewed are autoencoders, CNNS used with DCT for a hybrid model, multi-image embedding that uses cryptography for access control, and hybrid frequency-domain model for a secure way for hiding data. This study critically assesses recent research and cutting-edge models, highlighting both the advantages and disadvantages of using deep learning for secret communication. The information offered is intended to guide further study and advancement in digital forensics and secure data hiding."
+                 },
+                 {
+                     "paperId":  "3707b41eeeea5600beef344fb35ea6c2600d7f7d",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/Nassar26",
+                                         "DOI":  "10.1007/s11042-026-21718-4",
+                                         "CorpusId":  289195801
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/3707b41eeeea5600beef344fb35ea6c2600d7f7d",
+                     "title":  "StyleStego: a novel paradigm for high-capacity steganography using per layer noise maps in StyleGAN for cross-domain robustness",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2026,
+                     "citationCount":  0,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-026-21718-4?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-026-21718-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2375818627",
+                                         "name":  "Mohammad Othman Nassar"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "d31f63eb5adad2b69d154d6108039010ce6486b2",
+                     "externalIds":  {
+                                         "DOI":  "10.1109/ICEEI68459.2025.11330299",
+                                         "CorpusId":  284919934
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "e43e7d58-2cdf-4a04-8e5e-9074bc812fb0",
+                                              "name":  "International Conference on Electrical Engineering and Informatics",
+                                              "type":  "conference",
+                                              "alternate_names":  [
+                                                                      "ICEEI",
+                                                                      "Int Conf Electr Eng Informatics"
+                                                                  ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/d31f63eb5adad2b69d154d6108039010ce6486b2",
+                     "title":  "Enhanced Predictive Pixel Deviation Frame Guided Hybrid Edge-Based Image Steganography for High Capacity and Imperceptibility",
+                     "venue":  "International Conference on Electrical Engineering and Informatics",
+                     "year":  2025,
+                     "citationCount":  2,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICEEI68459.2025.11330299?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/ICEEI68459.2025.11330299, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "72502199",
+                                         "name":  "A. Abadin"
+                                     },
+                                     {
+                                         "authorId":  "2943225",
+                                         "name":  "Rossilawati Sulaiman"
+                                     },
+                                     {
+                                         "authorId":  "2315664537",
+                                         "name":  "Mohammad Kamrul Hasan"
+                                     }
+                                 ],
+                     "abstract":  "Image steganography continues to face a fundamental trade-off among payload capacity, imperceptibility, and resistance to steganalysis. Conventional edge-based schemes provide strong visual quality by embedding in high-frequency regions but often suffer from limited payload and vulnerability to noise or filtering. Non-edge methods increase capacity but reduce imperceptibility and statistical security. To address these constraints, we propose an Enhanced Predictive Pixel Deviation Frame—Guided Hybrid Edge-Based Steganography (ePPDF-HES) framework. The method begins by generating an ePPDF map to identify optimal embedding regions, followed by a hybrid edge detection process that integrates Canny, LoG, and Prewitt operators to substantially increase reliable edge pixels. A novel embedding mechanism, applied to the red channel and guided by both edge and non-edge references, achieves higher payload while preserving visual fidelity. Experimental results show a 5.75× increase in edge pixels compared to a single-detector baseline, enabling improved capacity. The system achieves 64.93 dB PSNR at 0.125 bpp, while SSIM, NCC, and UIQI values remain close to 1.0, demonstrating strong imperceptibility. Robustness is validated through histogram, entropy, and Chi-square analyses, establishing ePPDF-HES as a balanced, secure, and high-performance steganographic solution."
+                 },
+                 {
+                     "paperId":  "2b051b1cabfc5bbf3606fcd8737b0ad1d938d7c8",
+                     "externalIds":  {
+                                         "DOI":  "10.1016/j.heliyon.2024.e40511",
+                                         "CorpusId":  274241591
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "7fb8eddb-8838-4519-b764-4136eafd8225",
+                                              "name":  "Heliyon",
+                                              "type":  "journal",
+                                              "issn":  "2405-8440",
+                                              "url":  "https://www.journals.elsevier.com/heliyon",
+                                              "alternate_urls":  [
+                                                                     "https://www.heliyon.com/",
+                                                                     "http://www.sciencedirect.com/science/journal/24058440",
+                                                                     "http://www.heliyon.com/"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/2b051b1cabfc5bbf3606fcd8737b0ad1d938d7c8",
+                     "title":  "High Capacity Adaptive Block-Based Color Image Steganography and Human Perception-Guided Steganalysis",
+                     "venue":  "Heliyon",
+                     "year":  2024,
+                     "citationCount":  2,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://doi.org/10.1016/j.heliyon.2024.e40511",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.heliyon.2024.e40511?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1016/j.heliyon.2024.e40511, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "23531738",
+                                         "name":  "Taniya Seth"
+                                     },
+                                     {
+                                         "authorId":  "39461779",
+                                         "name":  "Amit K. Shukla"
+                                     },
+                                     {
+                                         "authorId":  "2206477775",
+                                         "name":  "Swati Goel"
+                                     },
+                                     {
+                                         "authorId":  "2851339",
+                                         "name":  "Pranab K. Muhuri"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "710b123d8a06df98fc5ff8b3026a10682ce5ecb4",
+                     "externalIds":  {
+                                         "DOI":  "10.3390/app14031225",
+                                         "CorpusId":  267494450
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "136edf8d-0f88-4c2c-830f-461c6a9b842e",
+                                              "name":  "Applied Sciences",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Appl Sci"
+                                                                  ],
+                                              "issn":  "2076-3417",
+                                              "url":  "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-217814",
+                                              "alternate_urls":  [
+                                                                     "http://www.mathem.pub.ro/apps/",
+                                                                     "https://www.mdpi.com/journal/applsci",
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-217814"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/710b123d8a06df98fc5ff8b3026a10682ce5ecb4",
+                     "title":  "A High-Capacity and High-Security Image Steganography Network Based on Chaotic Mapping and Generative Adversarial Networks",
+                     "venue":  "Applied Sciences",
+                     "year":  2024,
+                     "citationCount":  25,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2076-3417/14/3/1225/pdf?version=1706775206",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/app14031225?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/app14031225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2272991515",
+                                         "name":  "Lin Huo"
+                                     },
+                                     {
+                                         "authorId":  "2273656816",
+                                         "name":  "R. Chen"
+                                     },
+                                     {
+                                         "authorId":  "2282781972",
+                                         "name":  "Jie Wei"
+                                     },
+                                     {
+                                         "authorId":  "2273394753",
+                                         "name":  "Lang Huang"
+                                     }
+                                 ],
+                     "abstract":  "With the enhancement of information volume, people are not satisfied with transmitting only a single secret image at a time but chase to hide multiple secret images in a single picture; however, the large-capacity steganographic scale can easily lead to the degradation of the quality of the image, which attracts the attention of eavesdroppers. In this paper, we propose a Chaotic mapping-enHanced imAge Steganography nEtwork (CHASE), which pioneers to hide colour images in grey images and reduces the difference between the container image and the cover image through the image permutation method, so as to enhance the security of the steganography. The method demonstrates excellent steganalysis resistance in experiments and introduces Generative Adversarial Networks (GANs) to improve the image fidelity in large-capacity steganographic scales. The fusion of chaotic mapping and GAN optimisation enables the steganographic network to simultaneously balance security and image quality. The experimental results show that CHASE can keep the secret image with good invisibility under large-capacity steganographic scales, and at the same time, it can reveal the secret image with high fidelity, and its steganalysis-resistant capability is much better than other state-of-the-art methods."
+                 },
+                 {
+                     "paperId":  "baf2501c86b98296e651ad56b33bee24b15ba7ab",
+                     "externalIds":  {
+                                         "DBLP":  "journals/tdsc/GuoPX25",
+                                         "DOI":  "10.1109/TDSC.2024.3521424",
+                                         "CorpusId":  274994986
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "d286fdd0-3b6c-433c-afee-87228d8e9f93",
+                                              "name":  "IEEE Transactions on Dependable and Secure Computing",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "IEEE Trans Dependable Secur Comput"
+                                                                  ],
+                                              "issn":  "1545-5971",
+                                              "url":  "http://ieeexplore.ieee.org/servlet/opac?punumber=8858"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/baf2501c86b98296e651ad56b33bee24b15ba7ab",
+                     "title":  "Highly Robust and Diverse Coverless Image Steganography Against Passive and Active Steganalysis",
+                     "venue":  "IEEE Transactions on Dependable and Secure Computing",
+                     "year":  2025,
+                     "citationCount":  10,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TDSC.2024.3521424?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/TDSC.2024.3521424, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2255506754",
+                                         "name":  "Bobiao Guo"
+                                     },
+                                     {
+                                         "authorId":  "2280162572",
+                                         "name":  "Ping Ping"
+                                     },
+                                     {
+                                         "authorId":  "2280771129",
+                                         "name":  "Feng Xu"
+                                     }
+                                 ],
+                     "abstract":  "To avoid the pixel modification traces left by steganography from being detected by passive steganalysis, and to prevent the hidden data from being destroyed by active steganalysis attacks, Coverless Image Steganography (CIS) that does not modify pixels has attracted widespread attention. However, most existing CIS methods are limited in their maximum capacity due to insufficient diversity in their hash sequences. In addition, these methods struggle to maintain high robustness against both geometric and non-geometric attacks simultaneously. To address these two issues, a new coverless image steganography method is proposed to enhance CIS methods’ applicability, security, and robustness in highly insecure networks. During the hiding process, hash sequences are generated by a SHA-256 algorithm that integrates inter-block and inter-channel fusion, providing higher diversity than other CIS methods. Consequently, the proposed CIS method achieves higher capacity on publicly available datasets. During the extraction process, an evaluation metric that combines visual and histogram similarity is designed to improve the accuracy of inverse image retrieval. The experimental results demonstrate that the proposed CIS method achieves capacity increases of 26.73% and 38.34% over other CIS methods on the VOC and COCO datasets, respectively. Moreover, this method exhibits nearly 100% robustness against common active steganalysis."
+                 },
+                 {
+                     "paperId":  "fa58f46b7f545da5d640d7245a37d71be1e9751b",
+                     "externalIds":  {
+                                         "DBLP":  "journals/tcsv/MaWXWLL25",
+                                         "DOI":  "10.1109/TCSVT.2024.3508849",
+                                         "CorpusId":  274410886
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/fa58f46b7f545da5d640d7245a37d71be1e9751b",
+                     "title":  "Color Image High-Capacity Differential Steganography Algorithm Based on Multiple Adversarial Networks",
+                     "venue":  "IEEE transactions on circuits and systems for video technology (Print)",
+                     "year":  2025,
+                     "citationCount":  9,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TCSVT.2024.3508849?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/TCSVT.2024.3508849, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2084600423",
+                                         "name":  "B. Ma"
+                                     },
+                                     {
+                                         "authorId":  "2145335527",
+                                         "name":  "Haocheng Wang"
+                                     },
+                                     {
+                                         "authorId":  "2110980278",
+                                         "name":  "Jian Xu"
+                                     },
+                                     {
+                                         "authorId":  "2118775548",
+                                         "name":  "Xiaoyu Wang"
+                                     },
+                                     {
+                                         "authorId":  "2237951356",
+                                         "name":  "Xiaolong Li"
+                                     },
+                                     {
+                                         "authorId":  "2151965572",
+                                         "name":  "Jian Li"
+                                     }
+                                 ],
+                     "abstract":  "Aiming to mitigate image distortion caused by steganography algorithms at high-capacity information embedding and enhance the steganalysis resistance capability of generated stego images, this paper proposes a high-capacity differential steganography algorithm for color images based on multiple adversarial networks. Instead of directly modifying the pixels of the cover image, the algorithm embeds the secret information into the differential plane generated by the two most similar channels of the cover image. Consequently, the distortion of the stego image is minimized while embedding a secret image of the same size. At the same time, the fidelity of the stego and extracted secret images is continually improved through adversarial training between the generator and discriminator in the proposed steganography network. Furthermore, multiple steganalysis networks are parallelly utilized to enhance the steganalysis resistance capability of stego images. In addition, the Lion optimizer is utilized for the first time to improve the convergence speed of the proposed steganographic network. Experimental results show that the comprehensive performance of the proposed algorithm outperforms other state-of-the-art steganography algorithms significantly."
+                 },
+                 {
+                     "paperId":  "0185ba9c390e5b6559a941ace36efa64bc8979f2",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/ELHadyAKSR24",
+                                         "DOI":  "10.1007/s11042-023-17998-9",
+                                         "CorpusId":  267078125
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/0185ba9c390e5b6559a941ace36efa64bc8979f2",
+                     "title":  "DISH: Digital image steganography using stochastic-computing with high-capacity",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2024,
+                     "citationCount":  14,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://link.springer.com/content/pdf/10.1007/s11042-023-17998-9.pdf",
+                                           "status":  "HYBRID",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-023-17998-9?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-023-17998-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2074325987",
+                                         "name":  "M. El-Hady"
+                                     },
+                                     {
+                                         "authorId":  "2399573488",
+                                         "name":  "M. Abbas"
+                                     },
+                                     {
+                                         "authorId":  "11725498",
+                                         "name":  "F. A. Khanday"
+                                     },
+                                     {
+                                         "authorId":  "1839339",
+                                         "name":  "L. Said"
+                                     },
+                                     {
+                                         "authorId":  "2085713",
+                                         "name":  "A. G. Radwan"
+                                     }
+                                 ],
+                     "abstract":  "Stochastic computing is a relatively new approach to computing that has gained interest in recent years due to its potential for low-power and high-noise environments. It is a method of computing that uses probability to represent and manipulate data, therefore it has applications in areas such as signal processing, machine learning, and cryptography. Stochastic steganography involves hiding a message within a cover image using a statistical model. Unlike traditional steganography techniques that use deterministic algorithms to embed the message, stochastic steganography uses a probabilistic approach to hide the message in a way that makes it difficult for an adversary to detect. Due to this error robustness and large bit streams stochastic computing, they are well suited for high capacity and secure image steganography. In this paper, as per the authors’ best knowledge, image steganography using stochastic computing based on linear feedback shift register (LFSR) is proposed for the first time. In the proposed technique, the cover image is converted to stochastic representation instead of the binary one, and then a secret image is embedded in it. The resulting stego image has a high PSNR value transmitted with no visual trace of the hidden image. The final results are stego image with PSNR starting from 30 dB and a maximum payload up to 40 bits per pixel (bpp) with an effective payload up to 28 bpp. The proposed method achieves high security and high capability of the number of stored bits in each pixel. Thus, the proposed method can prove a vital solution for high capacity and secure image steganography, which can then be extended to other types of steganography."
+                 },
+                 {
+                     "paperId":  "9b89f1e87d35dd0e3d49c76e6cd6aa51851e9f44",
+                     "externalIds":  {
+                                         "DOI":  "10.52783/jes.4000",
+                                         "CorpusId":  270128160
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "6481b292-4036-4fc7-9b84-445d7ad954c3",
+                                              "name":  "Journal of Electrical Systems",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "J Electr Syst"
+                                                                  ],
+                                              "issn":  "1112-5209",
+                                              "url":  "http://journal.esrgroups.org/jes/"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/9b89f1e87d35dd0e3d49c76e6cd6aa51851e9f44",
+                     "title":  "A high-capacity Coverless Image Steganography Based on OMR and Mapping Rules",
+                     "venue":  "Journal of Electrical Systems",
+                     "year":  2024,
+                     "citationCount":  1,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://journal.esrgroups.org/jes/article/download/4000/2940",
+                                           "status":  "HYBRID",
+                                           "license":  "CCBYND",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.52783/jes.4000?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.52783/jes.4000, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2304415912",
+                                         "name":  "Nitin Kanzariya Dr"
+                                     },
+                                     {
+                                         "authorId":  "2304411622",
+                                         "name":  "Dhaval Jadhav Dr"
+                                     },
+                                     {
+                                         "authorId":  "2304417101",
+                                         "name":  "Lokesh Gagnani Dr"
+                                     },
+                                     {
+                                         "authorId":  "2212156229",
+                                         "name":  "Nilesh N. Maltare"
+                                     },
+                                     {
+                                         "authorId":  "2304417062",
+                                         "name":  "Kamakshi Kaul"
+                                     }
+                                 ],
+                     "abstract":  "Securing private information during its transmission over the internet is of paramount importance, as it safeguards against unauthorized access and guarantees the integrity of data. Steganography serves as a technique for enhancing security by concealing sensitive information within digital content such as images, videos, audio, and textual carriers, thus thwarting unauthorized interception. Current methodologies involve manipulating pixels to create stego-images, effectively embedding confidential messages within the image structure. However, this approach has led to steganalysis experts uncovering these hidden messages. To address this issue, an innovative strategy for covert data concealment is proposed. This paper proposes a robust, secure, and embedding capacity coverless image steganography method using OMR and Mapping Rules. The secret information is represented by a binary string, and the bubble sheet is used to represent binary fragments. This approach ensures the confidentiality of sensitive data communicated over the internet. Notably, this approach surpasses previous alternatives in terms of embedding capacity, as substantiated by result analysis. Furthermore, it is adaptable for refinement as needed. Significantly, it exhibits remarkable resilience, safeguarding against a spectrum of attacks including scaling, color space conversion, JPEG compression, thresholding, \"salt and pepper\" noise, file format conversion, and steganalysis tools, among others."
+                 },
+                 {
+                     "paperId":  "dc02d0deb869b06322e30bf166e13dd9a351562b",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/KapoorS24",
+                                         "DOI":  "10.1007/s11042-024-19520-1",
+                                         "CorpusId":  270596498
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/dc02d0deb869b06322e30bf166e13dd9a351562b",
+                     "title":  "Robust and high capacity image steganography technique using spiral-walk inter-block DCT coefficient differencing",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2024,
+                     "citationCount":  2,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-024-19520-1?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-024-19520-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2297232274",
+                                         "name":  "Samridhi Kapoor"
+                                     },
+                                     {
+                                         "authorId":  "143907662",
+                                         "name":  "S. Shivani"
+                                     }
+                                 ],
+                     "abstract":  null
+                 }
+             ]
+}

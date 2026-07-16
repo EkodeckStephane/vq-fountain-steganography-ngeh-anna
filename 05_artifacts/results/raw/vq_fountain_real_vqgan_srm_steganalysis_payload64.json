@@ -1,0 +1,38 @@
+{
+  "calibration_count": 256,
+  "calibration_seed": "real-vqgan-calibration-v1",
+  "calibration_threshold": 0.9,
+  "detector_note": "This is a local SRM-style residual cooccurrence probe. It is not an official external SRM/SRNet implementation.",
+  "generated_image_counts": [
+    48,
+    48,
+    48
+  ],
+  "payload_seeds": [
+    "srm64-a",
+    "srm64-b",
+    "srm64-c"
+  ],
+  "row": {
+    "block_size": 1,
+    "detector": "SRM-style residual cooccurrence ensemble + PCA logistic regression",
+    "feature_dim": 86652,
+    "macro_cell_size": 2,
+    "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+    "model_subfolder": "",
+    "overhead": 4.0,
+    "payload_bytes": 64,
+    "payload_images": 144,
+    "payload_seed_count": 3,
+    "reference_images": 144,
+    "residual_truncation": 3,
+    "splits": 5,
+    "srm_detector_accuracy_mean": 0.4970297,
+    "srm_detector_accuracy_std": 0.0350892,
+    "srm_detector_auc_mean": 0.49521569,
+    "srm_detector_auc_std": 0.03518799,
+    "stable_pool_0": 40,
+    "stable_pool_1": 22,
+    "symbols_per_image": 8
+  }
+}

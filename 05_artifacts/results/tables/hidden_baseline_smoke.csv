@@ -1,0 +1,6 @@
+baseline,checkpoint,source_image,trial,message_bits,bit_errors,bit_error_rate,exact_recovery,encoder_mse,decoder_mse,reported_bitwise_error
+HiDDeN,05_artifacts\baselines\HiDDeN\experiments\combined-noise\checkpoints\combined-noise--epoch-400.pyt,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,0,30,14,0.46666667,False,0.00215172,0.22295354,0.46666667
+HiDDeN,05_artifacts\baselines\HiDDeN\experiments\combined-noise\checkpoints\combined-noise--epoch-400.pyt,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,1,30,4,0.13333333,False,0.00184958,0.11589124,0.13333333
+HiDDeN,05_artifacts\baselines\HiDDeN\experiments\combined-noise\checkpoints\combined-noise--epoch-400.pyt,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,2,30,15,0.5,False,0.00209563,0.28309447,0.5
+HiDDeN,05_artifacts\baselines\HiDDeN\experiments\combined-noise\checkpoints\combined-noise--epoch-400.pyt,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,3,30,8,0.26666667,False,0.00206567,0.17245415,0.26666667
+HiDDeN,05_artifacts\baselines\HiDDeN\experiments\combined-noise\checkpoints\combined-noise--epoch-400.pyt,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,4,30,6,0.2,False,0.00165677,0.19820683,0.2

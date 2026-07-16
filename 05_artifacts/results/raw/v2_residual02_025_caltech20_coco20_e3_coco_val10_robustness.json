@@ -1,0 +1,601 @@
+{
+  "summary": {
+    "clean": {
+      "mean_useful_ber": 0.00239410400390625,
+      "max_useful_ber": 0.006591796875,
+      "n": 10
+    },
+    "jpeg95": {
+      "mean_useful_ber": 0.44250946044921874,
+      "max_useful_ber": 0.4640350341796875,
+      "n": 10
+    },
+    "jpeg90": {
+      "mean_useful_ber": 0.4980682373046875,
+      "max_useful_ber": 0.5061798095703125,
+      "n": 10
+    },
+    "jpeg80": {
+      "mean_useful_ber": 0.5005477905273438,
+      "max_useful_ber": 0.505462646484375,
+      "n": 10
+    },
+    "noise2": {
+      "mean_useful_ber": 0.009124755859375,
+      "max_useful_ber": 0.0159149169921875,
+      "n": 10
+    },
+    "blur1": {
+      "mean_useful_ber": 0.32078399658203127,
+      "max_useful_ber": 0.3427886962890625,
+      "n": 10
+    },
+    "resize0.75": {
+      "mean_useful_ber": 0.19310760498046875,
+      "max_useful_ber": 0.2060546875,
+      "n": 10
+    }
+  },
+  "rows": [
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0020599365234375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4317779541015625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4986724853515625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.50469970703125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0072174072265625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.32452392578125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1943511962890625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.000732421875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4377593994140625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.495391845703125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.497100830078125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0058135986328125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.312042236328125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1901092529296875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.006591796875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.426513671875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4842376708984375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4927978515625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.013031005859375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.3284759521484375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2004852294921875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0003814697265625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4506378173828125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.50103759765625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.500335693359375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0056304931640625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.3097076416015625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.182220458984375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00518798828125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4547576904296875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.5061798095703125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.505462646484375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0159149169921875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.3427886962890625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2060546875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0030517578125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4346466064453125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.49505615234375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4971771240234375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0096435546875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.297027587890625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.191650390625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0026092529296875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4346771240234375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.497283935546875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.501800537109375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.010101318359375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.31536865234375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1986236572265625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0004730224609375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4485321044921875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.5032806396484375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.5045928955078125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00531005859375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.326873779296875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1938934326171875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0010528564453125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4417572021484375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4990997314453125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.500244140625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.006622314453125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.3156890869140625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.186767578125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.001800537109375
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4640350341796875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.5004425048828125
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.5012664794921875
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.011962890625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.3353424072265625
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.186920166015625
+    }
+  ]
+}

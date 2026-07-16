@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual_025_smoke.pt",
+    "payload_bpp": 0.25,
+    "num_rows": 6,
+    "mean_useful_ber": 0.112213134765625,
+    "mean_full_ber": 0.46617666880289715,
+    "mean_psnr_db": 41.00428468603781,
+    "mean_global_ssim": 0.9993789107041917
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0842742919921875,
+      "full_ber": 0.468475341796875,
+      "psnr_db": 41.562796907425444,
+      "global_ssim": 0.9993986469513504
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0826568603515625,
+      "full_ber": 0.46819305419921875,
+      "psnr_db": 41.56079282372603,
+      "global_ssim": 0.9993985176444323
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 2,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0834197998046875,
+      "full_ber": 0.4684410095214844,
+      "psnr_db": 41.55556125665424,
+      "global_ssim": 0.9993976166214993
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1412353515625,
+      "full_ber": 0.4640483856201172,
+      "psnr_db": 40.44947263000189,
+      "global_ssim": 0.9993595415430191
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1401519775390625,
+      "full_ber": 0.46387672424316406,
+      "psnr_db": 40.449401990477234,
+      "global_ssim": 0.999359687676001
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 2,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.14154052734375,
+      "full_ber": 0.46402549743652344,
+      "psnr_db": 40.44768250794205,
+      "global_ssim": 0.9993594537888482
+    }
+  ]
+}

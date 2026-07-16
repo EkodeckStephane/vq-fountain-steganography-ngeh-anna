@@ -1,0 +1,72 @@
+{
+  "datasets": [
+    {
+      "alias": "bossbase",
+      "extension_counts": {
+        ".pgm": 10000
+      },
+      "image_files": 10000,
+      "sample_filenames": [
+        "6287.pgm",
+        "1111.pgm",
+        "8590.pgm",
+        "441.pgm",
+        "5948.pgm",
+        "8671.pgm",
+        "9729.pgm",
+        "1704.pgm",
+        "4756.pgm",
+        "4886.pgm",
+        "5517.pgm",
+        "9378.pgm",
+        "3306.pgm",
+        "3847.pgm",
+        "6013.pgm",
+        "4263.pgm",
+        "9219.pgm",
+        "8531.pgm",
+        "2705.pgm",
+        "7912.pgm"
+      ],
+      "sample_size": 1000,
+      "total_files": 10000
+    },
+    {
+      "alias": "local_raw",
+      "extension_counts": {
+        ".jpg": 11452,
+        ".json": 6,
+        ".mat": 1,
+        ".pgm": 10000,
+        ".sha256": 1,
+        ".txt": 31,
+        "<none>": 1
+      },
+      "image_files": 21452,
+      "sample_filenames": [
+        "000000534639.jpg",
+        "000000162581.jpg",
+        "000000222299.jpg",
+        "000000453981.jpg",
+        "6859.pgm",
+        "8472.pgm",
+        "4186.pgm",
+        "6745.pgm",
+        "7709.pgm",
+        "grid_0065.jpg",
+        "striped_0046.jpg",
+        "4393.pgm",
+        "porous_0072.jpg",
+        "pleated_0165.jpg",
+        "000000136915.jpg",
+        "1190.pgm",
+        "7386.pgm",
+        "000000181859.jpg",
+        "000000490125.jpg",
+        "waffled_0144.jpg"
+      ],
+      "sample_size": 1000,
+      "total_files": 21492
+    }
+  ]
+}

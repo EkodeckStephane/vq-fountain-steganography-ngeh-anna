@@ -1,0 +1,18 @@
+{
+  "source_dir": "05_artifacts/models/vqgan_f4_8192_diffusers_compat",
+  "output_dir": "05_artifacts/models/vqgan_f4_8192_diffusers_converted",
+  "source_tensor_count": 209,
+  "target_tensor_count": 205,
+  "converted_tensor_count": 205,
+  "dropped_source_keys": [
+    "encoder.mid.attn_1.qkv.weight",
+    "encoder.mid.attn_1.qkv.bias",
+    "decoder.mid.attn_1.qkv.weight",
+    "decoder.mid.attn_1.qkv.bias"
+  ],
+  "missing_target_keys": [],
+  "unexpected_targets": [],
+  "shape_mismatches": [],
+  "duplicate_targets": [],
+  "mid_block_add_attention": true
+}

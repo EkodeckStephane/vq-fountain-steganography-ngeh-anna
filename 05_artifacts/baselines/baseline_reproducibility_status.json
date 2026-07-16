@@ -1,0 +1,29 @@
+﻿{
+    "baselines":  [
+                      {
+                          "name":  "HiDDeN",
+                          "repo":  "https://github.com/ando-khachatryan/HiDDeN",
+                          "commit":  "556f76dd0602e4351ed4c19bd2ee87d50ef3c0de",
+                          "local_path":  "05_artifacts/baselines/HiDDeN",
+                          "files":  [
+                                        "README.md",
+                                        "main.py",
+                                        "train.py",
+                                        "test_model.py"
+                                    ]
+                      },
+                      {
+                          "name":  "StegaStamp",
+                          "repo":  "https://github.com/tancik/StegaStamp",
+                          "commit":  "c984446048b826587ca1875027b0a1dc1885fb30",
+                          "local_path":  "05_artifacts/baselines/StegaStamp",
+                          "files":  [
+                                        "README.md",
+                                        "encode_image.py",
+                                        "decode_image.py",
+                                        "train.py",
+                                        "models.py"
+                                    ]
+                      }
+                  ]
+}

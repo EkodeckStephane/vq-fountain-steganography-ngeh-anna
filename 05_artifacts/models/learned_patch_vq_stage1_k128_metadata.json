@@ -1,0 +1,49 @@
+{
+  "codebook_size": 128,
+  "history": [
+    {
+      "empty_clusters": 1.0,
+      "iteration": 1.0,
+      "mean_squared_distortion": 0.01388178
+    },
+    {
+      "empty_clusters": 0.0,
+      "iteration": 2.0,
+      "mean_squared_distortion": 0.01332183
+    },
+    {
+      "empty_clusters": 0.0,
+      "iteration": 3.0,
+      "mean_squared_distortion": 0.01304973
+    },
+    {
+      "empty_clusters": 0.0,
+      "iteration": 4.0,
+      "mean_squared_distortion": 0.01289611
+    },
+    {
+      "empty_clusters": 0.0,
+      "iteration": 5.0,
+      "mean_squared_distortion": 0.01280828
+    },
+    {
+      "empty_clusters": 0.0,
+      "iteration": 6.0,
+      "mean_squared_distortion": 0.01274997
+    }
+  ],
+  "image_size": 256,
+  "iterations": 6,
+  "max_images": 120,
+  "max_patches": 8000,
+  "patch_size": 16,
+  "prior_max": 0.04970472,
+  "prior_min": 0.00024606,
+  "source_roots": [
+    "root_0",
+    "root_1"
+  ],
+  "tokenizer": "learned-patch-vq",
+  "used_images": 120,
+  "used_patches": 8000
+}

@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual02_025_caltech20_coco20_e3.pt",
+    "payload_bpp_requested": 0.25,
+    "nominal_bpp_used": 0.25,
+    "payload_bytes": 6080,
+    "max_payload_bytes": 6080,
+    "max_effective_user_bpp": 0.185546875,
+    "effective_user_bpp": 0.185546875,
+    "ecc_bytes": 64,
+    "nsize": 255,
+    "rs_chunks": 32,
+    "unused_tail_bytes": 32,
+    "summary_by_attack": {
+      "clean": {
+        "n": 2,
+        "hard_exact_rate": 1.0,
+        "erasure_exact_rate": 1.0,
+        "mean_raw_bit_ber": 0.00028228759765625,
+        "max_raw_bit_ber": 0.0003204345703125,
+        "mean_psnr_db": 37.591051581206486,
+        "mean_global_ssim": 0.9983878354311191
+      }
+    }
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp_requested": 0.25,
+      "nominal_bpp_used": 0.25,
+      "effective_user_bpp": 0.185546875,
+      "payload_bytes": 6080,
+      "max_payload_bytes": 6080,
+      "ecc_bytes": 64,
+      "rs_chunks": 32,
+      "packet_seed": 7,
+      "raw_bit_ber": 0.000244140625,
+      "hard_exact": true,
+      "hard_error": "",
+      "erasure_exact": true,
+      "erasure_error": "",
+      "max_erasures_per_chunk": 0,
+      "psnr_db": 37.52856884371325,
+      "global_ssim": 0.9983507472658203
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp_requested": 0.25,
+      "nominal_bpp_used": 0.25,
+      "effective_user_bpp": 0.185546875,
+      "payload_bytes": 6080,
+      "max_payload_bytes": 6080,
+      "ecc_bytes": 64,
+      "rs_chunks": 32,
+      "packet_seed": 7,
+      "raw_bit_ber": 0.0003204345703125,
+      "hard_exact": true,
+      "hard_error": "",
+      "erasure_exact": true,
+      "erasure_error": "",
+      "max_erasures_per_chunk": 0,
+      "psnr_db": 37.65353431869972,
+      "global_ssim": 0.9984249235964179
+    }
+  ]
+}

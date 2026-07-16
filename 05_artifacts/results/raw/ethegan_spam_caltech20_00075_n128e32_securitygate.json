@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "payload_bpp_requested": 0.0075,
+    "nominal_bpp_used": 0.007476806640625,
+    "effective_user_bpp": 0.001953125,
+    "payload_bytes": 64,
+    "images": 20,
+    "train_images": 10,
+    "test_images": 10,
+    "feature_count": 1568,
+    "detector": "SPAM-style quantized residual co-occurrence, truncation=3",
+    "sanity_auc_check": 0.89,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.7,
+    "train_auc": 1.0,
+    "test_auc": 0.89
+  },
+  "rows": [
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01661.jpg",
+      "group": 0,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9166932106018066
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01661.jpg",
+      "group": 0,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01662.jpg",
+      "group": 1,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01662.jpg",
+      "group": 1,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01663.jpg",
+      "group": 2,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 8.731881884216364e-11
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01663.jpg",
+      "group": 2,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01664.jpg",
+      "group": 3,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01664.jpg",
+      "group": 3,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01665.jpg",
+      "group": 4,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\test_01665.jpg",
+      "group": 4,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00960.jpg",
+      "group": 5,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00960.jpg",
+      "group": 5,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00961.jpg",
+      "group": 6,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00961.jpg",
+      "group": 6,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00962.jpg",
+      "group": 7,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 1.6947026250569195e-16
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00962.jpg",
+      "group": 7,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00963.jpg",
+      "group": 8,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 4.269480200491671e-07
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00963.jpg",
+      "group": 8,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00964.jpg",
+      "group": 9,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00964.jpg",
+      "group": 9,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00965.jpg",
+      "group": 10,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 1.6254619940856692e-34
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00965.jpg",
+      "group": 10,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.3514739327646907e-10
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00966.jpg",
+      "group": 11,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 5.018387952370043e-24
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00966.jpg",
+      "group": 11,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.04118068143725395
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00967.jpg",
+      "group": 12,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00967.jpg",
+      "group": 12,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00968.jpg",
+      "group": 13,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9999998807907104
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00968.jpg",
+      "group": 13,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00969.jpg",
+      "group": 14,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 1.0365094199604741e-10
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00969.jpg",
+      "group": 14,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00970.jpg",
+      "group": 15,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9989058971405029
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00970.jpg",
+      "group": 15,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00971.jpg",
+      "group": 16,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00971.jpg",
+      "group": 16,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00972.jpg",
+      "group": 17,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00972.jpg",
+      "group": 17,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00973.jpg",
+      "group": 18,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00973.jpg",
+      "group": 18,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00974.jpg",
+      "group": 19,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 1.1225657033493944e-28
+    },
+    {
+      "image": "C:\\Users\\User\\Documents\\Articles\\FHAM_HC_CIS_Tchamba\\NARCIS\\dataset_external\\caltech101\\images\\accordion\\train_00974.jpg",
+      "group": 19,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.557038018518142e-07
+    }
+  ]
+}

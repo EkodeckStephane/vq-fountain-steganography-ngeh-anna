@@ -1,0 +1,1170 @@
+{
+  "artifact": "VQ-Fountain manuscript package",
+  "date": "2026-07-16",
+  "dependency_versions": {
+    "diffusers": "0.39.0",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1",
+    "torch": "2.13.0"
+  },
+  "file_count": 226,
+  "files": [
+    {
+      "bytes": 4306,
+      "path": "01_references\\primary\\verified_references.md",
+      "sha256": "66be87257b0534434c633f870eb86d2edcc6cca5a8810ad7dfead384b8551b1b"
+    },
+    {
+      "bytes": 5072,
+      "path": "01_references\\public_baselines_vq_fountain.md",
+      "sha256": "a42182a21617cd2ffd9d9e391528cd986b906671bd8b73d56c9d8b7db2b58670"
+    },
+    {
+      "bytes": 1392,
+      "path": "04_experiments\\results\\vq_fountain_anchor_security_2026-07-15.md",
+      "sha256": "8eab955c7ab51fc93c6574902f5fae996b62bc34628e1c8f477d2e2ddd3880bb"
+    },
+    {
+      "bytes": 3015,
+      "path": "04_experiments\\results\\vq_fountain_anchor_sync_crop_2026-07-15.md",
+      "sha256": "49c803c3cbd63ae912cd7cf314fb8b3a704b9ebc707a20f78fbf7d4def6dffdf"
+    },
+    {
+      "bytes": 1921,
+      "path": "04_experiments\\results\\vq_fountain_anchors2d_offset_crop_2026-07-15.md",
+      "sha256": "6eff705298ef7745445bf19ac6391de71fc6ce71f2c00d194de2717b62513ef0"
+    },
+    {
+      "bytes": 3918,
+      "path": "04_experiments\\results\\vq_fountain_block_anchor_crop_2026-07-15.md",
+      "sha256": "12336945296ccf1bf197ddd970f4d614985348a9afc18f293a4b8217f4d0f476"
+    },
+    {
+      "bytes": 3320,
+      "path": "04_experiments\\results\\vq_fountain_blocker_reduction_2026-07-16.md",
+      "sha256": "fce372bf2863c431dee8fcb81cef2a5937bfb8d8f5d96a5849500bb00fdf98ed"
+    },
+    {
+      "bytes": 1658,
+      "path": "04_experiments\\results\\vq_fountain_cost_and_combined_attacks_2026-07-15.md",
+      "sha256": "6689e6c561e0790b3c6e0c3a0138f136ae6c20db0c92778bcd87e6c17fe5aa34"
+    },
+    {
+      "bytes": 3230,
+      "path": "04_experiments\\results\\vq_fountain_crop_geometry_breakthrough_2026-07-15.md",
+      "sha256": "dd0efd0a14b17c0fba8eec6926689c887f00ff550584aee831313f86b0a4bacc"
+    },
+    {
+      "bytes": 4277,
+      "path": "04_experiments\\results\\vq_fountain_distribution_sampler_stage1_2026-07-15.md",
+      "sha256": "cab8c85aa672e9a4c7a49fce7990efd3f588bcba5748eb3920474747f3fd7e05"
+    },
+    {
+      "bytes": 1763,
+      "path": "04_experiments\\results\\vq_fountain_external_dataset_stability_2026-07-15.md",
+      "sha256": "e24d3777a4460b72ba9b94ea50baaa02b1fafbc8ef534cf824f0d54083f2bfbc"
+    },
+    {
+      "bytes": 1597,
+      "path": "04_experiments\\results\\vq_fountain_final_ablation_suite_2026-07-15.md",
+      "sha256": "f16ef056d87d063341a7aafb1c9d11e27dfeb3006f13f7b242f6504ed2b2fbd6"
+    },
+    {
+      "bytes": 4266,
+      "path": "04_experiments\\results\\vq_fountain_learned_patch_vq_stage1_2026-07-15.md",
+      "sha256": "d135b9f177cdbb4320851e1113db599d5511bb9e8a809d9976c96ffca63fb514"
+    },
+    {
+      "bytes": 1855,
+      "path": "04_experiments\\results\\vq_fountain_limit_closure_2026-07-16.md",
+      "sha256": "ba46112197029d90aa48c555bfc605eea80304465d3e4dde0b7be0f1b815b140"
+    },
+    {
+      "bytes": 889,
+      "path": "04_experiments\\results\\vq_fountain_public_baseline_execution_audit_2026-07-15.md",
+      "sha256": "1588703bea9c2aa1177dfaababc217a05d49ffab9f337b7e46f1946348eb1b02"
+    },
+    {
+      "bytes": 990,
+      "path": "04_experiments\\results\\vq_fountain_real_model_smokes_2026-07-15.md",
+      "sha256": "d928d68b3572afef14193e2f7348bd7f253e1c99bbc46217e395a57a94cf585f"
+    },
+    {
+      "bytes": 3690,
+      "path": "04_experiments\\results\\vq_fountain_real_vqgan_stage2_payload_2026-07-15.md",
+      "sha256": "fb573efef414262e882e62019898de07ad2f708a16beaeae6b7be828ece668ab"
+    },
+    {
+      "bytes": 36073,
+      "path": "04_experiments\\results\\vq_fountain_reproducibility_manifest_2026-07-16.md",
+      "sha256": "fbcf22ecac359f7254b83e4ef6ef0721611448ff4a2a688b061524eb1d515acf"
+    },
+    {
+      "bytes": 4100,
+      "path": "04_experiments\\results\\vq_fountain_second_model_baseline_deep_audit_2026-07-15.md",
+      "sha256": "b0356af4386a3ce783d87706bf907efa94a17e00ad926e939a76df74e4f12bed"
+    },
+    {
+      "bytes": 1302,
+      "path": "04_experiments\\results\\vq_fountain_spam_steganalysis_2026-07-15.md",
+      "sha256": "f719682237cb1f3a22166965bc585b378e0095855c99b17f75b2d52b5d85c33f"
+    },
+    {
+      "bytes": 4484,
+      "path": "04_experiments\\results\\vq_fountain_stage2_limit_closure_2026-07-15.md",
+      "sha256": "c4f1e389873c5bd827d46be78b0f08cf767fdca8ead1a0777cdc6fd9a1ab02a0"
+    },
+    {
+      "bytes": 3735,
+      "path": "04_experiments\\results\\vq_fountain_symbol_crc_and_center_sync_2026-07-15.md",
+      "sha256": "6a84cc06f00c7dce66b00bb5fc1e196cd04975056783c5c844b7e9433f6f89b7"
+    },
+    {
+      "bytes": 1964,
+      "path": "04_experiments\\results\\vq_fountain_synthetic_stage0_2026-07-15.md",
+      "sha256": "b79f0b51f22ffe2e0dbee90573e8c3ae8b81229077bc58491d3b4218f6847002"
+    },
+    {
+      "bytes": 3407,
+      "path": "04_experiments\\results\\vq_fountain_token_stage1_2026-07-15.md",
+      "sha256": "4e53dd0149b8beffb80e0b2ebe05551c9a25a2c8b11e5dc50addf6448e3ca0e7"
+    },
+    {
+      "bytes": 2414,
+      "path": "05_artifacts\\baselines\\baseline_execution_audit.json",
+      "sha256": "d2de41f43089f76f634c0dcf67486d4b0dff00fe493edc33f182eef03b5bb793"
+    },
+    {
+      "bytes": 5645,
+      "path": "05_artifacts\\code\\vq_fountain\\README.md",
+      "sha256": "f99a4312eed1412ad1894a8b13355c3cfa9e32cb15ae425e65e3ed51115095fd"
+    },
+    {
+      "bytes": 7210,
+      "path": "05_artifacts\\code\\vq_fountain\\measure_token_stability.py",
+      "sha256": "5e939a88f38b42a3d122ca6e09a775499e18c23ae35496dfe9353c3a1fb479be"
+    },
+    {
+      "bytes": 65,
+      "path": "05_artifacts\\code\\vq_fountain\\requirements-real-model.txt",
+      "sha256": "04a468b81010c81ae62776131aed85d61dc31588a17ab26553c4dddca246f2f4"
+    },
+    {
+      "bytes": 6520,
+      "path": "05_artifacts\\code\\vq_fountain\\run_dct_spread_baseline.py",
+      "sha256": "134c646c831f8b37d82c91f2edfc0a243cf136771c156f587dcf27e161c7ff52"
+    },
+    {
+      "bytes": 31622,
+      "path": "05_artifacts\\code\\vq_fountain\\run_distribution_sampler_probe.py",
+      "sha256": "f3516babcb66df7824d8630b64dee6d2e334612434612fb61abb40e36104bc80"
+    },
+    {
+      "bytes": 5872,
+      "path": "05_artifacts\\code\\vq_fountain\\run_final_ablation_suite.py",
+      "sha256": "c68cd005a08b17ea3821ed72ace989b383b5cc79b33fc938188e79b6e6a76c68"
+    },
+    {
+      "bytes": 6507,
+      "path": "05_artifacts\\code\\vq_fountain\\run_hidden_baseline_smoke.py",
+      "sha256": "76df0949d4d650df65c092d2e64b28ab03fda72b470926d90b931c1c9b240548"
+    },
+    {
+      "bytes": 2361,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_diffusion_smoke.py",
+      "sha256": "85fabd358501f6b2d23493b3289be538bc911aed65b8f15636bea43aad651c70"
+    },
+    {
+      "bytes": 9819,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqgan_deep_steganalysis_probe.py",
+      "sha256": "9d5e1ff409fbc1079604efbd1aaebbf03ba56073ad217fcb40d4ad2af02d6a6c"
+    },
+    {
+      "bytes": 23481,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqgan_payload_probe.py",
+      "sha256": "b28126b016d5ec896ae15b2996f4deb1bc2696dde8d07b4be6f11a533871c0ea"
+    },
+    {
+      "bytes": 11502,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqgan_quality_security_probe.py",
+      "sha256": "d1293b6838f84ea448ad301b29227ede70231263d8350d00deea8597cf55f2e0"
+    },
+    {
+      "bytes": 10194,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqgan_spam_steganalysis_probe.py",
+      "sha256": "b1cfdf2a8cd238b2d0464fb20ec1ab2f168a72e9b422114b7bd8e8795ae67a77"
+    },
+    {
+      "bytes": 12510,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqgan_srm_steganalysis_probe.py",
+      "sha256": "9d5f5507a76167be2d34f871bdc5ed3faf4475e15b68e35d1dc9d1cca0b6567a"
+    },
+    {
+      "bytes": 3272,
+      "path": "05_artifacts\\code\\vq_fountain\\run_real_vqmodel_smoke.py",
+      "sha256": "e7824ec5a140cdda49bffe9358630ab961a147f037b11777301b82e3e99c545d"
+    },
+    {
+      "bytes": 15091,
+      "path": "05_artifacts\\code\\vq_fountain\\run_scale_quality_security_probe.py",
+      "sha256": "f677389e71fcb3a42508ed92c433af242522edfbbcadc9ef4160cefcaf54b64d"
+    },
+    {
+      "bytes": 2296,
+      "path": "05_artifacts\\code\\vq_fountain\\run_synthetic_smoke.py",
+      "sha256": "c26f9efaa46358a17c8eff16f11f71bc9fe57409581cfc598c82373507ad4571"
+    },
+    {
+      "bytes": 5225,
+      "path": "05_artifacts\\code\\vq_fountain\\run_synthetic_sweep.py",
+      "sha256": "0e83d67a5589ef948716075a8aaaac3787368daecf8600bddee5cf01cae262ef"
+    },
+    {
+      "bytes": 10272,
+      "path": "05_artifacts\\code\\vq_fountain\\run_token_recovery_probe.py",
+      "sha256": "2ea58dcbd0a6fb311c4adb370f99215d5eb90c192c9617546b514056100e3422"
+    },
+    {
+      "bytes": 886,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_bitstream.py",
+      "sha256": "ce3920494b2d47bd3e9f896c277908bf30e589557d3f23e0bcdc04350e591219"
+    },
+    {
+      "bytes": 4157,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_distribution_probe.py",
+      "sha256": "3f41549829abc3e7a287e0a71425600cc6d4c5c5498bc3c312a437ebf6faf998"
+    },
+    {
+      "bytes": 3531,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_fountain.py",
+      "sha256": "71a0828afddb0449f49735a9d4ee7869b14fe76ee1d0101b7421994cd40a21af"
+    },
+    {
+      "bytes": 1564,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_image_attacks.py",
+      "sha256": "0c955315a0fa59cbbc07112266cde7deddaceb27dece591845dd023d56a81b2b"
+    },
+    {
+      "bytes": 2058,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_scale_quality_security_probe.py",
+      "sha256": "c32d00be37552cbeb56b9c882b2404fc8374a6217485532b31f4b0d5375eb610"
+    },
+    {
+      "bytes": 1385,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_scheduler.py",
+      "sha256": "a22449268356b109dc82318feef9de0bbf046d25f2b019671fee4ccea9e4176f"
+    },
+    {
+      "bytes": 1337,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_token_sampler.py",
+      "sha256": "d7ca2dc0f4689a1c0464b8dcfe2e7ec68e2559532961ea693adc9a17e1b2ade8"
+    },
+    {
+      "bytes": 2176,
+      "path": "05_artifacts\\code\\vq_fountain\\tests\\test_tokenizer_adapter.py",
+      "sha256": "524000db10b1fc7fc88fc702d32a3d1440de396ec57123bc5619f2a2c9eb56c8"
+    },
+    {
+      "bytes": 7273,
+      "path": "05_artifacts\\code\\vq_fountain\\train_patch_vq_codebook.py",
+      "sha256": "39f8926f6483f3b2cf540c88906aa88389f42e889ce0c8c6bfcebecd9970072e"
+    },
+    {
+      "bytes": 494,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\__init__.py",
+      "sha256": "de8a1c1bd520e362f54de1c04a17bfca86ec866cf7adc7e5688f03c53f0b1f49"
+    },
+    {
+      "bytes": 2315,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\bitstream.py",
+      "sha256": "a009bac4834fe9dd118c7422b234cb6215458d289f5c7ced5e45e1c903f3c2a5"
+    },
+    {
+      "bytes": 8093,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\fountain.py",
+      "sha256": "46e304b02ad33b6ea2184dc617dab981b6ecd568ec905c55925643a96cff94ab"
+    },
+    {
+      "bytes": 5706,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\image_attacks.py",
+      "sha256": "fad79b1fe5d22c74e70842ab922c77425aba5b430a07e281dc8564f10bd2e3ba"
+    },
+    {
+      "bytes": 5566,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\scheduler.py",
+      "sha256": "656cc33457c284e36358a19ce9d330cc52dfceefbc9093ab4c63d1fb8e6f709c"
+    },
+    {
+      "bytes": 2003,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\synthetic_channel.py",
+      "sha256": "3a4ea9bd80928e9e518311c420bd5e963a805ab2f0d42ab464603b0c17187448"
+    },
+    {
+      "bytes": 7428,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\token_sampler.py",
+      "sha256": "12172c0319edb30f6406dfdfb32b4ced307771c13a68d0bb53020a6a3385895e"
+    },
+    {
+      "bytes": 8736,
+      "path": "05_artifacts\\code\\vq_fountain\\vq_fountain\\tokenizer_adapter.py",
+      "sha256": "c6c72415f66be23f0aca2f29732b79fef868233763ef0729b20a86c6419bbc18"
+    },
+    {
+      "bytes": 712,
+      "path": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted\\config.json",
+      "sha256": "9e59031f3432f5242ede43afc5e416a9cd1f756862c95d6c61231c80c3bff416"
+    },
+    {
+      "bytes": 577,
+      "path": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted\\conversion_report.json",
+      "sha256": "489f746718bfc63de6480222cdcb18399be42f079b8ea631b3d3d4c60b629680"
+    },
+    {
+      "bytes": 221360149,
+      "path": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted\\diffusion_pytorch_model.bin",
+      "sha256": "5295505fa99a4b8c00692e5a524bb0c656518c6415162052c826a5dc7fa2f683"
+    },
+    {
+      "bytes": 711,
+      "path": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted\\source_config.json",
+      "sha256": "c0178171902166cea7286dee11f08dd6d076a44ef847d3ee0200d72dd53d7397"
+    },
+    {
+      "bytes": 2566,
+      "path": "05_artifacts\\results\\raw\\dct_spread_baseline.json",
+      "sha256": "4ab14bc1fdd4bd1cf74d56b2b47d1cffa9917876bd9070e7dae8e0e40cf86b76"
+    },
+    {
+      "bytes": 3084,
+      "path": "05_artifacts\\results\\raw\\hidden_baseline_smoke.json",
+      "sha256": "6ee645321674e4afdf032da57c269fe11090391f341faa0c8e4854db58e7527c"
+    },
+    {
+      "bytes": 1435,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_anchor_security_naive_256.json",
+      "sha256": "d4d34bf1a0101707f2681f71124ed864325f1525c03192a2fa1f1f4b4bf13ce5"
+    },
+    {
+      "bytes": 1426,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_anchor_security_projection_256.json",
+      "sha256": "c20026d4e46f45bf70abf06b6b73ebebde625cb2933bcde35ae117dcd3a9d274"
+    },
+    {
+      "bytes": 76258,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_combined_attacks.json",
+      "sha256": "42f665d09bd6882ee73af9886e3033b4ee9a4666134c03d97f224fe15ac70d07"
+    },
+    {
+      "bytes": 24870,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_combined_drop25_cost_search.json",
+      "sha256": "2eda46e0ab2b2f1d343659b0880efe8cb74300a6b36d312b7f6d9aa553a10138"
+    },
+    {
+      "bytes": 68194,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_cost_search_crop_offset.json",
+      "sha256": "e2b650366126a7d91b0bffbe60cbce72cacbdb6338e2a0caf3fa07e3a4c18123"
+    },
+    {
+      "bytes": 189909,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128.json",
+      "sha256": "9b6eb0caa3421dfb660dbddf103874482b910102aeb5421ba8812eecb9c95088"
+    },
+    {
+      "bytes": 156681,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_center_margin2.json",
+      "sha256": "cc2579b3f61ed4cabe856ff4098978af997dbb3d2b015280078b02c70d81df8c"
+    },
+    {
+      "bytes": 5082,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_anchors16.json",
+      "sha256": "b67fd7100191fdf9b04573c98d148468c9ec5cdbb75a79f296b315c15ca210c9"
+    },
+    {
+      "bytes": 4636,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d.json",
+      "sha256": "e89940b3fb048ed3a23f91ccad3c29153faceb0c59a3be31b274f7e21b43953a"
+    },
+    {
+      "bytes": 4685,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d_offset.json",
+      "sha256": "7c8103cc4ba24818969b658e893bd2df67fd184c26188a6868a5480dd6eb1085"
+    },
+    {
+      "bytes": 5080,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_anchors32.json",
+      "sha256": "760e246a0e8ad1a4910b223fe2a3b5abe4ce5a8f2c3cdc658e15a47e08374ba8"
+    },
+    {
+      "bytes": 5107,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_anchors8.json",
+      "sha256": "707026b641149916c81d92e8386f345365169f22f1aa08091e49d7be6d938567"
+    },
+    {
+      "bytes": 6312,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors1_nogate.json",
+      "sha256": "c8674f047dc3cc687aa55be23d0b01bb1d07d820c8db4ab274bce079fb628f2b"
+    },
+    {
+      "bytes": 6398,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors2.json",
+      "sha256": "a72583a26d8485480f11e098bce5df4a9ae5646861dc5772eb7a2da2dc372491"
+    },
+    {
+      "bytes": 6358,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors2_nogate.json",
+      "sha256": "14b87b9658b9f2b19d48d7ec297c6f260a62979fcd21f0e0d2975a8bb2c71eb3"
+    },
+    {
+      "bytes": 6634,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors3.json",
+      "sha256": "dde3d628cb4f75a7fff57e101a2dcd4098b9a835f6be253174b56401ced697b3"
+    },
+    {
+      "bytes": 45852,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_block1.json",
+      "sha256": "2f7e8ccb182ef9b149733f006a3d2ed774dd42e0c4300eefdaa0dbe94554004d"
+    },
+    {
+      "bytes": 22166,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_block1_highred.json",
+      "sha256": "8442eb24392ae2eeab124a664f79180f5d35baa46871c389bc9719f505f27a91"
+    },
+    {
+      "bytes": 29850,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_search.json",
+      "sha256": "cbbb1a30a9b0d3ce731428e773fb09212dea8b7b3ac8e12817a4b1d49ab47981"
+    },
+    {
+      "bytes": 6338,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_crop_globalanchors9.json",
+      "sha256": "6127047b4c930aa7cbf9a0fb2a039d672bd3b9e99927375030dd7d800eab1fb5"
+    },
+    {
+      "bytes": 22428,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_mass_ablation.json",
+      "sha256": "919d45c5785171ac5654e11949be0e06339bf9ad5e9c778e0f43c241c7560ca4"
+    },
+    {
+      "bytes": 198023,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_stress.json",
+      "sha256": "2a3fe87c5ea8b06326d7c92b91b84cb76a9dd3cf75acd30d21116307fe201b32"
+    },
+    {
+      "bytes": 218162,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_distribution_sampler_probe_k128_symbolcrc_stress.json",
+      "sha256": "a9a31c1de12c4cb0140a32e2c80ffd5391ee71c95c43c59bc2173be52e47f421"
+    },
+    {
+      "bytes": 12075,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_final_ablation_suite.json",
+      "sha256": "ed303ee908e33d29038706d7d72da97b4f1be5da0d7fdb85993b7b14d04c3694"
+    },
+    {
+      "bytes": 12561,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_final_gate.json",
+      "sha256": "9251f0f1675d6060073fae781ba747e8a6a8b751f99ec122eaf1751d3d0b0601"
+    },
+    {
+      "bytes": 80193,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_learned_patch_vq_k128_crop_100.json",
+      "sha256": "b45d89ad985c570bfe27b3e98b33311f1664ec9395149f9bd3a174164e62c57c"
+    },
+    {
+      "bytes": 1132599,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_learned_patch_vq_k128_recovery_100.json",
+      "sha256": "48365843761e0ebeb1f76f0bdff5d2011372e7f5bf382ec75e0669f64358ad1b"
+    },
+    {
+      "bytes": 1134560,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_learned_patch_vq_k128_recovery_100_random.json",
+      "sha256": "1bf81fea8a235b878ea2b816f17fa8b9acd39d96357c384eb865b4bded565c45"
+    },
+    {
+      "bytes": 146465,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_learned_patch_vq_k128_stability_100.json",
+      "sha256": "841ca43fb48e62a44326e5973bd8c9d1d0f6a53566b2d5afd5fa73ca0d264d03"
+    },
+    {
+      "bytes": 2303,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_readiness_gate_first5.json",
+      "sha256": "175da2ad32566cafc58cb0f42f89ceae7db9a37717f7b16f50feeeeb0e13f59a"
+    },
+    {
+      "bytes": 284,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_diffusion_smoke.json",
+      "sha256": "578ab1a5e89bb9474e5cc8330e82433afb719d5595726621432a155155f2e41b"
+    },
+    {
+      "bytes": 45305,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_diffusion_smoke.png",
+      "sha256": "2b54f914395c194ca6d0def645ea5fc3256945c7c07c988f36714da2b65fe695"
+    },
+    {
+      "bytes": 582,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_deep_steganalysis.json",
+      "sha256": "619d930a1d257975a472ce5e8adf3f5d92b048340a423208e56ea27038fe305e"
+    },
+    {
+      "bytes": 608,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_deep_steganalysis_payload128.json",
+      "sha256": "6523bba6624f4188b01fbc1c80d9f64c70e08bd0a4ece5f6e9c5ed5864e652ff"
+    },
+    {
+      "bytes": 573,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_deep_steganalysis_payload64.json",
+      "sha256": "c443ceed0d62d6d97ab4a7b01e687951a1fc648db9d325bf710d671c75af5339"
+    },
+    {
+      "bytes": 10559,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe.json",
+      "sha256": "ba4e423f5ff1946581af6c21b505bbaff3caf928df26def63c4299d75a19e333"
+    },
+    {
+      "bytes": 10268,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_128px.json",
+      "sha256": "5a7616935812f2e8e06e5ec09410bdb52b742a6ac37eb848a5a3e43484abfbb3"
+    },
+    {
+      "bytes": 10261,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_compvis_payload16.json",
+      "sha256": "5e72439763c112175de4b0fccec9e0e1e186dd72824c2a3629f0b14ce4a2e128"
+    },
+    {
+      "bytes": 5043,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_compvis_smoke.json",
+      "sha256": "ab0df628e2654b6e38465aa2bb4ad63e91c6bc015da0ea511ca82ac76dafb42e"
+    },
+    {
+      "bytes": 9815,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_drop_attacks.json",
+      "sha256": "27c0422144bea354f512d2ebd7ef965dd5d30dfc7ef47c7d1cda50ab8f231ccc"
+    },
+    {
+      "bytes": 10598,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_hard_attacks.json",
+      "sha256": "270dff6e40577856021ca547a0e8755b3195513488d0731840d5e27b8e2a3a45"
+    },
+    {
+      "bytes": 15111,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload128_multiseed.json",
+      "sha256": "49be2f8e786b5ab2a53ace9c7aef256b36ff7fab8da5359157fafe9260e0a9a0"
+    },
+    {
+      "bytes": 9942,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload32_grouped.json",
+      "sha256": "ed24a0c371bd9801325ae85efbab5e709c81b7c9605d38e7ebd37986c352efff"
+    },
+    {
+      "bytes": 9918,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload32_grouped_overhead3.json",
+      "sha256": "74bf0433b748eca5b03a634a23f7f12e3d33393ed5f1e3fd7e2f3c380fd4c2ad"
+    },
+    {
+      "bytes": 9859,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload32_mcell2.json",
+      "sha256": "f67b26d3b314f3e01abb8c63f92aff89c58ce2bf76a874c08b8fd0cd142e155b"
+    },
+    {
+      "bytes": 14896,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload32_multiseed.json",
+      "sha256": "e37f26839e2048cd5cb8599c3cd5c32e62f080cbb23b2ebfd0a5cc0377e3be20"
+    },
+    {
+      "bytes": 15071,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload64_multiseed.json",
+      "sha256": "1ed848d3bf6575f026114828700d00f9174b55872fc21b24b3dbd04c289c10d1"
+    },
+    {
+      "bytes": 9809,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_payload8.json",
+      "sha256": "8ca45456925cf309fd894be5b72bbd8ca725b3ebf561bb2fc2dfea6e255e2292"
+    },
+    {
+      "bytes": 5034,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_smoke_multiseed.json",
+      "sha256": "d76e64795387e65bc74bbacd22a323809666b65fcffe5355340735fda514e4af"
+    },
+    {
+      "bytes": 3509,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_probe_smoke_symbols1.json",
+      "sha256": "60f28b1a6da30792b51621a3fdccdeb373648df0cde93d455162abfba59d2b45"
+    },
+    {
+      "bytes": 4712,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample.png",
+      "sha256": "7b810f87dc5ada1225d09c53e5269aabcf559d4db3e1381ba9c942430d9d7ea0"
+    },
+    {
+      "bytes": 18757,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "sha256": "e319ddb2f31d39bbd486d7356be1cdfefeb7280859e79e65f565a6aa9f6ea23e"
+    },
+    {
+      "bytes": 7406,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_compvis_payload16.png",
+      "sha256": "bed591708ee96d4a02497d7a5aba7dfbac86be8f9e104250442318193e4efbd8"
+    },
+    {
+      "bytes": 5019,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_compvis_smoke.png",
+      "sha256": "c7164730f358cd34449de37601eb3f9325dcc1cf8a0f8d5361306e79080562e9"
+    },
+    {
+      "bytes": 4712,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_drop_attacks.png",
+      "sha256": "7b810f87dc5ada1225d09c53e5269aabcf559d4db3e1381ba9c942430d9d7ea0"
+    },
+    {
+      "bytes": 4712,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_hard_attacks.png",
+      "sha256": "7b810f87dc5ada1225d09c53e5269aabcf559d4db3e1381ba9c942430d9d7ea0"
+    },
+    {
+      "bytes": 7132,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_00_real-vqgan-128-a.png",
+      "sha256": "ac1e67378277a278fc9787f5dad958772e4d580e9f3b6604d09da86ed213e95c"
+    },
+    {
+      "bytes": 7124,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_01_real-vqgan-128-b.png",
+      "sha256": "346592a025c6dbd85b02d0f4668e30d9a03cfe6236ac8665cb41468bfbbe2252"
+    },
+    {
+      "bytes": 7156,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_02_real-vqgan-128-c.png",
+      "sha256": "c40f6ca0ecff1555703ac6347814df0217fc80216a2fe310e3bd251412e9a73e"
+    },
+    {
+      "bytes": 6639,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_grouped.png",
+      "sha256": "89e058a741262f57ff371b515f3584c21da256fbe14a1b71d0b2780ed3d83f89"
+    },
+    {
+      "bytes": 6639,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_grouped_overhead3.png",
+      "sha256": "89e058a741262f57ff371b515f3584c21da256fbe14a1b71d0b2780ed3d83f89"
+    },
+    {
+      "bytes": 6635,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_mcell2.png",
+      "sha256": "97a193f6e1da5f56f713e2675e66ca4141498a47c1b8ddb55a4a5c0ab7679eb1"
+    },
+    {
+      "bytes": 7587,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_multiseed_00_real-vqgan-test-a.png",
+      "sha256": "9a03e772c56d42644629437310e7259170d26b80194a73b4c69e1abffe8ee2d0"
+    },
+    {
+      "bytes": 7307,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_multiseed_01_real-vqgan-test-b.png",
+      "sha256": "e16fd24576fd03e37c25d844781a04503d20695f75bf0b137e4906c35822478c"
+    },
+    {
+      "bytes": 6787,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload32_multiseed_02_real-vqgan-test-c.png",
+      "sha256": "9f3f736d50a3f46cac96b60ad80d8564005fb753199c5d03481b616c6caa7b4f"
+    },
+    {
+      "bytes": 7019,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload64_multiseed_00_real-vqgan-64-a.png",
+      "sha256": "89adb0f5110119c23a54a657be9172714fb806e5aa9512e778c0d6bd5008b54e"
+    },
+    {
+      "bytes": 7441,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload64_multiseed_01_real-vqgan-64-b.png",
+      "sha256": "cd6e91585818c908ff056f23b351303c84fcf4aadb76aa3bef382e3d31f28d91"
+    },
+    {
+      "bytes": 6804,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload64_multiseed_02_real-vqgan-64-c.png",
+      "sha256": "5cd666ee88d8d7890b5ae83addd28742cdbd4353c2a0a46b3e0522d7e302a826"
+    },
+    {
+      "bytes": 4712,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload8.png",
+      "sha256": "7b810f87dc5ada1225d09c53e5269aabcf559d4db3e1381ba9c942430d9d7ea0"
+    },
+    {
+      "bytes": 5111,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_smoke_multiseed_00_seed-a.png",
+      "sha256": "18add67a7f32886b6a58602075c180dcce6d4bce498021cbb494cd7d9ee9941e"
+    },
+    {
+      "bytes": 5121,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_smoke_multiseed_01_seed-b.png",
+      "sha256": "b3ebde2b556b7bf2c3b9adcfa75f1f4955c233939676e8e3c5a4997b4502b867"
+    },
+    {
+      "bytes": 4633,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_smoke_symbols1.png",
+      "sha256": "e7378616c023011aab2a2f2ff18e7f752272b05139f291f5954452942dbcb091"
+    },
+    {
+      "bytes": 859,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_quality_security.json",
+      "sha256": "e158f3380a523301d7a1393f7d092f41bc668f73e3a18c8ad13693fd2cc4e632"
+    },
+    {
+      "bytes": 885,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_quality_security_payload128.json",
+      "sha256": "b22fdd60e660ecb9267451b038bcdf5f02cd7443a3538027fe9e4cb64020b4d5"
+    },
+    {
+      "bytes": 868,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_quality_security_payload64.json",
+      "sha256": "49a38e3ed005fee96d8e735fad9617fe60ea3f9045144297a6773f7a8109fc61"
+    },
+    {
+      "bytes": 877,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_spam_steganalysis.json",
+      "sha256": "402d7998627260d3a8ccd0af664114dfb01997cdee0e178bab7385d0088e6ecc"
+    },
+    {
+      "bytes": 816,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_spam_steganalysis_payload128_seed1.json",
+      "sha256": "78cee279636318eceaf84239f033c50d4d007d8c41aedbd385558247410e9f49"
+    },
+    {
+      "bytes": 860,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_spam_steganalysis_payload64.json",
+      "sha256": "1010730cb06b8def59b1ab677aa36c9a95193f540343e8b09d6283124f26663e"
+    },
+    {
+      "bytes": 1117,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_srm_steganalysis_payload64.json",
+      "sha256": "e3a7f3369bf5f36fcbdee0adc1feef28154e1d8516065fffe7da89689d9f8a7f"
+    },
+    {
+      "bytes": 261,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqmodel_smoke.json",
+      "sha256": "96dfd8e6b106610525f3c6dc89ab3315898a91f022eb5c444dfa51fdf5105101"
+    },
+    {
+      "bytes": 6190,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqmodel_smoke.png",
+      "sha256": "21f0e82a99a1f8c5cb103682f42e00469bd029e6d79fd901d2460240cb9fd8ad"
+    },
+    {
+      "bytes": 50536,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_reproducibility_manifest.json",
+      "sha256": "13e1aac043ddec3c3bb07a20a4de9de3e93db159566b38b1d257a15ca3a84c23"
+    },
+    {
+      "bytes": 5337,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_scale_quality_security_probe_1000x3.json",
+      "sha256": "ea944f2632286e73043f3117c1aeef224162442b021e9acc1897deae275c26ba"
+    },
+    {
+      "bytes": 262775,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_synthetic_stage0.json",
+      "sha256": "0d1d613ae6f15948703321174a3dd027613fc4a3930caa9aa7fe43a0e2df20f6"
+    },
+    {
+      "bytes": 58215,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_token_recovery_probe.json",
+      "sha256": "50d55d37f57ede996c5bb84361fc2f0a4136e6b84b9a0b5913240418fd0f1d58"
+    },
+    {
+      "bytes": 60176,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_token_recovery_probe_random.json",
+      "sha256": "a20637707973e4eaecca6c207770a35e3b2f9bf6213aec5552e864801d27dcb0"
+    },
+    {
+      "bytes": 1836563,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_token_stability_bossbase_1000.json",
+      "sha256": "c9cb0abec5fc33cc1b4029b9c11e0d34ce602ef20de43f5f6b24e517daa43956"
+    },
+    {
+      "bytes": 1872232,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_token_stability_localraw_1000.json",
+      "sha256": "30012ee947a8d3b4f3e947522ac5e5ebb834fb540fee7cc5702b20a89460d4ef"
+    },
+    {
+      "bytes": 7135,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_token_stability_stage1.json",
+      "sha256": "91086d27de72c420153e220228c365a36b135e1de7c7549ee450ff5b8c1bb586"
+    },
+    {
+      "bytes": 12561,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_verification_report.json",
+      "sha256": "9251f0f1675d6060073fae781ba747e8a6a8b751f99ec122eaf1751d3d0b0601"
+    },
+    {
+      "bytes": 1030,
+      "path": "05_artifacts\\results\\tables\\dct_spread_baseline.csv",
+      "sha256": "e128bd68b7a67b9b9a68852a3e0d230b78f25bc0275320e516e7d77497ee5361"
+    },
+    {
+      "bytes": 1300,
+      "path": "05_artifacts\\results\\tables\\hidden_baseline_smoke.csv",
+      "sha256": "57c210f7ed3400d93e895a6e814411e481e1b671e6f2d69ec6827fb73ed5c546"
+    },
+    {
+      "bytes": 985,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_anchor_security_naive_256.csv",
+      "sha256": "18d68fdbd3e1fdcb82827d5b43b5665bc3b9a7408335028b541ab34c4e7f1fbb"
+    },
+    {
+      "bytes": 976,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_anchor_security_projection_256.csv",
+      "sha256": "b2ed17583726fcecffd5f3ad0631c01ccba063acd9faa716271dcefd59770577"
+    },
+    {
+      "bytes": 13841,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_combined_attacks.csv",
+      "sha256": "0fc8071900f74ee1ad97e0797de9c91ec2777aa5c00380f0a85ee95ddf9a83d3"
+    },
+    {
+      "bytes": 5279,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_combined_drop25_cost_search.csv",
+      "sha256": "562af981c5ce82f7f85820c0ac1de9acf48415fe9399e3af117c04fe70f18b5f"
+    },
+    {
+      "bytes": 12539,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_cost_search_crop_offset.csv",
+      "sha256": "a6179d2aacbdc3b4d9f71417c010c63afbea0acfeb9a7c2b98f431dc34f04600"
+    },
+    {
+      "bytes": 28171,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128.csv",
+      "sha256": "1843406896813538986e880e7a63843b2ca86289d04f0b873d5ee867a9ac9868"
+    },
+    {
+      "bytes": 25483,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_center_margin2.csv",
+      "sha256": "90dc7f0a14209ff6167564fba8195e5516f671708bbe3945771b3439b1b6452d"
+    },
+    {
+      "bytes": 1305,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors16.csv",
+      "sha256": "657d192bda226e992625745ae5fb8863fbf4a970e4c030a3963768f2b4ea5c47"
+    },
+    {
+      "bytes": 1353,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d.csv",
+      "sha256": "dc986a29c83e08cf852808ba486b9733de1e6b2937874296c679332f335934e0"
+    },
+    {
+      "bytes": 1402,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d_offset.csv",
+      "sha256": "6661cad5b092726e25ad087e51b57f49cb87a37f13c713590f5027fbbbc34cf6"
+    },
+    {
+      "bytes": 1303,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors32.csv",
+      "sha256": "b9882d92219072044b5eb7befe7aebce910f7c9eadb7834703e2f34059b89113"
+    },
+    {
+      "bytes": 1330,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors8.csv",
+      "sha256": "949e331718b4144e629d059686d5c350a67d179960f5e1f85d95485568b1bd1e"
+    },
+    {
+      "bytes": 1530,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors1_nogate.csv",
+      "sha256": "daeef73597a737d7d860bf7f3b02f15930d1be10a77755860d47860c33884982"
+    },
+    {
+      "bytes": 1616,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors2.csv",
+      "sha256": "74f4453c4d0ab740778a9cfb0567db57f8d7185bd4fa35a49e14f1debd12edcb"
+    },
+    {
+      "bytes": 1576,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors2_nogate.csv",
+      "sha256": "2f8e82485719ad431bbc635c318f7992dcae88256f30c6ef37c36bc455082552"
+    },
+    {
+      "bytes": 1852,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_blockanchors3.csv",
+      "sha256": "5aa76608f9e521e28cc33ebab7821b35d4903aed942f03c244d8cb8b9505753c"
+    },
+    {
+      "bytes": 9970,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_block1.csv",
+      "sha256": "e024e367fac96a151e38c86e50d5086d9c515e24d3c12dc14f81884a42e9c4ba"
+    },
+    {
+      "bytes": 4404,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_block1_highred.csv",
+      "sha256": "89be6f6e6cf70e9532dc7b32bb83ad5ca495a881210460cc673c860cd745631c"
+    },
+    {
+      "bytes": 6048,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_geometry_search.csv",
+      "sha256": "fe8090f0ce6294477360ec3ebd4a410a4487c5d277118494417140651b054dfa"
+    },
+    {
+      "bytes": 1556,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_globalanchors9.csv",
+      "sha256": "132e790d594b480fa84841efe1617cb1506d2431434fb507b54504520e1db2b9"
+    },
+    {
+      "bytes": 4690,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_mass_ablation.csv",
+      "sha256": "434fd3b15496a196a4e04b2604869eae2422c5b51c3feb77048e390c75fde8fc"
+    },
+    {
+      "bytes": 36285,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_stress.csv",
+      "sha256": "30f4da30e08ba3b50bae40e15d3f3fd4f7332756b3e3b4954f79ced9cf798dee"
+    },
+    {
+      "bytes": 35943,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_symbolcrc_stress.csv",
+      "sha256": "5456dcf92449727832ac6a45848af175f8f90bff2a5ae296bc6424f553b20cc7"
+    },
+    {
+      "bytes": 2805,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_final_ablation_suite.csv",
+      "sha256": "bbb056839e1b057c75babe02d3dde4b2b29a3f25849e7fc6aa9b83a00dc938ae"
+    },
+    {
+      "bytes": 8926,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_learned_patch_vq_k128_crop_100.csv",
+      "sha256": "949906242af6756c991a7e733b4394b4837a97334091e96ece806ae8c08805ab"
+    },
+    {
+      "bytes": 4565,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_learned_patch_vq_k128_recovery_100.csv",
+      "sha256": "46d3bc1764e50fbfff437e305b4d87cd1a229011af3a1fd039f9b86cc1cf323f"
+    },
+    {
+      "bytes": 6526,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_learned_patch_vq_k128_recovery_100_random.csv",
+      "sha256": "2fa0ea224d53060a768d90a1290516d5b2fab0a94105f0f9c7efb0cf42f8c6ca"
+    },
+    {
+      "bytes": 11591,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_learned_patch_vq_k128_stability_100.csv",
+      "sha256": "641d01f71839e7b527d75d3a81fa96799c54c072024b85b0ff409757b160554d"
+    },
+    {
+      "bytes": 270,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis.csv",
+      "sha256": "b3744e4637c8b0955904b5cf70349deaf223906ca86fcf5ee87cce4872e8bfad"
+    },
+    {
+      "bytes": 281,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis_payload128.csv",
+      "sha256": "3163611b95b8495fbf67d48b97bf7a6076eb892f674a2e48bd5cf791934b70b8"
+    },
+    {
+      "bytes": 270,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_deep_steganalysis_payload64.csv",
+      "sha256": "a17bb4e63217cf1364414ef4d84bbe86e5dfec078cbc4e41760ee5b71b0d7890"
+    },
+    {
+      "bytes": 990,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe.csv",
+      "sha256": "f6d0f54f24fce1fa4783633158835a67fd3a553cac9459bc49cc258258d25351"
+    },
+    {
+      "bytes": 1037,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_128px.csv",
+      "sha256": "7117b53156ad4302d0c4657a81a381d3336936dd6147e87e8033fc988f12746f"
+    },
+    {
+      "bytes": 1010,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_compvis_payload16.csv",
+      "sha256": "54c5ab9eff4b545057a112660274b77cdd63e3cd6215638320c22aeda766db90"
+    },
+    {
+      "bytes": 962,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_compvis_smoke.csv",
+      "sha256": "feb797df64c547b6a327143dad027ebd8b074c21f00156d63625e42ad3bd5a1f"
+    },
+    {
+      "bytes": 865,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_drop_attacks.csv",
+      "sha256": "ae1b2566c2bc94988497ddaba7acfe0f024c30c90b944c13334083bd4a4d4f1b"
+    },
+    {
+      "bytes": 1029,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_hard_attacks.csv",
+      "sha256": "043b7215f4fd5367601c2f51afce4cb476681b903b2d8d1297ce5a565452e691"
+    },
+    {
+      "bytes": 2365,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload128_multiseed.csv",
+      "sha256": "2a25c5020398fa3eedc52c8ed785311580b375387938b713d31aa4f5233cb604"
+    },
+    {
+      "bytes": 952,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload32_grouped.csv",
+      "sha256": "40ecb5ebce0c2e89833852c3ea933ac026975e00785bfb93b9d4cfda0640f4e2"
+    },
+    {
+      "bytes": 928,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload32_grouped_overhead3.csv",
+      "sha256": "f065657cc72b96ed700cea617b39de9d8ed7836984ba25db93a4bd9e68076fb3"
+    },
+    {
+      "bytes": 909,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload32_mcell2.csv",
+      "sha256": "48bb26597f0790565fd600217f967729afb997affe39121209c5ee42889e5fd7"
+    },
+    {
+      "bytes": 2305,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload32_multiseed.csv",
+      "sha256": "8d85508e1d882ed307751f63a69e4bec74255ae3d7212b9aa2f27e1b0c5c058f"
+    },
+    {
+      "bytes": 2328,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload64_multiseed.csv",
+      "sha256": "bebc211a09ef7028a9c06b045cc92145e09bf9c8bc288be4d476fd19547b89c3"
+    },
+    {
+      "bytes": 859,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_payload8.csv",
+      "sha256": "eb6fc0f6139d0ea0f674a83dba41b0e58d03d4e5bb77f32feebcd61a1cdb9b3f"
+    },
+    {
+      "bytes": 986,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_smoke_multiseed.csv",
+      "sha256": "64fefa0d9b61507881a7a073ed15e44ea576c73784c856a555c27f892386f9cd"
+    },
+    {
+      "bytes": 644,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_payload_probe_smoke_symbols1.csv",
+      "sha256": "babdec0e9b568c9d328797c3d488c075d50cdb513101533f1aad43642745559c"
+    },
+    {
+      "bytes": 406,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security.csv",
+      "sha256": "096832060286fe5139accb026189c129bb8f1cbd7335d25ab2c2c4c673b5d028"
+    },
+    {
+      "bytes": 427,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security_payload128.csv",
+      "sha256": "899c13614d75ed1afe81397275019f2aab1530a18cc67f59ebf2ff6fdf5e59d5"
+    },
+    {
+      "bytes": 425,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_quality_security_payload64.csv",
+      "sha256": "9d60dc7507d6f95459ff42ec06b758272f5ddbef45292353cc4cdc20642eec5e"
+    },
+    {
+      "bytes": 423,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis.csv",
+      "sha256": "0666f2d4f2ec7e8ec0b5916cf106e5174ff9c361cd71b984a3250833a95ee960"
+    },
+    {
+      "bytes": 424,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis_payload128_seed1.csv",
+      "sha256": "53c18016830b3c718761e5ad8cff245ec7f9557aa9a81471a004cd440ec9323f"
+    },
+    {
+      "bytes": 424,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_spam_steganalysis_payload64.csv",
+      "sha256": "e69ebce3e2eb059561234fc63afcafcdcd88c333cd06ad897b396f20231bbaac"
+    },
+    {
+      "bytes": 522,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_real_vqgan_srm_steganalysis_payload64.csv",
+      "sha256": "bb19c6fc80edbd00af0755378e9c6c842d54d5a7288dc9e25d45a5ff5147fc8a"
+    },
+    {
+      "bytes": 1586,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_scale_quality_security_probe_1000x3.csv",
+      "sha256": "8e15dc589afa3406952c29707a1ec1189add3af17ed8720fc5b9215bdc6894c6"
+    },
+    {
+      "bytes": 1761,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_synthetic_stage0.csv",
+      "sha256": "37966c45bbd841fb218b392afbf3167ae32b76749f518875b874cdc782349ec1"
+    },
+    {
+      "bytes": 4565,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_recovery_probe.csv",
+      "sha256": "46d3bc1764e50fbfff437e305b4d87cd1a229011af3a1fd039f9b86cc1cf323f"
+    },
+    {
+      "bytes": 6526,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_recovery_probe_random.csv",
+      "sha256": "800a42d24c8f325676c9463d77103294299e0f5f8ba8c4c915ba28a14893a276"
+    },
+    {
+      "bytes": 127548,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_stability_bossbase_1000.csv",
+      "sha256": "fe8b1a36012f967e0f8743b1ca754dc65d518e6475de7e435d740e31a8fb2b5c"
+    },
+    {
+      "bytes": 131893,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_stability_localraw_1000.csv",
+      "sha256": "29f9bfd0678a30c9250c86abaf81d8fd224dc96e084dd604b8383d1bef27b719"
+    },
+    {
+      "bytes": 861,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_stability_stage1.csv",
+      "sha256": "a82da49842adaff98ef4df8daa00cf1428a9c5862384431c07a65287941c3258"
+    },
+    {
+      "bytes": 507,
+      "path": "paper_vq_fountain\\highlights.txt",
+      "sha256": "2ee9bc6d1d8845af01bfd4401d5e040c56ca61369ce3ee18b8860b6e81896508"
+    },
+    {
+      "bytes": 27820,
+      "path": "paper_vq_fountain\\main.tex",
+      "sha256": "5c6dd93d7ada9cd3f37a3b69d13258ec75e41fbfa001e32a4197396f344b60d2"
+    },
+    {
+      "bytes": 3677,
+      "path": "paper_vq_fountain\\references.bib",
+      "sha256": "57c98045f8c4f365c7f9818a2fbb0e92d4b82ebc446540b80e805747c8f1c5b3"
+    },
+    {
+      "bytes": 7684,
+      "path": "tools\\audit_public_baselines.py",
+      "sha256": "e312610ed7afcc819904cef5fa3d2e320f69550f23576cca1037647cab6438f9"
+    },
+    {
+      "bytes": 23793,
+      "path": "tools\\check_vq_fountain_final_gate.py",
+      "sha256": "21cbf163cb504a053ea8203ffa1707b101a6e5c60ae35b085c9106daf6bee98d"
+    },
+    {
+      "bytes": 5540,
+      "path": "tools\\check_vq_fountain_readiness.py",
+      "sha256": "e2623c703cb612bc4434184af96bb2586c1567ac875c30b8be50cdd736b9c08c"
+    },
+    {
+      "bytes": 5875,
+      "path": "tools\\convert_vqgan_f4_checkpoint.py",
+      "sha256": "0d23b001bd4a6e4de464478f16ad20f49c062351279e6f3054fc24a2e31b547a"
+    },
+    {
+      "bytes": 4474,
+      "path": "tools\\freeze_vq_fountain_manifest.py",
+      "sha256": "56818963636ab3197d19b5d8b0e32a099471f5940b16b641f5df8aa7dcc7bfe2"
+    }
+  ],
+  "patterns": [
+    "paper_vq_fountain/main.tex",
+    "paper_vq_fountain/references.bib",
+    "paper_vq_fountain/highlights.txt",
+    "05_artifacts/code/vq_fountain/**/*.py",
+    "05_artifacts/code/vq_fountain/README.md",
+    "05_artifacts/code/vq_fountain/requirements-real-model.txt",
+    "05_artifacts/models/vqgan_f4_8192_diffusers_converted/**/*",
+    "05_artifacts/results/tables/vq_fountain*.csv",
+    "05_artifacts/results/raw/vq_fountain*.json",
+    "05_artifacts/results/raw/vq_fountain*.png",
+    "05_artifacts/results/tables/hidden_baseline_smoke.csv",
+    "05_artifacts/results/raw/hidden_baseline_smoke.json",
+    "05_artifacts/results/tables/dct_spread_baseline.csv",
+    "05_artifacts/results/raw/dct_spread_baseline.json",
+    "05_artifacts/baselines/baseline_execution_audit.json",
+    "04_experiments/results/vq_fountain*.md",
+    "01_references/public_baselines_vq_fountain.md",
+    "01_references/primary/verified_references.md",
+    "tools/audit_public_baselines.py",
+    "tools/check_vq_fountain_*.py",
+    "tools/convert_vqgan_f4_checkpoint.py",
+    "tools/freeze_vq_fountain_manifest.py"
+  ],
+  "root": "C:\\Users\\User\\Documents\\Articles\\NGEH ANNA"
+}

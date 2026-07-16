@@ -1,0 +1,368 @@
+{
+  "calibration_summary": {
+    "best_by_value": {
+      "0": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 461,
+          "unique_received_tokens": 47
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 513,
+          "unique_received_tokens": 15
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 997,
+          "unique_received_tokens": 44
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1044,
+          "unique_received_tokens": 17
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1095,
+          "unique_received_tokens": 19
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1738,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1967,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2174,
+          "unique_received_tokens": 41
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3195,
+          "unique_received_tokens": 22
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 3253,
+          "unique_received_tokens": 47
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3337,
+          "unique_received_tokens": 31
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 3457,
+          "unique_received_tokens": 38
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3914,
+          "unique_received_tokens": 20
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4047,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4114,
+          "unique_received_tokens": 21
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4189,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4336,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4936,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5021,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 5489,
+          "unique_received_tokens": 44
+        }
+      ],
+      "1": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 686,
+          "unique_received_tokens": 49
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1145,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1652,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2050,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2450,
+          "unique_received_tokens": 21
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2714,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4909,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6377,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6471,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6752,
+          "unique_received_tokens": 14
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6780,
+          "unique_received_tokens": 35
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6803,
+          "unique_received_tokens": 17
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 7921,
+          "unique_received_tokens": 42
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6259,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 6745,
+          "unique_received_tokens": 44
+        },
+        {
+          "majority_fraction": 0.976562,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4243,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 0.976562,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7741,
+          "unique_received_tokens": 42
+        },
+        {
+          "majority_fraction": 0.972656,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1330,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 0.957031,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7612,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 0.945312,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 476,
+          "unique_received_tokens": 44
+        }
+      ]
+    },
+    "calibration_seed": "compvis-vqvae-calibration-v1",
+    "count": 256,
+    "stable_pool_0": 50,
+    "stable_pool_1": 23,
+    "test_seeds": [
+      "compvis-vqvae-test-a"
+    ],
+    "threshold": 0.9
+  },
+  "rows": [
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "compvis-vqvae-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 1,
+      "crc_valid_symbols": 111,
+      "dropped_images": 0,
+      "encoded_symbols": 112,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 111,
+      "failure": "",
+      "image_count": 14,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "CompVis/ldm-celebahq-256",
+      "model_subfolder": "vqvae",
+      "overhead": 3.0,
+      "packet_bytes": 28,
+      "payload_bytes": 16,
+      "payload_seed": "compvis-vqvae-test-a",
+      "recovered_symbols": 112,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_compvis_payload16.png",
+      "source_symbols": 28,
+      "stable_pool_0": 50,
+      "stable_pool_1": 23,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.0,
+      "value_match_rate": 0.998884
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "compvis-vqvae-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 67,
+      "crc_valid_symbols": 37,
+      "dropped_images": 1,
+      "encoded_symbols": 112,
+      "erased_symbols": 8,
+      "exact_recovery": true,
+      "exact_symbols": 37,
+      "failure": "",
+      "image_count": 14,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "CompVis/ldm-celebahq-256",
+      "model_subfolder": "vqvae",
+      "overhead": 3.0,
+      "packet_bytes": 28,
+      "payload_bytes": 16,
+      "payload_seed": "compvis-vqvae-test-a",
+      "recovered_symbols": 104,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_compvis_payload16.png",
+      "source_symbols": 28,
+      "stable_pool_0": 50,
+      "stable_pool_1": 23,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.0003,
+      "value_match_rate": 0.879808
+    }
+  ]
+}

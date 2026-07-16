@@ -1,0 +1,356 @@
+{
+  "calibration_summary": {
+    "best_by_value": {
+      "0": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 655,
+          "unique_received_tokens": 28
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 746,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 751,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 940,
+          "unique_received_tokens": 20
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1486,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1757,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 1931,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2011,
+          "unique_received_tokens": 17
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 2255,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 2322,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2324,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2606,
+          "unique_received_tokens": 23
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2903,
+          "unique_received_tokens": 25
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3208,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3295,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3390,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3945,
+          "unique_received_tokens": 22
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3992,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 4080,
+          "unique_received_tokens": 41
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4225,
+          "unique_received_tokens": 33
+        }
+      ],
+      "1": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 448,
+          "unique_received_tokens": 25
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1458,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1900,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2047,
+          "unique_received_tokens": 26
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 2155,
+          "unique_received_tokens": 35
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2642,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2884,
+          "unique_received_tokens": 28
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3145,
+          "unique_received_tokens": 19
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3275,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3339,
+          "unique_received_tokens": 23
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 5503,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 5845,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6539,
+          "unique_received_tokens": 25
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6642,
+          "unique_received_tokens": 41
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6870,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7053,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7746,
+          "unique_received_tokens": 23
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 8157,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2194,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4530,
+          "unique_received_tokens": 43
+        }
+      ]
+    },
+    "count": 256,
+    "stable_pool_0": 44,
+    "stable_pool_1": 26,
+    "threshold": 0.9
+  },
+  "rows": [
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 2,
+      "calibration_count": 256,
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 0,
+      "crc_valid_symbols": 30,
+      "dropped_images": 0,
+      "encoded_symbols": 30,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 30,
+      "failure": "",
+      "image_count": 30,
+      "latent_side": 16,
+      "macro_cell_size": 4,
+      "macro_cells_per_image": 16,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "overhead": 2.0,
+      "packet_bytes": 20,
+      "payload_bytes": 8,
+      "recovered_symbols": 30,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload8.png",
+      "source_symbols": 10,
+      "stable_pool_0": 44,
+      "stable_pool_1": 26,
+      "token_match_rate": 0.00013,
+      "value_match_rate": 1.0
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 2,
+      "calibration_count": 256,
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 0,
+      "crc_valid_symbols": 20,
+      "dropped_images": 10,
+      "encoded_symbols": 30,
+      "erased_symbols": 10,
+      "exact_recovery": true,
+      "exact_symbols": 20,
+      "failure": "",
+      "image_count": 30,
+      "latent_side": 16,
+      "macro_cell_size": 4,
+      "macro_cells_per_image": 16,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "overhead": 2.0,
+      "packet_bytes": 20,
+      "payload_bytes": 8,
+      "recovered_symbols": 20,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload8.png",
+      "source_symbols": 10,
+      "stable_pool_0": 44,
+      "stable_pool_1": 26,
+      "token_match_rate": 0.001172,
+      "value_match_rate": 1.0
+    }
+  ]
+}

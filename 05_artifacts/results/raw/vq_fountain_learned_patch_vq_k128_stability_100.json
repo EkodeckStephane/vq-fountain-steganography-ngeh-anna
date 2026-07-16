@@ -1,0 +1,5383 @@
+{
+  "aggregate": [
+    {
+      "attacks": "blur1",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 6.71,
+      "mean_token_match_rate": 0.973789,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 0.0,
+      "mean_token_match_rate": 1.0,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "jpeg85",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 2.19,
+      "mean_token_match_rate": 0.991445,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "noise002",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 2.85,
+      "mean_token_match_rate": 0.988867,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "resize075",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 0.89,
+      "mean_token_match_rate": 0.996524,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "learned-patch-vq"
+    }
+  ],
+  "attacks": [
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000470173.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000470173.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000470173.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 11,
+      "image": "000000470173.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.957031,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000470173.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000074733.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000074733.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000074733.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000074733.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000074733.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000125806.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000125806.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000125806.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000125806.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000125806.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000546556.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000546556.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000546556.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 12,
+      "image": "000000546556.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.953125,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000546556.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000109976.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000109976.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000109976.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000109976.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000109976.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000527695.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000527695.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000527695.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000527695.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000527695.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000213816.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000213816.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000213816.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000213816.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000213816.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000377497.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000377497.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000377497.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000377497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000377497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000542089.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000542089.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000542089.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 1,
+      "image": "000000542089.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000542089.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000442463.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000442463.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000442463.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000442463.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000442463.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000173091.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000173091.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000173091.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000173091.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000173091.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000242724.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000242724.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000242724.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000242724.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000242724.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000370900.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000370900.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000370900.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000370900.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000370900.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000396568.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000396568.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000396568.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 2,
+      "image": "000000396568.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000396568.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000240940.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000240940.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000240940.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000240940.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000240940.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000521717.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 5,
+      "image": "000000521717.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000521717.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 2,
+      "image": "000000521717.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000521717.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000235857.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000235857.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000235857.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000235857.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000235857.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000368038.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 8,
+      "image": "000000368038.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000368038.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000368038.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000368038.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000080666.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000080666.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000080666.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000080666.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000080666.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000557501.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000557501.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000557501.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000557501.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000557501.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000195754.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 8,
+      "image": "000000195754.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000195754.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 15,
+      "image": "000000195754.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.941406,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 9,
+      "image": "000000195754.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000017714.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000017714.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000017714.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 9,
+      "image": "000000017714.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000017714.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000295316.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000295316.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000295316.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000295316.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000295316.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000309452.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000309452.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000309452.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000309452.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000309452.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000395180.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000395180.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000395180.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000395180.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000395180.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000376322.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000376322.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000376322.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000376322.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000376322.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000184791.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000184791.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000184791.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000184791.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000184791.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000553221.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000553221.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000553221.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000553221.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000553221.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000496722.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000496722.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000496722.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000496722.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000496722.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000172396.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 6,
+      "image": "000000172396.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000172396.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000172396.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 7,
+      "image": "000000172396.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000236592.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000236592.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000236592.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 9,
+      "image": "000000236592.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000236592.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000192191.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 5,
+      "image": "000000192191.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000192191.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 12,
+      "image": "000000192191.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.953125,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000192191.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000258541.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000258541.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000258541.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000258541.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000258541.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000027982.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000027982.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000027982.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 12,
+      "image": "000000027982.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.953125,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000027982.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000177489.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000177489.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000177489.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000177489.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000177489.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000085911.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000085911.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000085911.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000085911.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000085911.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000214753.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000214753.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000214753.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000214753.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000214753.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000526197.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000526197.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000526197.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000526197.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000526197.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000091500.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000091500.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000091500.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000091500.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000091500.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000111207.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000111207.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000111207.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000111207.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000111207.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000133233.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000133233.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000133233.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000133233.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000133233.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000328238.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 8,
+      "image": "000000328238.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000328238.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000328238.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000328238.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000287527.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000287527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000287527.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000287527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000287527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000060899.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000060899.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000060899.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 11,
+      "image": "000000060899.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.957031,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000060899.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000283412.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000283412.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000283412.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000283412.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000283412.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000229753.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000229753.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000229753.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 1,
+      "image": "000000229753.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 22,
+      "image": "000000229753.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.914062,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000118209.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000118209.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000118209.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000118209.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000118209.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000419201.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000419201.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000419201.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 13,
+      "image": "000000419201.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.949219,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000419201.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000416104.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000416104.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000416104.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000416104.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000416104.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000243626.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000243626.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000243626.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000243626.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000243626.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000511999.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000511999.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000511999.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000511999.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000511999.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000031269.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000031269.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000031269.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000031269.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000031269.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000133343.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 7,
+      "image": "000000133343.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000133343.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000133343.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000133343.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000460682.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000460682.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 6,
+      "image": "000000460682.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 19,
+      "image": "000000460682.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.925781,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000460682.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000474078.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000474078.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000474078.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000474078.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000474078.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000485895.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000485895.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000485895.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000485895.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000485895.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000215644.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000215644.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000215644.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000215644.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000215644.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000475484.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000475484.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000475484.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000475484.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000475484.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000031735.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000031735.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000031735.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 11,
+      "image": "000000031735.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.957031,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000031735.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000414676.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000414676.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000414676.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000414676.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000414676.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000435205.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000435205.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000435205.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000435205.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000435205.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000090956.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000090956.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000090956.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000090956.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000090956.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000317024.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000317024.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000317024.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 13,
+      "image": "000000317024.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.949219,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000317024.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000096549.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000096549.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000096549.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 11,
+      "image": "000000096549.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.957031,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000096549.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000455301.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000455301.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000455301.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000455301.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000455301.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000212166.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000212166.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000212166.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000212166.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000212166.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000480985.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000480985.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 3,
+      "image": "000000480985.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000480985.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000480985.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000579635.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000579635.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000579635.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 2,
+      "image": "000000579635.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000579635.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000055950.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000055950.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000055950.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 9,
+      "image": "000000055950.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000055950.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000067310.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000067310.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000067310.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 12,
+      "image": "000000067310.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.953125,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000067310.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000050943.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000050943.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000050943.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000050943.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000050943.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000399560.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000399560.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000399560.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000399560.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000399560.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000494188.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000494188.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000494188.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 1,
+      "image": "000000494188.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000494188.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000482585.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000482585.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000482585.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000482585.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 7,
+      "image": "000000482585.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000276055.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000276055.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000276055.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000276055.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 6,
+      "image": "000000276055.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000471567.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 6,
+      "image": "000000471567.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000471567.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000471567.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000471567.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000088265.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000088265.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 3,
+      "image": "000000088265.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000088265.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000088265.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000450439.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000450439.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000450439.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 2,
+      "image": "000000450439.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000450439.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000491090.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000491090.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000491090.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000491090.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000491090.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000449661.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000449661.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000449661.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000449661.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000449661.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000540502.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000540502.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000540502.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000540502.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000540502.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000144706.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000144706.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000144706.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000144706.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000144706.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000459662.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000459662.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000459662.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000459662.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000459662.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000475732.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000475732.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000475732.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000475732.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000475732.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000125062.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000125062.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 3,
+      "image": "000000125062.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000125062.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000125062.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000241326.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000241326.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000241326.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 10,
+      "image": "000000241326.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.960938,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000241326.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000501523.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000501523.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000501523.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000501523.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000501523.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000031118.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000031118.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000031118.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 11,
+      "image": "000000031118.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.957031,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000031118.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000561256.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000561256.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000561256.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 4,
+      "image": "000000561256.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 0,
+      "image": "000000561256.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000254016.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000254016.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000254016.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 5,
+      "image": "000000254016.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000254016.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000101420.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000101420.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000101420.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 2,
+      "image": "000000101420.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "000000101420.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000153527.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 7,
+      "image": "000000153527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000153527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 14,
+      "image": "000000153527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.945312,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 9,
+      "image": "000000153527.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000405432.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "000000405432.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000405432.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000405432.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000405432.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000261097.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000261097.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000261097.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 3,
+      "image": "000000261097.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000261097.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000340015.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 0,
+      "image": "000000340015.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000340015.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "000000340015.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000340015.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000521259.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 2,
+      "image": "000000521259.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 0,
+      "image": "000000521259.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "000000521259.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 5,
+      "image": "000000521259.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.980469,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000349837.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 4,
+      "image": "000000349837.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000349837.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 1,
+      "image": "000000349837.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 3,
+      "image": "000000349837.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000121497.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "000000121497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000121497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000121497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 4,
+      "image": "000000121497.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.984375,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000116479.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 8,
+      "image": "000000116479.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "000000116479.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 8,
+      "image": "000000116479.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.96875,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 6,
+      "image": "000000116479.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "000000410487.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 6,
+      "image": "000000410487.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 1,
+      "image": "000000410487.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 9,
+      "image": "000000410487.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.964844,
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "000000410487.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "learned-patch-vq"
+    }
+  ],
+  "images": [
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000470173.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000074733.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000125806.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.957031,
+      "stable_positions_all_attacks": 245,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000546556.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000109976.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000527695.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.964844,
+      "stable_positions_all_attacks": 247,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000213816.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000377497.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000542089.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.992188,
+      "stable_positions_all_attacks": 254,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000442463.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000173091.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000242724.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000370900.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000396568.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.988281,
+      "stable_positions_all_attacks": 253,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000240940.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000521717.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000235857.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000368038.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000080666.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000557501.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000195754.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.902344,
+      "stable_positions_all_attacks": 231,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000017714.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000295316.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000309452.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000395180.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.957031,
+      "stable_positions_all_attacks": 245,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000376322.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000184791.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000553221.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.984375,
+      "stable_positions_all_attacks": 252,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000496722.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000172396.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.941406,
+      "stable_positions_all_attacks": 241,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000236592.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000192191.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.933594,
+      "stable_positions_all_attacks": 239,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000258541.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000027982.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000177489.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000085911.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000214753.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000526197.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000091500.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.957031,
+      "stable_positions_all_attacks": 245,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000111207.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.964844,
+      "stable_positions_all_attacks": 247,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000133233.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000328238.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000287527.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000060899.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.933594,
+      "stable_positions_all_attacks": 239,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000283412.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.964844,
+      "stable_positions_all_attacks": 247,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000229753.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.910156,
+      "stable_positions_all_attacks": 233,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000118209.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000419201.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.941406,
+      "stable_positions_all_attacks": 241,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000416104.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000243626.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.964844,
+      "stable_positions_all_attacks": 247,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000511999.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.957031,
+      "stable_positions_all_attacks": 245,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000031269.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000133343.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000460682.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.917969,
+      "stable_positions_all_attacks": 235,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000474078.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000485895.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000215644.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000475484.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000031735.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000414676.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000435205.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000090956.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000317024.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.929688,
+      "stable_positions_all_attacks": 238,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000096549.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000455301.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.988281,
+      "stable_positions_all_attacks": 253,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000212166.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000480985.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000579635.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.988281,
+      "stable_positions_all_attacks": 253,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000055950.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000067310.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.941406,
+      "stable_positions_all_attacks": 241,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000050943.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000399560.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000494188.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.984375,
+      "stable_positions_all_attacks": 252,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000482585.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000276055.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.957031,
+      "stable_positions_all_attacks": 245,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000471567.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.941406,
+      "stable_positions_all_attacks": 241,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000088265.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.976562,
+      "stable_positions_all_attacks": 250,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000450439.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.988281,
+      "stable_positions_all_attacks": 253,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000491090.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000449661.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000540502.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000144706.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000459662.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000475732.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000125062.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.964844,
+      "stable_positions_all_attacks": 247,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000241326.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000501523.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.960938,
+      "stable_positions_all_attacks": 246,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000031118.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.941406,
+      "stable_positions_all_attacks": 241,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000561256.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.984375,
+      "stable_positions_all_attacks": 252,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000254016.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000101420.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.980469,
+      "stable_positions_all_attacks": 251,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000153527.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.902344,
+      "stable_positions_all_attacks": 231,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000405432.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.949219,
+      "stable_positions_all_attacks": 243,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000261097.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000340015.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000521259.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.96875,
+      "stable_positions_all_attacks": 248,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000349837.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.972656,
+      "stable_positions_all_attacks": 249,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000121497.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.953125,
+      "stable_positions_all_attacks": 244,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000116479.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    },
+    {
+      "attacks": "clean jpeg85 resize075 blur1 noise002",
+      "codebook_size": 128,
+      "image": "000000410487.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.945312,
+      "stable_positions_all_attacks": 242,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "learned-patch-vq"
+    }
+  ]
+}

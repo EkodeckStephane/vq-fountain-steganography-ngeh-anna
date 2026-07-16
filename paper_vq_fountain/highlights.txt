@@ -1,0 +1,8 @@
+Highlights
+
+- In-band coverless VQ steganography with packet, CRC, anchors, and fountain recovery.
+- Real VQGAN value-channel recovery without relying on exact token-ID preservation.
+- 128-byte exact recovery across three seeds under clean and crop090+jpeg85+drop25.
+- Second public VQModel feasibility result with 16-byte exact recovery.
+- Explicit WYSAWIS comparison plus local feature, CNN, SPAM-style, and SRM-style detectors.
+- 69/69 verification checks and a 226-file SHA256 reproducibility manifest.

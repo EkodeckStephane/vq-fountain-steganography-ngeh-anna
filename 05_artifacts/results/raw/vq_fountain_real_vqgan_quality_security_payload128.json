@@ -1,0 +1,34 @@
+{
+  "calibration_count": 256,
+  "calibration_seed": "real-vqgan-calibration-v1",
+  "calibration_threshold": 0.9,
+  "generated_image_counts": [
+    88,
+    88,
+    88
+  ],
+  "payload_seeds": [
+    "real-vqgan-128-a",
+    "real-vqgan-128-b",
+    "real-vqgan-128-c"
+  ],
+  "row": {
+    "block_size": 1,
+    "feature_fid_scipy": 0.70757738,
+    "feature_kid_polynomial": -0.00091173,
+    "macro_cell_size": 2,
+    "mean_abs_feature_delta": 0.02306316,
+    "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+    "model_subfolder": "",
+    "overhead": 4.0,
+    "payload_bytes": 128,
+    "payload_images": 264,
+    "payload_seed_count": 3,
+    "reference_images": 264,
+    "sklearn_detector_accuracy": 0.53513514,
+    "sklearn_detector_auc": 0.56077606,
+    "stable_pool_0": 40,
+    "stable_pool_1": 22,
+    "symbols_per_image": 8
+  }
+}

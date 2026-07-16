@@ -1,0 +1,265 @@
+{
+  "summary": {
+    "clean": {
+      "mean_useful_ber": 0.00090789794921875,
+      "max_useful_ber": 0.0010833740234375,
+      "n": 4
+    },
+    "jpeg95": {
+      "mean_useful_ber": 0.4493141174316406,
+      "max_useful_ber": 0.4539794921875,
+      "n": 4
+    },
+    "jpeg90": {
+      "mean_useful_ber": 0.4924430847167969,
+      "max_useful_ber": 0.496917724609375,
+      "n": 4
+    },
+    "jpeg80": {
+      "mean_useful_ber": 0.4964637756347656,
+      "max_useful_ber": 0.4987335205078125,
+      "n": 4
+    },
+    "noise2": {
+      "mean_useful_ber": 0.019702911376953125,
+      "max_useful_ber": 0.0215301513671875,
+      "n": 4
+    },
+    "blur1": {
+      "mean_useful_ber": 0.22076797485351562,
+      "max_useful_ber": 0.2334136962890625,
+      "n": 4
+    },
+    "resize0.75": {
+      "mean_useful_ber": 0.17865371704101562,
+      "max_useful_ber": 0.1796112060546875,
+      "n": 4
+    }
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00103759765625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4539794921875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.496917724609375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4987335205078125
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0215301513671875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2095489501953125
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1796112060546875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0010833740234375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.448089599609375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4898834228515625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4954071044921875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0214691162109375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2105712890625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.178436279296875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005950927734375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.45166015625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.492034912109375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4965057373046875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0185089111328125
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2295379638671875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.177886962890625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "clean",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00091552734375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "jpeg95",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.4435272216796875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "jpeg90",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.490936279296875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "jpeg80",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.495208740234375
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "noise2",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.017303466796875
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "blur1",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.2334136962890625
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "attack": "resize0.75",
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.178680419921875
+    }
+  ]
+}

@@ -1,0 +1,2234 @@
+[
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 1,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 1,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 1,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 896
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 896
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 6,
+    "used_token_slots": 896
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 288
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 288
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 288
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 9,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 3 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 576,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 288
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 352
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 352
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 352
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 11,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 704,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 352
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 448
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 448
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 448
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 4,
+    "encoded_symbols": 14,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 2 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 44,
+    "payload_bytes": 32,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 896,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 6,
+    "used_token_slots": 448
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 960
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 960
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 960
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1152,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1152
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1152,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1152
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1408,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1408
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1408,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 10,
+    "used_token_slots": 1408
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 480
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 480
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 480
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 15,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 960,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 480
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1152,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1152,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 5,
+    "encoded_symbols": 18,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1152,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 576
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 9,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 1 missing source blocks",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1408,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 9,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 1 missing source blocks",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1408,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 9,
+    "encoded_symbols": 22,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 1 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 76,
+    "payload_bytes": 64,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1408,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 10,
+    "used_token_slots": 704
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 15 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1728,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 1728
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 15 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1728,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 1728
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2048,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 2048
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 15 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2112,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 2112
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 512,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2048,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 2048
+  },
+  {
+    "bits_per_token": 1,
+    "block_size": 8,
+    "delivered_symbols": 3,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 15 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2560,
+    "schedule": "random",
+    "slots_per_symbol": 64,
+    "source_symbols": 18,
+    "used_token_slots": 2560
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 11,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 4,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1728,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 864
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 11,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1728,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 864
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 11,
+    "encoded_symbols": 27,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.5,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1728,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 864
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2048,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 11,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 8,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2112,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1056
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 11,
+    "encoded_symbols": 33,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 7 missing source blocks",
+    "image_copies": 12,
+    "overhead": 0.8,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2112,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1056
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 2,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 1024,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 512
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 0,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "no symbols available",
+    "image_copies": 4,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2048,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1024
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 13,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 8,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2560,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1280
+  },
+  {
+    "bits_per_token": 2,
+    "block_size": 8,
+    "delivered_symbols": 13,
+    "encoded_symbols": 40,
+    "exact_recovery": false,
+    "failure": "decoder stopped with 5 missing source blocks",
+    "image_copies": 12,
+    "overhead": 1.2,
+    "packet_bytes": 140,
+    "payload_bytes": 128,
+    "profiles": [
+      {
+        "image": "05_artifacts/data/sample_images/000000001503.jpg",
+        "stable_positions": 245,
+        "stable_rate": 0.957031,
+        "token_count": 256
+      },
+      {
+        "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+        "stable_positions": 247,
+        "stable_rate": 0.964844,
+        "token_count": 256
+      }
+    ],
+    "raw_capacity_bits": 2560,
+    "schedule": "random",
+    "slots_per_symbol": 32,
+    "source_symbols": 18,
+    "used_token_slots": 1280
+  }
+]

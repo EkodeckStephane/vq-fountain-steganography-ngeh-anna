@@ -1,0 +1,23 @@
+{
+  "calibration_seed": "real-vqgan-calibration-v1",
+  "detector": "SmallSteganalysisCNN",
+  "payload_seeds": [
+    "real-vqgan-128-a",
+    "real-vqgan-128-b",
+    "real-vqgan-128-c"
+  ],
+  "row": {
+    "cnn_detector_accuracy": 0.52173913,
+    "cnn_detector_auc": 0.48653119,
+    "epochs": 20,
+    "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+    "model_subfolder": "",
+    "payload_bytes": 128,
+    "payload_images": 264,
+    "reference_images": 264,
+    "stable_pool_0": 40,
+    "stable_pool_1": 22,
+    "test_samples": 184,
+    "train_samples": 344
+  }
+}

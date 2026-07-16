@@ -1,0 +1,506 @@
+{
+  "calibration_summary": {
+    "best_by_value": {
+      "0": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 531,
+          "unique_received_tokens": 44
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 694,
+          "unique_received_tokens": 46
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 869,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 939,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1031,
+          "unique_received_tokens": 17
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1154,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 1395,
+          "unique_received_tokens": 35
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1541,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 1931,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3158,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3617,
+          "unique_received_tokens": 19
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3669,
+          "unique_received_tokens": 28
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4052,
+          "unique_received_tokens": 19
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4473,
+          "unique_received_tokens": 14
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 4605,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4642,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5021,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 6321,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 7002,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 7092,
+          "unique_received_tokens": 30
+        }
+      ],
+      "1": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 561,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 810,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1605,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2141,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2212,
+          "unique_received_tokens": 27
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3175,
+          "unique_received_tokens": 22
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3986,
+          "unique_received_tokens": 35
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4825,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 5847,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7156,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7516,
+          "unique_received_tokens": 22
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2773,
+          "unique_received_tokens": 36
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 3757,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 0.996094,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7564,
+          "unique_received_tokens": 45
+        },
+        {
+          "majority_fraction": 0.988281,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 4526,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 0.988281,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6226,
+          "unique_received_tokens": 60
+        },
+        {
+          "majority_fraction": 0.984375,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6185,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 0.976562,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7151,
+          "unique_received_tokens": 41
+        },
+        {
+          "majority_fraction": 0.972656,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 484,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 0.949219,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 7193,
+          "unique_received_tokens": 42
+        }
+      ]
+    },
+    "calibration_seed": "real-vqgan-calibration-v1",
+    "count": 256,
+    "stable_pool_0": 40,
+    "stable_pool_1": 22,
+    "test_seeds": [
+      "real-vqgan-128-a",
+      "real-vqgan-128-b",
+      "real-vqgan-128-c"
+    ],
+    "threshold": 0.9
+  },
+  "rows": [
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 18,
+      "crc_valid_symbols": 682,
+      "dropped_images": 0,
+      "encoded_symbols": 700,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 682,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-a",
+      "recovered_symbols": 700,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_00_real-vqgan-128-a.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.0,
+      "value_match_rate": 0.996786
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 316,
+      "crc_valid_symbols": 200,
+      "dropped_images": 23,
+      "encoded_symbols": 700,
+      "erased_symbols": 184,
+      "exact_recovery": true,
+      "exact_symbols": 200,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-a",
+      "recovered_symbols": 516,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_00_real-vqgan-128-a.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.000841,
+      "value_match_rate": 0.885417
+    },
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 19,
+      "crc_valid_symbols": 681,
+      "dropped_images": 0,
+      "encoded_symbols": 700,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 681,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-b",
+      "recovered_symbols": 700,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_01_real-vqgan-128-b.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.0,
+      "value_match_rate": 0.996607
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 345,
+      "crc_valid_symbols": 203,
+      "dropped_images": 19,
+      "encoded_symbols": 700,
+      "erased_symbols": 152,
+      "exact_recovery": true,
+      "exact_symbols": 203,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-b",
+      "recovered_symbols": 548,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_01_real-vqgan-128-b.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.00017,
+      "value_match_rate": 0.887318
+    },
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 20,
+      "crc_valid_symbols": 680,
+      "dropped_images": 0,
+      "encoded_symbols": 700,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 680,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-c",
+      "recovered_symbols": 700,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_02_real-vqgan-128-c.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 4.4e-05,
+      "value_match_rate": 0.996429
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 342,
+      "crc_valid_symbols": 222,
+      "dropped_images": 17,
+      "encoded_symbols": 700,
+      "erased_symbols": 136,
+      "exact_recovery": true,
+      "exact_symbols": 222,
+      "failure": "",
+      "image_count": 88,
+      "latent_side": 16,
+      "macro_cell_size": 2,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "model_subfolder": "",
+      "overhead": 4.0,
+      "packet_bytes": 140,
+      "payload_bytes": 128,
+      "payload_seed": "real-vqgan-128-c",
+      "recovered_symbols": 564,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_payload128_multiseed_02_real-vqgan-128-c.png",
+      "source_symbols": 140,
+      "stable_pool_0": 40,
+      "stable_pool_1": 22,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.000385,
+      "value_match_rate": 0.88719
+    }
+  ]
+}

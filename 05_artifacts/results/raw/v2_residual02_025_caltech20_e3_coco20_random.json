@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual02_025_caltech20_e3.pt",
+    "payload_bpp": 0.25,
+    "num_rows": 20,
+    "mean_useful_ber": 0.02200775146484375,
+    "mean_full_ber": 0.17151365280151368,
+    "mean_psnr_db": 37.51238006212666,
+    "mean_global_ssim": 0.9984771165445266
+  },
+  "rows": [
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000139.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0181732177734375,
+      "full_ber": 0.20044326782226562,
+      "psnr_db": 37.65828960347762,
+      "global_ssim": 0.9983660918974466
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000285.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.034820556640625,
+      "full_ber": 0.32080078125,
+      "psnr_db": 36.2252771842873,
+      "global_ssim": 0.9988037603311861
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000632.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0570526123046875,
+      "full_ber": 0.27143287658691406,
+      "psnr_db": 35.793352213692195,
+      "global_ssim": 0.9962765826154762
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000724.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00543212890625,
+      "full_ber": 0.1362762451171875,
+      "psnr_db": 37.11521606332255,
+      "global_ssim": 0.9985573576178772
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000776.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.05914306640625,
+      "full_ber": 0.29640769958496094,
+      "psnr_db": 36.19226831003472,
+      "global_ssim": 0.9970531458322963
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000785.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.007781982421875,
+      "full_ber": 0.09988784790039062,
+      "psnr_db": 38.6840248022779,
+      "global_ssim": 0.9990000037984289
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000802.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0044403076171875,
+      "full_ber": 0.11016082763671875,
+      "psnr_db": 37.891876563404864,
+      "global_ssim": 0.9983897218020237
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000872.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0466461181640625,
+      "full_ber": 0.2851676940917969,
+      "psnr_db": 37.01792819591331,
+      "global_ssim": 0.9988696213494398
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000000885.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0144500732421875,
+      "full_ber": 0.13109207153320312,
+      "psnr_db": 37.78042157427239,
+      "global_ssim": 0.998060423540753
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001000.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.1363372802734375,
+      "full_ber": 0.3499469757080078,
+      "psnr_db": 35.89784840269941,
+      "global_ssim": 0.9982541276257814
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001268.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.036376953125,
+      "full_ber": 0.15118408203125,
+      "psnr_db": 36.89240952263596,
+      "global_ssim": 0.9989007284214649
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001296.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0049896240234375,
+      "full_ber": 0.09622764587402344,
+      "psnr_db": 37.97711571516288,
+      "global_ssim": 0.9990607294549678
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001353.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.002166748046875,
+      "full_ber": 0.11231422424316406,
+      "psnr_db": 37.71805116614996,
+      "global_ssim": 0.9982643997195759
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001425.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 7.62939453125e-05,
+      "full_ber": 0.06526756286621094,
+      "psnr_db": 39.067416137666875,
+      "global_ssim": 0.9993012128288512
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001490.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0002899169921875,
+      "full_ber": 0.11421966552734375,
+      "psnr_db": 38.228252504442366,
+      "global_ssim": 0.9983568816647925
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001503.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00048828125,
+      "full_ber": 0.04915618896484375,
+      "psnr_db": 38.3178855995319,
+      "global_ssim": 0.9985475299985909
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001532.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00201416015625,
+      "full_ber": 0.2126007080078125,
+      "psnr_db": 37.40989051163203,
+      "global_ssim": 0.9987752563573766
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001584.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005950927734375,
+      "full_ber": 0.16650962829589844,
+      "psnr_db": 37.50448157328329,
+      "global_ssim": 0.9987024042155102
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001675.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0081939697265625,
+      "full_ber": 0.17807388305664062,
+      "psnr_db": 37.85374244452583,
+      "global_ssim": 0.9992707952242216
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001761.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0006866455078125,
+      "full_ber": 0.08310317993164062,
+      "psnr_db": 39.021853154119775,
+      "global_ssim": 0.9987315565944745
+    }
+  ]
+}

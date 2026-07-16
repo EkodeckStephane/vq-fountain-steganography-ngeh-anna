@@ -1,0 +1,6 @@
+baseline,source_image,encoded_image,attack,message_bits,repetition,strength,bit_errors,bit_error_rate,exact_recovery,psnr_db
+DCT-spread,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,05_artifacts\results\raw\dct_spread_baseline_encoded.png,clean,32,7,28.0,0,0.0,True,37.916521
+DCT-spread,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,05_artifacts\results\raw\dct_spread_baseline_encoded.png,jpeg85,32,7,28.0,0,0.0,True,37.916521
+DCT-spread,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,05_artifacts\results\raw\dct_spread_baseline_encoded.png,resize075,32,7,28.0,0,0.0,True,37.916521
+DCT-spread,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,05_artifacts\results\raw\dct_spread_baseline_encoded.png,blur1,32,7,28.0,0,0.0,True,37.916521
+DCT-spread,05_artifacts\results\raw\vq_fountain_real_vqgan_payload_sample_128px.png,05_artifacts\results\raw\dct_spread_baseline_encoded.png,crop090,32,7,28.0,16,0.5,False,37.916521

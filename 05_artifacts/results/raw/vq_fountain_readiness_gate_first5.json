@@ -1,0 +1,80 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "missing": [],
+      "name": "real_model_dependencies",
+      "passed": true
+    },
+    {
+      "name": "real_generator_smoke",
+      "passed": true,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_diffusion_smoke.json",
+      "size_bytes": 284
+    },
+    {
+      "name": "real_vqmodel_smoke",
+      "passed": true,
+      "path": "05_artifacts\\results\\raw\\vq_fountain_real_vqmodel_smoke.json",
+      "size_bytes": 261
+    },
+    {
+      "name": "external_dataset_manifest",
+      "passed": true,
+      "path": "05_artifacts\\data\\external_dataset_manifest.json",
+      "size_bytes": 1544
+    },
+    {
+      "name": "bossbase_1000_stability",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_stability_bossbase_1000.csv",
+      "size_bytes": 127548
+    },
+    {
+      "name": "localraw_1000_stability",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_token_stability_localraw_1000.csv",
+      "size_bytes": 131893
+    },
+    {
+      "name": "public_baseline_registry",
+      "passed": true,
+      "path": "01_references\\public_baselines_vq_fountain.md",
+      "size_bytes": 5072
+    },
+    {
+      "file_count": 119,
+      "name": "baseline_code",
+      "passed": true,
+      "path": "05_artifacts\\baselines"
+    },
+    {
+      "name": "scale_1000x3_results",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_scale_quality_security_probe_1000x3.csv",
+      "size_bytes": 1586
+    },
+    {
+      "name": "anchors2d_geometry_results",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d.csv",
+      "size_bytes": 1353
+    },
+    {
+      "name": "anchors2d_offset_geometry_results",
+      "passed": true,
+      "path": "05_artifacts\\results\\tables\\vq_fountain_distribution_sampler_probe_k128_crop_anchors2d_offset.csv",
+      "size_bytes": 1402
+    },
+    {
+      "missing_columns": [],
+      "name": "numpy_quality_security_metrics",
+      "passed": true
+    },
+    {
+      "missing": [],
+      "name": "standard_fid_kid_and_detector_dependencies",
+      "passed": true
+    }
+  ]
+}

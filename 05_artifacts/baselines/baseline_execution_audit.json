@@ -1,0 +1,64 @@
+{
+  "all_executable_now": false,
+  "all_public_baselines_accounted": true,
+  "baselines": [
+    {
+      "accounted": true,
+      "blockers": [],
+      "category": "non-coverless robust learned hiding",
+      "checkpoint_count": 1,
+      "comparison_status": "paper-and-code-available; local compatibility run artifact produced",
+      "dependencies": {
+        "torch": true
+      },
+      "executable_now": true,
+      "local_path": "05_artifacts\\baselines\\HiDDeN",
+      "name": "HiDDeN",
+      "run_artifact": "05_artifacts\\results\\tables\\hidden_baseline_smoke.csv",
+      "runner": "05_artifacts\\code\\vq_fountain\\run_hidden_baseline_smoke.py",
+      "source_files_present": true
+    },
+    {
+      "accounted": true,
+      "blockers": [],
+      "category": "non-coverless classical transform-domain hiding",
+      "comparison_status": "local classical baseline runner and artifact produced",
+      "dependencies": {
+        "PIL": true,
+        "scipy": true
+      },
+      "executable_now": true,
+      "local_path": "05_artifacts\\code\\vq_fountain\\run_dct_spread_baseline.py",
+      "name": "DCT-spread",
+      "run_artifact": "05_artifacts\\results\\tables\\dct_spread_baseline.csv",
+      "runner": "05_artifacts\\code\\vq_fountain\\run_dct_spread_baseline.py",
+      "source_files_present": true
+    },
+    {
+      "accounted": true,
+      "blockers": [
+        "pretrained SavedModel is not present in the local sparse checkout",
+        "TensorFlow is not installed",
+        "bchlib is not installed"
+      ],
+      "category": "non-coverless robust learned watermark/steganography",
+      "comparison_status": "paper-and-code-available; local run blocked by SavedModel/dependency availability",
+      "dependencies": {
+        "bchlib": false,
+        "cv2": false,
+        "tensorflow": false
+      },
+      "executable_now": false,
+      "local_path": "05_artifacts\\baselines\\StegaStamp",
+      "name": "StegaStamp",
+      "saved_model_count": 0,
+      "source_files_present": true
+    }
+  ],
+  "executable_baseline_count": 2,
+  "policy": {
+    "claim_rule": "Do not report local baseline recovery scores unless executable_now is true and a run artifact exists.",
+    "coverless_separation": "HiDDeN, StegaStamp, and DCT-spread are non-coverless robust hiding baselines."
+  },
+  "required_executable_baselines_ready": true
+}

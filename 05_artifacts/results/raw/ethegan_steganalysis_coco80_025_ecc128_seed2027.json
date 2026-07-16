@@ -1,0 +1,1300 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "payload_bpp_requested": 0.25,
+    "nominal_bpp_used": 0.25,
+    "effective_user_bpp": 0.123046875,
+    "payload_bytes": 4032,
+    "images": 80,
+    "train_images": 40,
+    "test_images": 40,
+    "feature_count": 86,
+    "detector": "logistic regression on simple residual and LSB summary features",
+    "train_accuracy": 0.975,
+    "test_accuracy": 0.8,
+    "train_auc": 0.9975,
+    "test_auc": 0.823125
+  },
+  "rows": [
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "group": 0,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001818.jpg",
+      "group": 0,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "group": 1,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.19067184627056122
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000001993.jpg",
+      "group": 1,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9601503610610962
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "group": 2,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002006.jpg",
+      "group": 2,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "group": 3,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002149.jpg",
+      "group": 3,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "group": 4,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002153.jpg",
+      "group": 4,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "group": 5,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002157.jpg",
+      "group": 5,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "group": 6,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002261.jpg",
+      "group": 6,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "group": 7,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002299.jpg",
+      "group": 7,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "group": 8,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.044587764889001846
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002431.jpg",
+      "group": 8,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.846128523349762
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "group": 9,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.004955179989337921
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002473.jpg",
+      "group": 9,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.0992259681224823
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002532.jpg",
+      "group": 10,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.2862834632396698
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002532.jpg",
+      "group": 10,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9307274222373962
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002587.jpg",
+      "group": 11,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002587.jpg",
+      "group": 11,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002592.jpg",
+      "group": 12,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002592.jpg",
+      "group": 12,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002685.jpg",
+      "group": 13,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.32127535343170166
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002685.jpg",
+      "group": 13,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.924543023109436
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002923.jpg",
+      "group": 14,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.27518144249916077
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000002923.jpg",
+      "group": 14,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9808347821235657
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003156.jpg",
+      "group": 15,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003156.jpg",
+      "group": 15,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003255.jpg",
+      "group": 16,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0005431786412373185
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003255.jpg",
+      "group": 16,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.4848155379295349
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003501.jpg",
+      "group": 17,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003501.jpg",
+      "group": 17,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003553.jpg",
+      "group": 18,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003553.jpg",
+      "group": 18,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003661.jpg",
+      "group": 19,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003661.jpg",
+      "group": 19,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003845.jpg",
+      "group": 20,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.7130118012428284
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003845.jpg",
+      "group": 20,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9781696796417236
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003934.jpg",
+      "group": 21,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.32348746061325073
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000003934.jpg",
+      "group": 21,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9775445461273193
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004134.jpg",
+      "group": 22,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.40355122089385986
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004134.jpg",
+      "group": 22,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9605064392089844
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004395.jpg",
+      "group": 23,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.999476969242096
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004395.jpg",
+      "group": 23,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9998416900634766
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004495.jpg",
+      "group": 24,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.1661970317363739
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004495.jpg",
+      "group": 24,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9958819150924683
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004765.jpg",
+      "group": 25,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.15031814575195312
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004765.jpg",
+      "group": 25,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.906738817691803
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004795.jpg",
+      "group": 26,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000004795.jpg",
+      "group": 26,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005001.jpg",
+      "group": 27,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.6906500458717346
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005001.jpg",
+      "group": 27,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 5.575149022996051e-11
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005037.jpg",
+      "group": 28,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005037.jpg",
+      "group": 28,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005060.jpg",
+      "group": 29,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9269158840179443
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005060.jpg",
+      "group": 29,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9915852546691895
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005193.jpg",
+      "group": 30,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005193.jpg",
+      "group": 30,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005477.jpg",
+      "group": 31,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005477.jpg",
+      "group": 31,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005503.jpg",
+      "group": 32,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.07735627144575119
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005503.jpg",
+      "group": 32,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9311930537223816
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005529.jpg",
+      "group": 33,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005529.jpg",
+      "group": 33,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005586.jpg",
+      "group": 34,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005586.jpg",
+      "group": 34,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005600.jpg",
+      "group": 35,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.01761428825557232
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005600.jpg",
+      "group": 35,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9439884424209595
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005992.jpg",
+      "group": 36,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.004836122505366802
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000005992.jpg",
+      "group": 36,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.7483144402503967
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006012.jpg",
+      "group": 37,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006012.jpg",
+      "group": 37,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006040.jpg",
+      "group": 38,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.009257598780095577
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006040.jpg",
+      "group": 38,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.18044328689575195
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006213.jpg",
+      "group": 39,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.024851838126778603
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006213.jpg",
+      "group": 39,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9928638339042664
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006460.jpg",
+      "group": 40,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006460.jpg",
+      "group": 40,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006471.jpg",
+      "group": 41,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.06535234302282333
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006471.jpg",
+      "group": 41,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.974850058555603
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006614.jpg",
+      "group": 42,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006614.jpg",
+      "group": 42,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006723.jpg",
+      "group": 43,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.2301180362701416
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006723.jpg",
+      "group": 43,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006763.jpg",
+      "group": 44,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.37050989270210266
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006763.jpg",
+      "group": 44,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.8378691077232361
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006771.jpg",
+      "group": 45,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006771.jpg",
+      "group": 45,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006818.jpg",
+      "group": 46,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.1413896083831787
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006818.jpg",
+      "group": 46,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9219995141029358
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006894.jpg",
+      "group": 47,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006894.jpg",
+      "group": 47,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006954.jpg",
+      "group": 48,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9499378800392151
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000006954.jpg",
+      "group": 48,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9956579208374023
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007088.jpg",
+      "group": 49,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007088.jpg",
+      "group": 49,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007108.jpg",
+      "group": 50,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007108.jpg",
+      "group": 50,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007278.jpg",
+      "group": 51,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.8892072439193726
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007278.jpg",
+      "group": 51,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9937738180160522
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007281.jpg",
+      "group": 52,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.03181513026356697
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007281.jpg",
+      "group": 52,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9507725238800049
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007386.jpg",
+      "group": 53,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.07933074235916138
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007386.jpg",
+      "group": 53,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.6206743717193604
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007511.jpg",
+      "group": 54,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.11541764438152313
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007511.jpg",
+      "group": 54,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9999288320541382
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007574.jpg",
+      "group": 55,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007574.jpg",
+      "group": 55,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007784.jpg",
+      "group": 56,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007784.jpg",
+      "group": 56,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007795.jpg",
+      "group": 57,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007795.jpg",
+      "group": 57,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007816.jpg",
+      "group": 58,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007816.jpg",
+      "group": 58,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007818.jpg",
+      "group": 59,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9976640939712524
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007818.jpg",
+      "group": 59,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007888.jpg",
+      "group": 60,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.09848617762327194
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007888.jpg",
+      "group": 60,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9599701762199402
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007977.jpg",
+      "group": 61,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007977.jpg",
+      "group": 61,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007991.jpg",
+      "group": 62,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9498544335365295
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000007991.jpg",
+      "group": 62,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9936298727989197
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008021.jpg",
+      "group": 63,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008021.jpg",
+      "group": 63,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008211.jpg",
+      "group": 64,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008211.jpg",
+      "group": 64,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008277.jpg",
+      "group": 65,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008277.jpg",
+      "group": 65,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008532.jpg",
+      "group": 66,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008532.jpg",
+      "group": 66,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008629.jpg",
+      "group": 67,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008629.jpg",
+      "group": 67,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008690.jpg",
+      "group": 68,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008690.jpg",
+      "group": 68,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008762.jpg",
+      "group": 69,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.08326406031847
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008762.jpg",
+      "group": 69,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9821617603302002
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008844.jpg",
+      "group": 70,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008844.jpg",
+      "group": 70,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008899.jpg",
+      "group": 71,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.42087802290916443
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000008899.jpg",
+      "group": 71,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9752532839775085
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009378.jpg",
+      "group": 72,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.046729616820812225
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009378.jpg",
+      "group": 72,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9476103782653809
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009400.jpg",
+      "group": 73,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.626927375793457
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009400.jpg",
+      "group": 73,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9934983253479004
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009448.jpg",
+      "group": 74,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9939608573913574
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009448.jpg",
+      "group": 74,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 1.0
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009483.jpg",
+      "group": 75,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.997717022895813
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009483.jpg",
+      "group": 75,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9991149306297302
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009590.jpg",
+      "group": 76,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009590.jpg",
+      "group": 76,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009769.jpg",
+      "group": 77,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.9904077649116516
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009769.jpg",
+      "group": 77,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.9660826921463013
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009772.jpg",
+      "group": 78,
+      "kind": "cover",
+      "label": 0,
+      "split": "test",
+      "score": 0.0028200007509440184
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009772.jpg",
+      "group": 78,
+      "kind": "stego",
+      "label": 1,
+      "split": "test",
+      "score": 0.6162639856338501
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009891.jpg",
+      "group": 79,
+      "kind": "cover",
+      "label": 0,
+      "split": "train",
+      "score": ""
+    },
+    {
+      "image": "<COCO_VAL2017_DIR>\\000000009891.jpg",
+      "group": 79,
+      "kind": "stego",
+      "label": 1,
+      "split": "train",
+      "score": ""
+    }
+  ]
+}

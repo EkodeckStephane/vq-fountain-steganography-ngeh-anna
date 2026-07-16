@@ -1,0 +1,251 @@
+{
+  "aggregate": [
+    {
+      "attacks": "blur1",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 6.5,
+      "mean_token_match_rate": 0.974609,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "clean",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 0.0,
+      "mean_token_match_rate": 1.0,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "crop090",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 157.5,
+      "mean_token_match_rate": 0.384765,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "jpeg85",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 2.0,
+      "mean_token_match_rate": 0.992188,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "jpeg95",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 0.5,
+      "mean_token_match_rate": 0.998047,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "noise002",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 1.5,
+      "mean_token_match_rate": 0.994141,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "resize075",
+      "codebook_size": "",
+      "image": "<aggregate>",
+      "image_size": "",
+      "levels": "",
+      "mean_changed_tokens": 2.0,
+      "mean_token_match_rate": 0.992188,
+      "patch_size": "",
+      "stable_position_rate_all_attacks": "",
+      "stable_positions_all_attacks": "",
+      "token_count": 256,
+      "token_grid": "",
+      "tokenizer": "patch-vq"
+    }
+  ],
+  "attacks": [
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "jpeg95",
+      "changed_tokens": 1,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 3,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.988281,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 7,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.972656,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 2,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "crop090",
+      "changed_tokens": 155,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.394531,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "clean",
+      "changed_tokens": 0,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "jpeg95",
+      "changed_tokens": 0,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 1.0,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "jpeg85",
+      "changed_tokens": 1,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "resize075",
+      "changed_tokens": 2,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.992188,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "blur1",
+      "changed_tokens": 6,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.976562,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "noise002",
+      "changed_tokens": 1,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.996094,
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attack": "crop090",
+      "changed_tokens": 160,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "token_count": 256,
+      "token_match_rate": 0.375,
+      "tokenizer": "patch-vq"
+    }
+  ],
+  "images": [
+    {
+      "attacks": "clean jpeg95 jpeg85 resize075 blur1 noise002 crop090",
+      "codebook_size": 512,
+      "image": "05_artifacts/data/sample_images/000000001503.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.386719,
+      "stable_positions_all_attacks": 99,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "patch-vq"
+    },
+    {
+      "attacks": "clean jpeg95 jpeg85 resize075 blur1 noise002 crop090",
+      "codebook_size": 512,
+      "image": "05_artifacts/data/sample_images/dog_0031.jpg",
+      "image_size": 256,
+      "levels": 8,
+      "patch_size": 16,
+      "stable_position_rate_all_attacks": 0.371094,
+      "stable_positions_all_attacks": 95,
+      "token_count": 256,
+      "token_grid": "16x16",
+      "tokenizer": "patch-vq"
+    }
+  ]
+}

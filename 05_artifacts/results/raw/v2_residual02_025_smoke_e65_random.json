@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual02_025_smoke_e65.pt",
+    "payload_bpp": 0.25,
+    "num_rows": 10,
+    "mean_useful_ber": 0.00064697265625,
+    "mean_full_ber": 0.11079139709472656,
+    "mean_psnr_db": 37.70890698647204,
+    "mean_global_ssim": 0.9985488426009639
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0007781982421875,
+      "full_ber": 0.12096405029296875,
+      "psnr_db": 37.48003653541272,
+      "global_ssim": 0.9984284603196354
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 1,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0008697509765625,
+      "full_ber": 0.12125396728515625,
+      "psnr_db": 37.474097796786,
+      "global_ssim": 0.9984263887082595
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 2,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00079345703125,
+      "full_ber": 0.12114524841308594,
+      "psnr_db": 37.46096841341084,
+      "global_ssim": 0.9984206546073833
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 3,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0008544921875,
+      "full_ber": 0.12102508544921875,
+      "psnr_db": 37.46778269915303,
+      "global_ssim": 0.9984236066361503
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 4,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0008087158203125,
+      "full_ber": 0.12089347839355469,
+      "psnr_db": 37.45247052426845,
+      "global_ssim": 0.9984170755089791
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005340576171875,
+      "full_ber": 0.10070419311523438,
+      "psnr_db": 37.935179888382585,
+      "global_ssim": 0.9986688484854734
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 1,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0004425048828125,
+      "full_ber": 0.10070419311523438,
+      "psnr_db": 37.9538637278782,
+      "global_ssim": 0.9986755851489761
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 2,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.000457763671875,
+      "full_ber": 0.10039520263671875,
+      "psnr_db": 37.95714523482205,
+      "global_ssim": 0.9986768630368065
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 3,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.000579833984375,
+      "full_ber": 0.10045051574707031,
+      "psnr_db": 37.953046786417495,
+      "global_ssim": 0.9986751371263672
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 4,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0003509521484375,
+      "full_ber": 0.10037803649902344,
+      "psnr_db": 37.95447825818897,
+      "global_ssim": 0.9986758064316084
+    }
+  ]
+}

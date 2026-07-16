@@ -1,0 +1,41 @@
+payload_bytes,packet_bytes,block_size,bits_per_token,overhead,image_copies,attack,binning,source_symbols,encoded_symbols,used_token_slots,raw_capacity_bits,recovered_symbols,exact_symbols,token_match_rate,value_match_rate,exact_recovery,failure,capacity_exhausted
+64,76,4,1,0.5,4,jpeg85,mass,19,29,928,928,29,29,1.0,1.0,True,,False
+64,76,4,1,0.5,4,resize075,mass,19,29,928,928,29,5,0.951172,0.948276,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,1,0.5,4,blur1,mass,19,29,928,928,29,5,0.874023,0.936422,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,1,0.5,4,noise002,mass,19,29,928,928,29,29,1.0,1.0,True,,False
+64,76,4,1,0.5,4,crop090,mass,19,29,928,928,29,0,0.079102,0.517241,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,1,0.5,8,jpeg85,mass,19,29,928,928,29,29,1.0,1.0,True,,False
+64,76,4,1,0.5,8,resize075,mass,19,29,928,928,29,5,0.947754,0.948276,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,1,0.5,8,blur1,mass,19,29,928,928,29,5,0.870605,0.936422,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,1,0.5,8,noise002,mass,19,29,928,928,29,29,1.0,1.0,True,,False
+64,76,4,1,0.5,8,crop090,mass,19,29,928,928,29,0,0.081543,0.517241,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,4,jpeg85,mass,19,29,464,928,29,29,1.0,1.0,True,,False
+64,76,4,2,0.5,4,resize075,mass,19,29,464,928,29,16,0.957031,0.956897,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,4,blur1,mass,19,29,464,928,29,10,0.895508,0.935345,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,4,noise002,mass,19,29,464,928,29,29,1.0,1.0,True,,False
+64,76,4,2,0.5,4,crop090,mass,19,29,464,928,29,0,0.085938,0.323276,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,8,jpeg85,mass,19,29,464,928,29,29,1.0,1.0,True,,False
+64,76,4,2,0.5,8,resize075,mass,19,29,464,928,29,16,0.950684,0.956897,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,8,blur1,mass,19,29,464,928,29,10,0.881348,0.935345,False,inconsistent equations; symbol data may be corrupted,False
+64,76,4,2,0.5,8,noise002,mass,19,29,464,928,29,29,1.0,1.0,True,,False
+64,76,4,2,0.5,8,crop090,mass,19,29,464,928,29,0,0.084961,0.323276,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,1,0.5,4,jpeg85,mass,35,53,1024,1024,32,32,1.0,1.0,False,decoder stopped with 3 missing source blocks,True
+128,140,4,1,0.5,4,resize075,mass,35,53,1024,1024,32,7,0.950195,0.950195,False,decoder stopped with 3 missing source blocks,True
+128,140,4,1,0.5,4,blur1,mass,35,53,1024,1024,32,4,0.880859,0.932617,False,decoder stopped with 3 missing source blocks,True
+128,140,4,1,0.5,4,noise002,mass,35,53,1024,1024,32,32,1.0,1.0,False,decoder stopped with 3 missing source blocks,True
+128,140,4,1,0.5,4,crop090,mass,35,53,1024,1024,32,0,0.073242,0.514648,False,decoder stopped with 3 missing source blocks,True
+128,140,4,1,0.5,8,jpeg85,mass,35,53,1696,1696,53,53,1.0,1.0,True,,False
+128,140,4,1,0.5,8,resize075,mass,35,53,1696,1696,53,10,0.95459,0.95283,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,1,0.5,8,blur1,mass,35,53,1696,1696,53,6,0.875977,0.93691,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,1,0.5,8,noise002,mass,35,53,1696,1696,53,53,1.0,1.0,True,,False
+128,140,4,1,0.5,8,crop090,mass,35,53,1696,1696,53,0,0.075195,0.528302,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,4,jpeg85,mass,35,53,848,1696,53,53,1.0,1.0,True,,False
+128,140,4,2,0.5,4,resize075,mass,35,53,848,1696,53,24,0.952148,0.950472,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,4,blur1,mass,35,53,848,1696,53,13,0.884766,0.919811,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,4,noise002,mass,35,53,848,1696,53,53,1.0,1.0,True,,False
+128,140,4,2,0.5,4,crop090,mass,35,53,848,1696,53,0,0.086914,0.317217,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,8,jpeg85,mass,35,53,848,1696,53,53,1.0,1.0,True,,False
+128,140,4,2,0.5,8,resize075,mass,35,53,848,1696,53,24,0.948242,0.950472,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,8,blur1,mass,35,53,848,1696,53,13,0.875977,0.919811,False,inconsistent equations; symbol data may be corrupted,False
+128,140,4,2,0.5,8,noise002,mass,35,53,848,1696,53,53,1.0,1.0,True,,False
+128,140,4,2,0.5,8,crop090,mass,35,53,848,1696,53,0,0.085449,0.317217,False,inconsistent equations; symbol data may be corrupted,False

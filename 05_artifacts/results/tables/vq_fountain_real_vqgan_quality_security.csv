@@ -1,0 +1,2 @@
+model_dir,payload_bytes,block_size,overhead,macro_cell_size,symbols_per_image,payload_seed_count,payload_images,reference_images,stable_pool_0,stable_pool_1,mean_abs_feature_delta,feature_fid_scipy,feature_kid_polynomial,sklearn_detector_auc,sklearn_detector_accuracy
+05_artifacts\models\vqgan_f4_8192_diffusers_converted,32,1,3.0,2,8,4,88,88,40,22,0.04024327,2.49162368,-0.00260754,0.49115505,0.5483871

@@ -1,0 +1,33 @@
+Operational side channels remain a practical source of leakage in some
+high-capacity image steganography systems. WYSAWIS, a recent coverless
+indexing method, avoids pixel modification but relies on cloud-carried
+location information for extraction. This paper studies a different operating
+point: CRC-verified payload recovery from one transmitted image without folder
+positions, block-index lists, or external location metadata. We propose
+ETHEGAN, an auxiliary-channel-free neural image steganography framework
+with a self-contained packet layer containing payload length, CRC32
+validation, Reed--Solomon parity, deterministic interleaving, and optional
+reliability-aware erasure decoding. We further add residual-statistics
+regularization and a lightweight adversarial residual-domain discriminator to
+reduce visible and statistical embedding artifacts. On fixed 100-image
+Caltech101 and COCO val2017 clean-channel subsets at 0.25 nominal bpp,
+corresponding to 0.185546875 effective user bpp after packet and
+error-correction overhead, ETHEGAN recovers 100/100 Caltech101 payloads and
+93/100 COCO payloads exactly after ECC and CRC validation. Increasing
+Reed--Solomon parity from 64 to 128 bytes per chunk lowers the effective user
+payload to 0.123046875 bpp and recovers 100/100 payloads on both datasets.
+Residual-strength and steganalysis-aware ablations preserve 50/50 exact
+recovery on both 50-image subsets while improving PSNR relative to the initial
+residual baseline. A lightweight
+residual/LSB detector remains effective over three grouped train/test splits,
+with mean test AUC 0.9835 on Caltech101 and 0.8763 on COCO. JPEG compression,
+blur, and resizing yield 0/20 exact recoveries in both datasets. A conservative
+low-payload detectability-gated mode at 0.001953125 effective bpp accepts
+10/40 candidate images, recovers all accepted payloads, and yields test AUC
+0.58 for the lightweight detector and 0.52 for a SPAM-style residual
+co-occurrence detector. An AES-256-GCM pre-packet encryption wrapper also passes
+correct-key, wrong-key, and wrong-associated-data authentication tests. The
+supported contribution is therefore clean-channel, auxiliary-channel-free
+payload recovery with effective-capacity accounting, optional confidential
+payload transport, and detector-bounded passive security only in the
+low-payload gated mode; robustness remains unsupported.

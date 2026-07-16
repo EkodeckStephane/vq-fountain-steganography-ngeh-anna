@@ -1,0 +1,519 @@
+﻿{
+    "total":  3886,
+    "offset":  0,
+    "next":  10,
+    "data":  [
+                 {
+                     "paperId":  "c76c01884ec448f73d0eb23fdf86183a38b61ea1",
+                     "externalIds":  {
+                                         "DOI":  "10.52783/jes.7350",
+                                         "CorpusId":  274619877
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "6481b292-4036-4fc7-9b84-445d7ad954c3",
+                                              "name":  "Journal of Electrical Systems",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "J Electr Syst"
+                                                                  ],
+                                              "issn":  "1112-5209",
+                                              "url":  "http://journal.esrgroups.org/jes/"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/c76c01884ec448f73d0eb23fdf86183a38b61ea1",
+                     "title":  "A Coverless Image Steganography Based on Huffman Encoding and Robust Image Wavelet Hashing",
+                     "venue":  "Journal of Electrical Systems",
+                     "year":  2024,
+                     "citationCount":  1,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://journal.esrgroups.org/jes/article/download/7350/5047",
+                                           "status":  "HYBRID",
+                                           "license":  "CCBYND",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.52783/jes.7350?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.52783/jes.7350, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2105015851",
+                                         "name":  "Nitin Kanzariya"
+                                     },
+                                     {
+                                         "authorId":  "2334767511",
+                                         "name":  "D. Jadhav"
+                                     },
+                                     {
+                                         "authorId":  "2334771041",
+                                         "name":  "Dr. Nilesh Maltare"
+                                     },
+                                     {
+                                         "authorId":  "2334771620",
+                                         "name":  "Dr. Lokesh Gagani"
+                                     }
+                                 ],
+                     "abstract":  "Data hiding approaches are crucial in insecure communication to protect sensi- tive information from illegal access. The robustness of existing coverless image steganogra- phy methods that utilize mapping rules is derived from their ability to extract feature patterns within the spatial domain. In order to protect sensitive data more securely and to increase its durability against attacks, a new coverless steganography is introduced in this study. The me- thod used is based on the frequency domain. A coverless image steganography based on ro- bust image wavelet hashing and Huffman encoding. Initially, the confidential data is encoded through lossless compression using Huffman Encoding, which reduces the payload and en- hances the capacity for embedding. Second, segments of an 8-bit size are created from the compressed secret data. The efficient DWT hashing technique has been employed to generate a hash sequence for an image. An inverted index structure is established, allowing for the se- lection of the image whose hash corresponds to the secret data segment. Subsequently, all chosen images along with supplementary information are transmitted to the recipient. Testing has shown that the proposed method is robust against various image processing attacks, in- cluding scaling, low pass filtering, JPEG compression, rotation, noise introduction, and me- dian/mean filtering. Research findings and analysis indicate that this method enhances the latest coverless steganography algorithms in terms of capacity, resilience, and security."
+                 },
+                 {
+                     "paperId":  "8922bd92719b9c4fc89b013431f7625fc74152c4",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/JahromiHS24",
+                                         "DOI":  "10.1007/s11042-023-16278-w",
+                                         "CorpusId":  260031205
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/8922bd92719b9c4fc89b013431f7625fc74152c4",
+                     "title":  "Deep learning semantic image synthesis: a novel method for unlimited capacity, high noise resistance coverless video steganography",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2023,
+                     "citationCount":  7,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-023-16278-w?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-023-16278-w, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2224237664",
+                                         "name":  "Zeinab Torabi Jahromi"
+                                     },
+                                     {
+                                         "authorId":  "1799131",
+                                         "name":  "S. Hasheminejad"
+                                     },
+                                     {
+                                         "authorId":  "30653217",
+                                         "name":  "S. V. Shojaedini"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "105dd8659dfe7b745314ac48e32f9a121a4a81dc",
+                     "externalIds":  {
+                                         "DOI":  "10.3390/engproc2023059176",
+                                         "CorpusId":  267184255
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/105dd8659dfe7b745314ac48e32f9a121a4a81dc",
+                     "title":  "Deep Learning-Based Coverless Image Steganography on Medical Images Shared via Cloud",
+                     "venue":  "RAiSE-2023",
+                     "year":  2024,
+                     "citationCount":  15,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2673-4591/59/1/176/pdf?version=1705570183",
+                                           "status":  "HYBRID",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/engproc2023059176?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/engproc2023059176, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2276559771",
+                                         "name":  "CS Kowshik"
+                                     },
+                                     {
+                                         "authorId":  "2276557329",
+                                         "name":  "Ritesh Bhat"
+                                     },
+                                     {
+                                         "authorId":  "2082513574",
+                                         "name":  "D. S. Uplaonkar"
+                                     }
+                                 ],
+                     "abstract":  ": Coverless image steganography is an approach for creating images with intrinsic colour and texture information that contain hidden secret information. Recently, generative adversarial networks’ (GANs) deep learning transformers have been used to generate secret hidden images. Although it has been proven that this approach is resistant to steganalysis attacks, it modiﬁes critical information in the images which makes the images not suitable for applications like disease diagnosis from medical images shared over cloud. The colour and textural modiﬁcation introduced by GANs affects the feature vector which is extracted from certain image regions and used for disease diagnosis. To solve this problem, this work proposes an attention-guided GAN which transforms images only in certain regions and retains the originality of images in certain regions. Due to this, there is not much distortion to features and disease classiﬁcation accuracy."
+                 },
+                 {
+                     "paperId":  "22aab110058ebbd198edb1f1e7b4f69fb13c0613",
+                     "externalIds":  {
+                                         "ArXiv":  "1809.11096",
+                                         "MAG":  "2893749619",
+                                         "DBLP":  "conf/iclr/BrockDS19",
+                                         "CorpusId":  52889459
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "939c6e1d-0d17-4d6e-8a82-66d960df0e40",
+                                              "name":  "International Conference on Learning Representations",
+                                              "type":  "conference",
+                                              "alternate_names":  [
+                                                                      "Int Conf Learn Represent",
+                                                                      "ICLR"
+                                                                  ],
+                                              "url":  "https://iclr.cc/"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/22aab110058ebbd198edb1f1e7b4f69fb13c0613",
+                     "title":  "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
+                     "venue":  "International Conference on Learning Representations",
+                     "year":  2018,
+                     "citationCount":  6190,
+                     "influentialCitationCount":  639,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://arxiv.org/abs/1809.11096, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2065040247",
+                                         "name":  "Andrew Brock"
+                                     },
+                                     {
+                                         "authorId":  "7408951",
+                                         "name":  "Jeff Donahue"
+                                     },
+                                     {
+                                         "authorId":  "34838386",
+                                         "name":  "K. Simonyan"
+                                     }
+                                 ],
+                     "abstract":  "Despite recent progress in generative image modeling, successfully generating high-resolution, diverse samples from complex datasets such as ImageNet remains an elusive goal. To this end, we train Generative Adversarial Networks at the largest scale yet attempted, and study the instabilities specific to such scale. We find that applying orthogonal regularization to the generator renders it amenable to a simple \"truncation trick,\" allowing fine control over the trade-off between sample fidelity and variety by reducing the variance of the Generator\u0027s input. Our modifications lead to models which set the new state of the art in class-conditional image synthesis. When trained on ImageNet at 128x128 resolution, our models (BigGANs) achieve an Inception Score (IS) of 166.5 and Frechet Inception Distance (FID) of 7.4, improving over the previous best IS of 52.52 and FID of 18.6."
+                 },
+                 {
+                     "paperId":  "a83db668b5faafea36d45c0474b8bc1361cd17ef",
+                     "externalIds":  {
+                                         "DOI":  "10.1109/EIECT64462.2024.10866313",
+                                         "CorpusId":  276347795
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/a83db668b5faafea36d45c0474b8bc1361cd17ef",
+                     "title":  "Review of Coverless Image Steganography",
+                     "venue":  "2024 4th International Conference on Electronic Information Engineering and Computer (EIECT)",
+                     "year":  2024,
+                     "citationCount":  2,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/EIECT64462.2024.10866313?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/EIECT64462.2024.10866313, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2345445280",
+                                         "name":  "Yixin Tang"
+                                     },
+                                     {
+                                         "authorId":  "2774932",
+                                         "name":  "Fuqiang Di"
+                                     },
+                                     {
+                                         "authorId":  "2278776807",
+                                         "name":  "Zhen Zhang"
+                                     },
+                                     {
+                                         "authorId":  "2337436",
+                                         "name":  "Minqing Zhang"
+                                     }
+                                 ],
+                     "abstract":  "Traditional image steganography techniques have revealed many drawbacks due to advancements in steganalysis and steganalysis detection technologies. With the continuous development and improvement of various generator-free models, more and more researchers are shifting their focus to the combination of image generation models and steganography techniques. Compared to traditional methods, generative steganography directly drives the secret information to generate images containing the hidden data, exhibiting better resistance to detection against existing statistical feature-based steganalysis. This paper describes and analyzes GAN-based steganography algorithms as well as the latest steganography algorithms based on diffusion models and deep generative models. At the end of the paper, current issues in generative steganography are discussed, along with future research and development directions."
+                 },
+                 {
+                     "paperId":  "ffe7582dd42b611ae0a38802f631e7957df5ece7",
+                     "externalIds":  {
+                                         "DBLP":  "journals/eswa/RehmanBRASZ24",
+                                         "DOI":  "10.1016/j.eswa.2024.123420",
+                                         "CorpusId":  267600757
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "987139ae-a65d-49bb-aaf6-fb764dc40b19",
+                                              "name":  "Expert systems with applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Expert syst appl",
+                                                                      "Expert Systems With Applications",
+                                                                      "Expert Syst Appl"
+                                                                  ],
+                                              "issn":  "0957-4174",
+                                              "url":  "https://www.journals.elsevier.com/expert-systems-with-applications/",
+                                              "alternate_urls":  [
+                                                                     "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+                                                                     "http://www.sciencedirect.com/science/journal/09574174"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/ffe7582dd42b611ae0a38802f631e7957df5ece7",
+                     "title":  "Leveraging coverless image steganography to hide secret information by generating anime characters using GAN",
+                     "venue":  "Expert systems with applications",
+                     "year":  2024,
+                     "citationCount":  16,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.eswa.2024.123420?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1016/j.eswa.2024.123420, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2061373810",
+                                         "name":  "Hafiz Abdul Rehman"
+                                     },
+                                     {
+                                         "authorId":  "3282202",
+                                         "name":  "U. I. Bajwa"
+                                     },
+                                     {
+                                         "authorId":  "2157058",
+                                         "name":  "R. H. Raza"
+                                     },
+                                     {
+                                         "authorId":  "3434768",
+                                         "name":  "Sultan Alfarhood"
+                                     },
+                                     {
+                                         "authorId":  "40596592",
+                                         "name":  "Mejdl S. Safran"
+                                     },
+                                     {
+                                         "authorId":  "2283786610",
+                                         "name":  "Fan Zhang"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "49b6b4c7c77e2a937d30af4210e955d6887bdfc7",
+                     "externalIds":  {
+                                         "DBLP":  "journals/kbs/ShiLZZ23",
+                                         "DOI":  "10.1016/j.knosys.2023.110757",
+                                         "CorpusId":  259758989
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "12fff95b-d469-49a0-84a5-4fd4696c3f28",
+                                              "name":  "Knowledge-Based Systems",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Knowl Based Syst",
+                                                                      "Knowledge Based Systems",
+                                                                      "Knowledge-based Syst"
+                                                                  ],
+                                              "issn":  "0950-7051",
+                                              "url":  "http://www.elsevier.com/wps/find/journaldescription.cws_home/525448/description#description",
+                                              "alternate_urls":  [
+                                                                     "https://www.journals.elsevier.com/knowledge-based-systems",
+                                                                     "http://www.sciencedirect.com/science/journal/09507051"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/49b6b4c7c77e2a937d30af4210e955d6887bdfc7",
+                     "title":  "AutoInfo GAN: Toward a better image synthesis GAN framework for high-fidelity few-shot datasets via NAS and contrastive learning",
+                     "venue":  "Knowledge-Based Systems",
+                     "year":  2023,
+                     "citationCount":  27,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.knosys.2023.110757?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1016/j.knosys.2023.110757, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2153119109",
+                                         "name":  "Jiachen Shi"
+                                     },
+                                     {
+                                         "authorId":  "2218894020",
+                                         "name":  "Wenzhen Liu"
+                                     },
+                                     {
+                                         "authorId":  "2110806664",
+                                         "name":  "Guoqiang Zhou"
+                                     },
+                                     {
+                                         "authorId":  "2110342070",
+                                         "name":  "Yuming Zhou"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "4a2e0f9cf41010e994f77ffd6b9041ab36a73a93",
+                     "externalIds":  {
+                                         "DBLP":  "journals/tcsv/MengLJX25",
+                                         "DOI":  "10.1109/TCSVT.2024.3454457",
+                                         "CorpusId":  272413876
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "3f91cf8b-6a0e-43c2-8acb-6efc76ccc250",
+                                              "name":  "IEEE transactions on circuits and systems for video technology (Print)",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "IEEE Trans Circuit Syst Video Technol",
+                                                                      "IEEE Transactions on Circuits and Systems for Video Technology",
+                                                                      "IEEE trans circuit syst video technol (print"
+                                                                  ],
+                                              "issn":  "1051-8215",
+                                              "url":  "http://ieeexplore.ieee.org/servlet/opac?punumber=76"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/4a2e0f9cf41010e994f77ffd6b9041ab36a73a93",
+                     "title":  "A Universal Framework for Improving the Robustness of Coverless Image Steganography Based on Image Restoration",
+                     "venue":  "IEEE transactions on circuits and systems for video technology (Print)",
+                     "year":  2025,
+                     "citationCount":  12,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TCSVT.2024.3454457?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/TCSVT.2024.3454457, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "152128595",
+                                         "name":  "Laijin Meng"
+                                     },
+                                     {
+                                         "authorId":  "2320768587",
+                                         "name":  "Fan Li"
+                                     },
+                                     {
+                                         "authorId":  "2297426051",
+                                         "name":  "Xinghao Jiang"
+                                     },
+                                     {
+                                         "authorId":  "2262718280",
+                                         "name":  "Qiang Xu"
+                                     }
+                                 ],
+                     "abstract":  "Compared with traditional modification image steganography, coverless image steganography can resist the detection of steganalysis algorithms relying on no modification to the carriers. Previous works have made great efforts to improve the robustness against image attacks. However, the robustness of resisting geometric attacks performs not that well. After studying the general flow of the coverless image steganography, we find out that the receiver always needs to generate or map the hash sequences directly from the received images, which causes a significantly negative impact for extracting correct secret information because these received images might be attacked. Inspired by this finding, we surprisingly explore a common way to solve the problem by proposing a universal restoration framework for the attacked images. The most important module of the framework, the restoration module, contains two main parts, i.e., the classification sub-module and the attack restoration sub-module. The attacked images at the receiving end are first sent to a classification sub-module to estimate the type of the attack. Then, the corresponding attack restoration sub-module is utilized to repair the attacked images to improve the robustness. Experimental results show that the robustness of the existing coverless image steganography methods have been greatly improved after using the proposed framework without introducing extra security issues."
+                 },
+                 {
+                     "paperId":  "baf2501c86b98296e651ad56b33bee24b15ba7ab",
+                     "externalIds":  {
+                                         "DBLP":  "journals/tdsc/GuoPX25",
+                                         "DOI":  "10.1109/TDSC.2024.3521424",
+                                         "CorpusId":  274994986
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "d286fdd0-3b6c-433c-afee-87228d8e9f93",
+                                              "name":  "IEEE Transactions on Dependable and Secure Computing",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "IEEE Trans Dependable Secur Comput"
+                                                                  ],
+                                              "issn":  "1545-5971",
+                                              "url":  "http://ieeexplore.ieee.org/servlet/opac?punumber=8858"
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/baf2501c86b98296e651ad56b33bee24b15ba7ab",
+                     "title":  "Highly Robust and Diverse Coverless Image Steganography Against Passive and Active Steganalysis",
+                     "venue":  "IEEE Transactions on Dependable and Secure Computing",
+                     "year":  2025,
+                     "citationCount":  10,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TDSC.2024.3521424?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/TDSC.2024.3521424, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2255506754",
+                                         "name":  "Bobiao Guo"
+                                     },
+                                     {
+                                         "authorId":  "2280162572",
+                                         "name":  "Ping Ping"
+                                     },
+                                     {
+                                         "authorId":  "2280771129",
+                                         "name":  "Feng Xu"
+                                     }
+                                 ],
+                     "abstract":  "To avoid the pixel modification traces left by steganography from being detected by passive steganalysis, and to prevent the hidden data from being destroyed by active steganalysis attacks, Coverless Image Steganography (CIS) that does not modify pixels has attracted widespread attention. However, most existing CIS methods are limited in their maximum capacity due to insufficient diversity in their hash sequences. In addition, these methods struggle to maintain high robustness against both geometric and non-geometric attacks simultaneously. To address these two issues, a new coverless image steganography method is proposed to enhance CIS methods’ applicability, security, and robustness in highly insecure networks. During the hiding process, hash sequences are generated by a SHA-256 algorithm that integrates inter-block and inter-channel fusion, providing higher diversity than other CIS methods. Consequently, the proposed CIS method achieves higher capacity on publicly available datasets. During the extraction process, an evaluation metric that combines visual and histogram similarity is designed to improve the accuracy of inverse image retrieval. The experimental results demonstrate that the proposed CIS method achieves capacity increases of 26.73% and 38.34% over other CIS methods on the VOC and COCO datasets, respectively. Moreover, this method exhibits nearly 100% robustness against common active steganalysis."
+                 },
+                 {
+                     "paperId":  "14eb84e4771e71edd9559e0170c5c19e832f7b69",
+                     "externalIds":  {
+                                         "DOI":  "10.3390/electronics12132881",
+                                         "CorpusId":  259747992
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "ccd8e532-73c6-414f-bc91-271bbb2933e2",
+                                              "name":  "Electronics",
+                                              "type":  "journal",
+                                              "issn":  "1450-5843",
+                                              "alternate_issns":  [
+                                                                      "2079-9292",
+                                                                      "0883-4989"
+                                                                  ],
+                                              "url":  "http://www.electronics.etfbl.net/",
+                                              "alternate_urls":  [
+                                                                     "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-247562",
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-247562",
+                                                                     "https://www.mdpi.com/journal/electronics"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/14eb84e4771e71edd9559e0170c5c19e832f7b69",
+                     "title":  "IDGAN: Information-Driven Generative Adversarial Network of Coverless Image Steganography",
+                     "venue":  "Electronics",
+                     "year":  2023,
+                     "citationCount":  13,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2079-9292/12/13/2881/pdf?version=1688037983",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/electronics12132881?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/electronics12132881, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2189027432",
+                                         "name":  "Chunying Zhang"
+                                     },
+                                     {
+                                         "authorId":  "2188571349",
+                                         "name":  "Xinkai Gao"
+                                     },
+                                     {
+                                         "authorId":  "2222765524",
+                                         "name":  "Xiaoxiao Liu"
+                                     },
+                                     {
+                                         "authorId":  "2213932046",
+                                         "name":  "Wei Hou"
+                                     },
+                                     {
+                                         "authorId":  "2214135617",
+                                         "name":  "Guanghui Yang"
+                                     },
+                                     {
+                                         "authorId":  "2173733606",
+                                         "name":  "Tao Xue"
+                                     },
+                                     {
+                                         "authorId":  "2108947838",
+                                         "name":  "Liya Wang"
+                                     },
+                                     {
+                                         "authorId":  "145412331",
+                                         "name":  "Lu Liu"
+                                     }
+                                 ],
+                     "abstract":  "Traditional image steganography techniques complete the steganography process by embedding secret information into cover images, but steganalysis tools can easily detect detectable pixel changes that lead to the leakage of confidential information. The use of a generative adversarial network (GAN) makes it possible to embed information using a combination of information and noise in generating images to achieve steganography. However, this approach is usually accompanied by issues such as poor image quality and low steganography capacity. To address these challenges, we propose a steganography model based on a novel information-driven generative adversarial network (IDGAN), which fuses a GAN, attention mechanisms, and image interpolation techniques. We introduced an attention mechanism on top of the original GAN model to improve image accuracy. In the generation model, we replaced some transposed convolution operations with image interpolation for better quality of dense images. In contrast to traditional steganographic methods, the IDGAN generates images containing confidential information without using cover images and utilizes GANs for information embedding, thus having better anti-detection capability. Moreover, the IDGAN uses an attention mechanism to improve the image details and clarity and optimizes the steganography effect through an image interpolation algorithm. Experimental results demonstrate that the IDGAN achieves an accuracy of 99.4%, 95.4%, 93.2%, and 100% on the MNIST, Intel Image Classification, Flowers, and Face datasets, respectively, with an embedding rate of 0.17 bpp. The model effectively protects confidential information while maintaining high image quality."
+                 }
+             ]
+}

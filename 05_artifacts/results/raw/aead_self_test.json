@@ -1,0 +1,10 @@
+{
+  "aead": "AES-256-GCM",
+  "correct_key_recovers_plaintext": true,
+  "encrypted_bytes": 61,
+  "payload_bytes": 33,
+  "provider": "pycryptodome",
+  "ready_for_pre_packet_encryption": true,
+  "wrong_associated_data_authentication_fails": true,
+  "wrong_key_authentication_fails": true
+}

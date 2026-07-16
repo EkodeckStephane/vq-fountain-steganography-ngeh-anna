@@ -1,0 +1,1254 @@
+{
+  "artifact": "ETHEGAN NGEH ANNA manuscript package",
+  "date": "2026-07-16",
+  "file_count": 243,
+  "files": [
+    {
+      "bytes": 657,
+      "path": "04_experiments\\results\\confidentiality_support_audit_2026-07-16.md",
+      "sha256": "ba3d17f6b048cd93d691cd36666c71a9083f87bf56353761916f277cbce38711"
+    },
+    {
+      "bytes": 1159,
+      "path": "04_experiments\\results\\equal_bpp_benchmark_2026-07-16.md",
+      "sha256": "e2b16523a88f908d10f77fed14826553207cd5393d55986458f88ae6526b4f27"
+    },
+    {
+      "bytes": 909,
+      "path": "04_experiments\\results\\ethegan_public_baseline_execution_audit_2026-07-16.md",
+      "sha256": "4d8c2e957a48b95b6ba59a31ffc122041ad0496949d71fd05d833d0a6887bfaf"
+    },
+    {
+      "bytes": 24951,
+      "path": "04_experiments\\results\\ethegan_reproducibility_manifest_2026-07-16.md",
+      "sha256": "52ccba664125eefb374759ba2cd9b2f57e809d2b9e76cbf9d6700f93904a37ba"
+    },
+    {
+      "bytes": 5227,
+      "path": "04_experiments\\results\\limit_mechanism_execution_2026-07-16.md",
+      "sha256": "5a25b3e9d997f5ecad0f861ded0f17f5dba913826ad02ac037384f3ce8d6ed58"
+    },
+    {
+      "bytes": 3826,
+      "path": "04_experiments\\results\\v3_attackaware_005_small_results_2026-07-15.md",
+      "sha256": "cfc3a94816285582c6552df449821bbd2388626daadcf173ada8d51696ae3fd7"
+    },
+    {
+      "bytes": 3953,
+      "path": "04_experiments\\results\\v3_pivot_initial_results_2026-07-14.md",
+      "sha256": "d59386841c1ef9552cfc1d47c63758c5babd5c5c2296a6a0da0b69935a94321d"
+    },
+    {
+      "bytes": 3039,
+      "path": "04_experiments\\results\\v3_residual015_iteration_results_2026-07-14.md",
+      "sha256": "d4445a2cedd3f559fb0e66c015e9e2cd6de9802c78f2eb4064370b04afd90787"
+    },
+    {
+      "bytes": 2766,
+      "path": "04_experiments\\results\\v3_residual018_iteration_results_2026-07-14.md",
+      "sha256": "b8f0025d20e75cae1e2cad21f26b026b61f79735b9869730e32399ae9f17afcd"
+    },
+    {
+      "bytes": 2917,
+      "path": "04_experiments\\results\\v3_residual01_tradeoff_results_2026-07-14.md",
+      "sha256": "3821726ac78a4ce5cd6d0f10c27873ed2ffcd6cf7fdd3fb6cc3c60a004318cb7"
+    },
+    {
+      "bytes": 4668,
+      "path": "04_experiments\\results\\v3_scaled_clean_and_security_results_2026-07-14.md",
+      "sha256": "d075c47d8451af1c7f7c71898f337f0c0cc235eb127138beb7983ba5dd4ddac6"
+    },
+    {
+      "bytes": 3957,
+      "path": "04_experiments\\results\\v3_stegaware_initial_results_2026-07-14.md",
+      "sha256": "1b0d51c3d029beadf335ef5659d714b27ae2e19f422c4479e801de2e01004ec4"
+    },
+    {
+      "bytes": 2414,
+      "path": "05_artifacts\\baselines\\baseline_execution_audit.json",
+      "sha256": "d2de41f43089f76f634c0dcf67486d4b0dff00fe493edc33f182eef03b5bb793"
+    },
+    {
+      "bytes": 9799,
+      "path": "05_artifacts\\code\\etehgan\\README.md",
+      "sha256": "eea5774c8e55c67a9fee9b2a9a3132d117d4dc24e52593195ace36e7b8999c91"
+    },
+    {
+      "bytes": 6016,
+      "path": "05_artifacts\\code\\etehgan\\embed_payload.py",
+      "sha256": "e9e4c301f13c90ea354bc90db820e9b18f24bcbc49b7d6baf5779ac2d23e5bfd"
+    },
+    {
+      "bytes": 3091,
+      "path": "05_artifacts\\code\\etehgan\\embed_payload_v2.py",
+      "sha256": "0ecfa2b45fed0ffc172b0a01f5c3d359dc0bf234290fec43e87c5b1757eda324"
+    },
+    {
+      "bytes": 2439,
+      "path": "05_artifacts\\code\\etehgan\\embed_payload_v3.py",
+      "sha256": "d5009f603c0c8f3aff3bb6b1638e25c9757ff01d42f191339ec5ba5e8b30b67d"
+    },
+    {
+      "bytes": 5092,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_smoke_metrics.py",
+      "sha256": "524ec26c78707926d454575212171c294daab782f20ab602ba40d98f91449f54"
+    },
+    {
+      "bytes": 6314,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v2_random.py",
+      "sha256": "73660a9bec285bf581dd97a1e8b695c7adfa465666967baab3940b9ce2daaa84"
+    },
+    {
+      "bytes": 5543,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v2_robustness.py",
+      "sha256": "4951c976de6365fa81e23ce8ae5f316b801ac0c69fec0444597f83679b7d7bd0"
+    },
+    {
+      "bytes": 9544,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v3_adaptive_ecc.py",
+      "sha256": "25faf05f83360dec4bf93f85d4492ed4d982b2a8a5119756d753dd94a511c01c"
+    },
+    {
+      "bytes": 10482,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v3_detectability_gate.py",
+      "sha256": "8c299e88345dff5efc0c67af687f7a1a4aebdffbfd90065dedba69ecea1707b2"
+    },
+    {
+      "bytes": 10199,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v3_packet.py",
+      "sha256": "7c511607acb137dc43f1bf439f65b0bbfb05b95ffa88df6859a1b1133cc49bcb"
+    },
+    {
+      "bytes": 9039,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v3_simple_steganalysis.py",
+      "sha256": "5b510479db571c43d75e564b247e7b072372bc6c3540085d5191440bc3a75c30"
+    },
+    {
+      "bytes": 7325,
+      "path": "05_artifacts\\code\\etehgan\\evaluate_v3_spam_steganalysis.py",
+      "sha256": "83759c70ceadcf8bfa4e0d2ee619264f460295159ac12673a38a2ad8d1eebf12"
+    },
+    {
+      "bytes": 2688,
+      "path": "05_artifacts\\code\\etehgan\\extract_payload.py",
+      "sha256": "7713fbdc71574d1cc9f8966089865ff5c11fb445d6229d2ad16dd302a5d6d394"
+    },
+    {
+      "bytes": 2839,
+      "path": "05_artifacts\\code\\etehgan\\extract_payload_v2.py",
+      "sha256": "59c1898d1a84f0427d824f23eb29b08dabdd5e02e60b29c6365f721056bbc343"
+    },
+    {
+      "bytes": 2654,
+      "path": "05_artifacts\\code\\etehgan\\extract_payload_v3.py",
+      "sha256": "4bf25b9b113308d2a1f186906ae3c6ee07282e566732335098ae696586657f10"
+    },
+    {
+      "bytes": 4159,
+      "path": "05_artifacts\\code\\etehgan\\models.py",
+      "sha256": "c20c10cb6d0435c701dac8639fa31ca260abfaea25cbb2b379a06b8b248e873d"
+    },
+    {
+      "bytes": 8815,
+      "path": "05_artifacts\\code\\etehgan\\packet_v3.py",
+      "sha256": "41b7f5ac0f73931375b5565752335b279f1d9b8e143c2b2f1b00ad70c6b21171"
+    },
+    {
+      "bytes": 4012,
+      "path": "05_artifacts\\code\\etehgan\\secure_payload.py",
+      "sha256": "d23158ff8759fd80bbe69e0ec4724f7672954c887382bca6afacdd515f3ece2b"
+    },
+    {
+      "bytes": 1454,
+      "path": "05_artifacts\\code\\etehgan\\steg_losses.py",
+      "sha256": "879624427786bfa2178d10254c9829e8c77afdfa1872c33406a087f5ca013476"
+    },
+    {
+      "bytes": 10153,
+      "path": "05_artifacts\\code\\etehgan\\train_attack_aware.py",
+      "sha256": "b05d0ae818af3ff6d4c0f137f3ab4da9250b843f1e75cc1fac2a9a5eaddd9a47"
+    },
+    {
+      "bytes": 8137,
+      "path": "05_artifacts\\code\\etehgan\\train_v2.py",
+      "sha256": "224df587dabdeb9116f156d31d71541cf457a628109eabc4de3dbe4beac47776"
+    },
+    {
+      "bytes": 9003,
+      "path": "05_artifacts\\code\\etehgan\\train_v3_stegaware.py",
+      "sha256": "294a186d3954cbc2fa6601377df200a83c02f7920655d240a6cf33ca5c43e4a4"
+    },
+    {
+      "bytes": 15668,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\accordion_test_01641.jpg",
+      "sha256": "dd0b64e54112ea70816967a4e413785a52310210352302e3555edd23c30fe4ad"
+    },
+    {
+      "bytes": 9346,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\airplanes_test_00491.jpg",
+      "sha256": "d8fbc02bae43dce8334240afa3b0349cb7563b4425a2440fd5e30d0b248ccf9c"
+    },
+    {
+      "bytes": 13067,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\anchor_test_03484.jpg",
+      "sha256": "c511ee9d4a440c56596caeed509f5f1c84a2e1ce7ed6358264168530988eebdf"
+    },
+    {
+      "bytes": 19960,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ant_test_00086.jpg",
+      "sha256": "7e26e18abdb7a6812ef3e46eea68a027b898eb4951085db4a5c7b5165e832f6d"
+    },
+    {
+      "bytes": 9087,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\background_google_test_04580.jpg",
+      "sha256": "38d0caa70d401bb27701bd22a34ccdfb03109731450dd6d9f4d034d25155dbd2"
+    },
+    {
+      "bytes": 11510,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\barrel_test_01752.jpg",
+      "sha256": "a18e2bace4df712c9786ee90d00b9040608148dea96cfe2fcee5cddc8d9c8f00"
+    },
+    {
+      "bytes": 10863,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bass_test_02362.jpg",
+      "sha256": "0523b3ffb57350c3b979a02b17f53ce7084aa31a3354b320efd138fa3ebd4a4d"
+    },
+    {
+      "bytes": 13726,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\beaver_test_02447.jpg",
+      "sha256": "3bd8167829955a406216c856007fc0f06393f55d6bba92a91421bb3219e85806"
+    },
+    {
+      "bytes": 12487,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\binocular_test_03481.jpg",
+      "sha256": "e52768ef6479792366b88558292bd9fabca9a171c7385ba5ed7b03488bf7b159"
+    },
+    {
+      "bytes": 19489,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\bonsai_test_02476.jpg",
+      "sha256": "ab4e96e74889ec60819e5e69e6dfc194777cf2f442eb02530f7daf9872571a5f"
+    },
+    {
+      "bytes": 12120,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brain_test_03351.jpg",
+      "sha256": "5b7715081d8e3832145045f2e2d0ced8094a3361432a80df9c407966aaad909a"
+    },
+    {
+      "bytes": 16012,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\brontosaurus_test_01437.jpg",
+      "sha256": "3f3c1b3dccaaf3425c25122c2df93d2b291cf2fe4af6faf5e4f6b71e43651baa"
+    },
+    {
+      "bytes": 9106,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\buddha_test_03501.jpg",
+      "sha256": "4d098770dcb8f027352701a4794a982f7b954e9eb66a99c4d438d2ce2da223f2"
+    },
+    {
+      "bytes": 16761,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\butterfly_test_00098.jpg",
+      "sha256": "32103a61247d6ae8483fcc68fac91c1e37e24d887d0d4bfcdc1076887824efbd"
+    },
+    {
+      "bytes": 17682,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\camera_test_01732.jpg",
+      "sha256": "7c0df4c0a0c723e3e0c82e41d46b8be53cd181675d7cee48812d48c22b70e536"
+    },
+    {
+      "bytes": 20615,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cannon_test_03468.jpg",
+      "sha256": "7db08696f60ce66bfeb20e33dd70a8200a11d05e678615da5e3100611fd3f006"
+    },
+    {
+      "bytes": 12964,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\car_side_test_02744.jpg",
+      "sha256": "154c11c47d9cef5497fa434b5cf788ae0b1f966e342061b5e2dfd04114acfa88"
+    },
+    {
+      "bytes": 10486,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\ceiling_fan_test_02222.jpg",
+      "sha256": "81b579b38b0ca0a656ddfc218311f38c937aa407ece4c7b98f6f882c82514000"
+    },
+    {
+      "bytes": 13806,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\cellphone_test_01802.jpg",
+      "sha256": "c00e1e9608d2a96a5b44597476c5275f1d89493cd7308f0a98134ea9ae1c5111"
+    },
+    {
+      "bytes": 22700,
+      "path": "05_artifacts\\data\\security_gate\\caltech20_diverse\\chair_test_02030.jpg",
+      "sha256": "2200d5717b2db4f2f9a4d86b3e9a7cf848f9ace2d1125b074f40eaf9dce12664"
+    },
+    {
+      "bytes": 527115,
+      "path": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+      "sha256": "b6e0ca4ed789693a93878cf0a88b41f2cba0186bee3ad764793ef174d512dd33"
+    },
+    {
+      "bytes": 272963,
+      "path": "05_artifacts\\models\\ethegan_attackaware_005_small_e2.pt",
+      "sha256": "bb0b37bf8c3122141e8d4558e4d33a5ee90a03532a3933682a8155af85552fa8"
+    },
+    {
+      "bytes": 24777,
+      "path": "05_artifacts\\results\\raw\\adaptive_ecc_sample_025.json",
+      "sha256": "bac7325b2df66141d5c71aeaa4409eed41ee99bc3f841fbe9c62d90da672a974"
+    },
+    {
+      "bytes": 295,
+      "path": "05_artifacts\\results\\raw\\aead_self_test.json",
+      "sha256": "fe0104352cf369e4c7c86076b705ce4ca7faffb49a50f96e9f570862eccc4f83"
+    },
+    {
+      "bytes": 6032,
+      "path": "05_artifacts\\results\\raw\\equal_bpp_benchmark.json",
+      "sha256": "fe36f0bccb16d2626bca570ffafe2a9d95dbd3f96500b5edb5c15ef4f534207f"
+    },
+    {
+      "bytes": 65262,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech100_025_clean.json",
+      "sha256": "979bdfbe5142543842239eac82b3f553f650fab1e99bb89f3028b3d73104bba3"
+    },
+    {
+      "bytes": 65317,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech100_025_ecc128_clean.json",
+      "sha256": "4180b1c5c1c79214f68913c8c32cd9dae2d472844fed2d7257a867de8bc2ece2"
+    },
+    {
+      "bytes": 15764,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_0005_n64e16_clean_securitygate.json",
+      "sha256": "f6636c3ede1329b12bbcfc0745d721a02a5768b1c37298c08f3cc995d21408d2"
+    },
+    {
+      "bytes": 15999,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_0005_n64e8_clean_securitygate.json",
+      "sha256": "149c0dd5642ff6b2a18951f6de01bd79fbf34a458d7770c843ed08e65e34e4d5"
+    },
+    {
+      "bytes": 15560,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_00075_n128e32_clean_securitygate.json",
+      "sha256": "3a25061ea59204a1ea682e7923daf4354442d98c5b57db0a55da7f926ac4e18a"
+    },
+    {
+      "bytes": 15698,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_001_clean_securitygate.json",
+      "sha256": "bfcc9f3b507a110808767d19ff4fce16fb87165f558f458c55d2246ba5492136"
+    },
+    {
+      "bytes": 99455,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_025_attacks.json",
+      "sha256": "42146d602ed6011e15a9e2a8b984c3091cd3078807a33dd1b206da939513460f"
+    },
+    {
+      "bytes": 96640,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_025_ecc128_attacks.json",
+      "sha256": "b6635c06f784315258812f57ac1432d15443c3725b87a55ae833aa3c3415295f"
+    },
+    {
+      "bytes": 14710,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_diverse_00075_n128e32_clean_securitygate.json",
+      "sha256": "068601f69d9e5ca9c08a3d58f09a4241bd01eca04a2427a6cddba2abac96d134"
+    },
+    {
+      "bytes": 14822,
+      "path": "05_artifacts\\results\\raw\\ethegan_caltech20_diverse_001_clean_securitygate.json",
+      "sha256": "7e4b569072feb2a7219fac6613c32d8cb474b687c0eb67567bc901ddd2d08778"
+    },
+    {
+      "bytes": 66746,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco100_010_clean.json",
+      "sha256": "72d78730890590f3b49052cd2097e7e37bcd49401db6994f6d8eefc3f113a31c"
+    },
+    {
+      "bytes": 65475,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco100_025_clean.json",
+      "sha256": "3bea6783d9482e0401238b0b304528bcce027c7f5a19d7513175e6f2755ebaf7"
+    },
+    {
+      "bytes": 64997,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco100_025_clean_erasures8.json",
+      "sha256": "f6b516db5bf979347beaa759b84f549b0c40c4615df7e5a6b042b54e73bdd573"
+    },
+    {
+      "bytes": 64002,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco100_025_ecc128_clean.json",
+      "sha256": "ab40f7fab5a48508e4e50040acc7065b024782826347a2b4ca6ffe316655897f"
+    },
+    {
+      "bytes": 15381,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_0005_n64e16_clean_securitygate.json",
+      "sha256": "1fe61511cef3201128873c91262654ceb6765400b35ec2a94e3ae9ce62abd668"
+    },
+    {
+      "bytes": 15190,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_0005_n64e8_clean_securitygate.json",
+      "sha256": "565140b55b12ed0305fb955ebe2e5664ed7cf06440d8d77d7d5f3b043aec0c6f"
+    },
+    {
+      "bytes": 15207,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_00075_n128e32_clean_securitygate.json",
+      "sha256": "19565108c7cfdac6e00517d2ef99b7ca9d7cb262207982f2e47f9f8888a1ea09"
+    },
+    {
+      "bytes": 15351,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_001_clean_securitygate.json",
+      "sha256": "515c0d7da0e34d2d17a8924e7f4c269cea4cea4f82fa1407689504101d4cfce7"
+    },
+    {
+      "bytes": 99067,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_025_attacks.json",
+      "sha256": "1662da27ee5034339aae96a647d7af60839d180b31b71fb7fa4a15b8f5ff7950"
+    },
+    {
+      "bytes": 96845,
+      "path": "05_artifacts\\results\\raw\\ethegan_coco20_025_ecc128_attacks.json",
+      "sha256": "0befe6f48943ae274e3de31966f7075b3743bc493f67152017bdba5dc55adc8e"
+    },
+    {
+      "bytes": 21056,
+      "path": "05_artifacts\\results\\raw\\ethegan_detectability_gate_40_00075_n128e32.json",
+      "sha256": "69dd1796e6bc62bd1b35799b2d6ca843e39d6cac9292ce759265debfb4e56fdc"
+    },
+    {
+      "bytes": 21063,
+      "path": "05_artifacts\\results\\raw\\ethegan_detectability_gate_40_00075_n128e32_accept25.json",
+      "sha256": "8c64b2447f98c91431c1732ea5e0f1b533ebae059b8afdd36be4d7bd4acd304f"
+    },
+    {
+      "bytes": 139022,
+      "path": "05_artifacts\\results\\raw\\ethegan_equalbpp_40_00075_n128e32_attacks.json",
+      "sha256": "b4348b0433d72889754176b47e3859f701475ab391816ec5562dafe6cc5f431d"
+    },
+    {
+      "bytes": 35508,
+      "path": "05_artifacts\\results\\raw\\ethegan_reproducibility_manifest.json",
+      "sha256": "6a92f481f7fce6a71693fb1e7dc6282f99fafe1f6be96dbc2ed0912e88705f53"
+    },
+    {
+      "bytes": 11773,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_caltech20_00075_n128e32_securitygate.json",
+      "sha256": "d80c8fa85740526a57820f76d591036c7b2a6cbe6b19819eac51791e65a10ca5"
+    },
+    {
+      "bytes": 11764,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_caltech20_001_securitygate.json",
+      "sha256": "bf4098ed9380f6642c40c2aeebc7b95d87150972af0b598a4542502f5871077e"
+    },
+    {
+      "bytes": 9595,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_caltech20_diverse_00075_n128e32_securitygate.json",
+      "sha256": "11afe8c60cd09e9f1925aa38643548c87ad57be17a2ba30fb943a5660c6187fd"
+    },
+    {
+      "bytes": 9580,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_caltech20_diverse_001_securitygate.json",
+      "sha256": "41949a314b5f3c8ecc1648553818bd96baa1f2678ef2e26f8bd76911cc9cd96f"
+    },
+    {
+      "bytes": 11121,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_coco20_00075_n128e32_securitygate.json",
+      "sha256": "cfa63d9be1bac792a479d98bde0ea35b8313c37ffd6de57062a0d92a5b1f8cf1"
+    },
+    {
+      "bytes": 11179,
+      "path": "05_artifacts\\results\\raw\\ethegan_simple_coco20_001_securitygate.json",
+      "sha256": "b88a990c10c1e4660ddd83df34d3ecaa4524aff593b8417c85579114804893f8"
+    },
+    {
+      "bytes": 11702,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_caltech20_00075_n128e32_securitygate.json",
+      "sha256": "02e332994edf9d073c395c9604e7a85525c0f9854469ab25b4e11354747333a0"
+    },
+    {
+      "bytes": 11748,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_caltech20_001_securitygate.json",
+      "sha256": "b84251eae8b843596ecf4f7fc51f0f43fbafc1bc0eed67fa9b671a2702e2272a"
+    },
+    {
+      "bytes": 9397,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_caltech20_diverse_00075_n128e32_securitygate.json",
+      "sha256": "aec889f42bcbb0012fca57ff7b8b93e40b2bc3ead3669c9ef3e78c73cc2c22fc"
+    },
+    {
+      "bytes": 9593,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_caltech20_diverse_001_securitygate.json",
+      "sha256": "bac435067a9c25ce1a66d2257cbb443630bc157320cfb889bd47435197d28dc8"
+    },
+    {
+      "bytes": 11123,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_coco20_00075_n128e32_securitygate.json",
+      "sha256": "5d4d0e188b36dc99c14ff216f852d98ccc191cc37d1a5c93bbbfde77c69d5f90"
+    },
+    {
+      "bytes": 11207,
+      "path": "05_artifacts\\results\\raw\\ethegan_spam_coco20_001_securitygate.json",
+      "sha256": "81da63b0974682780a46587f9d07d3ae97def4d8a4c500b4ee9e464d5900452f"
+    },
+    {
+      "bytes": 32572,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_caltech80_025_ecc128_seed2026.json",
+      "sha256": "46b25f6ace72077291d0c843b5808f777f7e63d27acddbe850275a41d1eac9ab"
+    },
+    {
+      "bytes": 32604,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_caltech80_025_ecc128_seed2027.json",
+      "sha256": "c2609f4b34cae19b33f4c43c60dbf5a66151aa6665e4b520abf70ed43cd96ccc"
+    },
+    {
+      "bytes": 32566,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_caltech80_025_ecc128_seed2028.json",
+      "sha256": "7b372c1e775e453a5a63a2116a7e97217dfaa2349584611f1a766aef99570e65"
+    },
+    {
+      "bytes": 32601,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_caltech80_025_seed2027.json",
+      "sha256": "17af4db2a42527672b2af1e0f394b05eadb7ce757b4c2b97a8ec8e7e04c0e850"
+    },
+    {
+      "bytes": 32577,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_caltech80_025_seed2028.json",
+      "sha256": "025261c79cc0760eb597e6f8fcc378d22213dbfb01098e1582637a4f02ee23da"
+    },
+    {
+      "bytes": 30229,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_coco80_025_ecc128_seed2026.json",
+      "sha256": "89d8e215bf7a16e9ae8b3090beafc710804eed69d5926a3ef662aa73e73081dd"
+    },
+    {
+      "bytes": 30196,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_coco80_025_ecc128_seed2027.json",
+      "sha256": "3aec1d0f3a069c2b5fa0ccc46be9773233170c594e4d09dccef3d2f46e9cb69f"
+    },
+    {
+      "bytes": 30220,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_coco80_025_ecc128_seed2028.json",
+      "sha256": "871742c92d9831b8264f748a7c5c07b93a2906a1004f48fa326fe719264a2e31"
+    },
+    {
+      "bytes": 30196,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_coco80_025_seed2027.json",
+      "sha256": "c3ec55befa816a6bdaacfeebc0310e4513362ff5265bd1877a5b08ccc63d6578"
+    },
+    {
+      "bytes": 30230,
+      "path": "05_artifacts\\results\\raw\\ethegan_steganalysis_coco80_025_seed2028.json",
+      "sha256": "93cfe22d5417cd5158f15db484ed29236236fac91900ac1d99fb8612892c4722"
+    },
+    {
+      "bytes": 1326,
+      "path": "05_artifacts\\results\\raw\\spam_steganalysis_sample_025.json",
+      "sha256": "f472a8990e405c7ccc83214e089f77085becf24f026b27911fc80a0b0a4dae4e"
+    },
+    {
+      "bytes": 13696,
+      "path": "05_artifacts\\results\\raw\\v3_packet_caltech20_025_clean.json",
+      "sha256": "1167c0f345928896393e06bda2159f64dffb8311715b3f7dc89b684986eea050"
+    },
+    {
+      "bytes": 34082,
+      "path": "05_artifacts\\results\\raw\\v3_packet_caltech50_005_clean.json",
+      "sha256": "d3563adfe00bba866e27df6dc2a2bad6b64160fa9ad660daca03e72370ad34da"
+    },
+    {
+      "bytes": 33987,
+      "path": "05_artifacts\\results\\raw\\v3_packet_caltech50_010_clean.json",
+      "sha256": "7e698d63b32fdc4a524c91cb070ced4b74f690a61fc1dfd0738f7474573a67e1"
+    },
+    {
+      "bytes": 33065,
+      "path": "05_artifacts\\results\\raw\\v3_packet_caltech50_025_clean.json",
+      "sha256": "ba709d41cf828fd88d7f1164b37e7f80533d6b90204b1b29442d30bd8901c88b"
+    },
+    {
+      "bytes": 49597,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco10_025_attacks.json",
+      "sha256": "f918eed39a29cfa1570f9d75bf7602e6e5e7e9c0cfdbf5c03e309606b9bb8896"
+    },
+    {
+      "bytes": 14164,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco10_025_noise_erasures8.json",
+      "sha256": "05ed99f2dde359882bc85e6783f5c229c9050f1a3736515bd6a3444b8f30a229"
+    },
+    {
+      "bytes": 13395,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco20_025_clean.json",
+      "sha256": "78e64bce819e02514401f9902f7a7bba829ada27aac263df954b09d0bec30bd0"
+    },
+    {
+      "bytes": 118439,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco30_025_attacks.json",
+      "sha256": "9bb02964ee5f7de9c5963de6b86cd860fa539151dff649b631332e6fc3ad0965"
+    },
+    {
+      "bytes": 33986,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco50_005_clean.json",
+      "sha256": "2fcb588c94a93d469378c1878f23304f612ae8833b09c163db8d30ef6814ae63"
+    },
+    {
+      "bytes": 33899,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco50_010_clean.json",
+      "sha256": "9601ceddcca10cfe285deb0945ff783c104e1043e551c3582de58d5856c639d6"
+    },
+    {
+      "bytes": 32305,
+      "path": "05_artifacts\\results\\raw\\v3_packet_coco50_025_clean.json",
+      "sha256": "6023179fe33fedfda2fc0f6c899d96ae41ee3dc137e6e008dca8ddd537e7e0da"
+    },
+    {
+      "bytes": 2135,
+      "path": "05_artifacts\\results\\raw\\v3_packet_sample_005_clean.json",
+      "sha256": "f09b8b003e383cdfbc3c5f6d94b7798d8129411628767f2f03f5dcf520a84ffa"
+    },
+    {
+      "bytes": 2122,
+      "path": "05_artifacts\\results\\raw\\v3_packet_sample_010_clean.json",
+      "sha256": "b5a97f4c2795a51b2fde7673da6b813e23b01eb40e34e9819138d5600d77d054"
+    },
+    {
+      "bytes": 2065,
+      "path": "05_artifacts\\results\\raw\\v3_packet_sample_025_clean.json",
+      "sha256": "b391fcfe7b4668598c429c025ee3d1fb98959692a7ec4cb22be083b1218b9079"
+    },
+    {
+      "bytes": 33030,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img12_ft3_caltech50_025_clean.json",
+      "sha256": "d75ac8c03833412152f7047732edc7cc08056042d91b659c56ac7c4c458e6a27"
+    },
+    {
+      "bytes": 32767,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img12_ft3_coco50_025_clean.json",
+      "sha256": "176a082c3fd822a35a1b4e15b9ff070d1281c3add8ae4ad6a0f7fc8d385288a6"
+    },
+    {
+      "bytes": 32766,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img12_ft3_coco50_025_clean_erasures8.json",
+      "sha256": "e823c80ade33200e2f9bcdb4a91f9591a4b9d2d88210ef515e261be2736ab1eb"
+    },
+    {
+      "bytes": 33064,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img20_caltech50_025_clean.json",
+      "sha256": "52ab56cf261867245c1f9343ba68be94768260856df3e96fc70745f867e1aa30"
+    },
+    {
+      "bytes": 32784,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img20_coco50_025_clean.json",
+      "sha256": "e9614d583926ce62d3399895faa2a0a284c72e8b316c6d1fed6d7da017618fb2"
+    },
+    {
+      "bytes": 32597,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img20_steganalysis_caltech80_025.json",
+      "sha256": "e7a6b0dda341d41c870de897395de778ab62a39df1bab948553f8fffb6959808"
+    },
+    {
+      "bytes": 30226,
+      "path": "05_artifacts\\results\\raw\\v3_residual015_img20_steganalysis_coco80_025.json",
+      "sha256": "cf159eed1b10f138d9873fdf9a9b1023f41e8da72a183d6a1a68894ccb7323b9"
+    },
+    {
+      "bytes": 33052,
+      "path": "05_artifacts\\results\\raw\\v3_residual018_img16_caltech50_025_clean.json",
+      "sha256": "6a97e7c66167711f0f9c51a448adbcd70acfa0adc0fc2cd47f3da47dcad58b33"
+    },
+    {
+      "bytes": 32339,
+      "path": "05_artifacts\\results\\raw\\v3_residual018_img16_coco50_025_clean.json",
+      "sha256": "d0ffbb5ee0fc8b9445b117472b82ac64677ce0f5be2747b108797b91caadb0e3"
+    },
+    {
+      "bytes": 3941,
+      "path": "05_artifacts\\results\\raw\\v3_residual018_img16_coco5_025_clean_debug.json",
+      "sha256": "6bbf4c04ad861d8544ea0d3ade0d32f7b0301d43a19a6f2a9731dc4d7f3384d2"
+    },
+    {
+      "bytes": 32589,
+      "path": "05_artifacts\\results\\raw\\v3_residual018_img16_steganalysis_caltech80_025.json",
+      "sha256": "188415df48a2976acc27ee02ac780e1291c351e736178be2be6c9fa47b3f5ddf"
+    },
+    {
+      "bytes": 30225,
+      "path": "05_artifacts\\results\\raw\\v3_residual018_img16_steganalysis_coco80_025.json",
+      "sha256": "4dbb0c4a6f0cd1cdf74a82bac532e6b9ef8494979c2bf0fa2735eee8391b8643"
+    },
+    {
+      "bytes": 33076,
+      "path": "05_artifacts\\results\\raw\\v3_residual01_img30_caltech50_025_clean.json",
+      "sha256": "e4fa1458af00ab4073a8c41461497b88fb65d172d24c1f6f585d76b82e9e905a"
+    },
+    {
+      "bytes": 34320,
+      "path": "05_artifacts\\results\\raw\\v3_residual01_img30_coco50_025_clean.json",
+      "sha256": "fca836827f89d2a3145646f70a0596375fa6daae1da6c807822acf1342cca7dc"
+    },
+    {
+      "bytes": 32576,
+      "path": "05_artifacts\\results\\raw\\v3_residual01_img30_steganalysis_caltech80_025.json",
+      "sha256": "1f98a5f6c4b29b034e4f2ce56916c55daca57fe79655062ba5a4992460d4f1bc"
+    },
+    {
+      "bytes": 30232,
+      "path": "05_artifacts\\results\\raw\\v3_residual01_img30_steganalysis_coco80_025.json",
+      "sha256": "0f74d90c3fadf94838e1aac6a0f940e5ee6891dcbaf53e38039d28dd7ee5dab2"
+    },
+    {
+      "bytes": 32597,
+      "path": "05_artifacts\\results\\raw\\v3_simple_steganalysis_caltech80_025.json",
+      "sha256": "5fbc1907cd49aaa3817be8d69f640c1d5bb5245991de3532925425791c65567f"
+    },
+    {
+      "bytes": 30250,
+      "path": "05_artifacts\\results\\raw\\v3_simple_steganalysis_coco80_025.json",
+      "sha256": "af7632edc6b76ca9f0b859705173cb02516a0811c8e533dee2182e297a0e7f1e"
+    },
+    {
+      "bytes": 33045,
+      "path": "05_artifacts\\results\\raw\\v3_stegaware018_stat05_adv001_e3_caltech50_025_clean.json",
+      "sha256": "c759c85704570ecca825b83365587b2cb49d614e60c429ed6a8fb3688c61fce1"
+    },
+    {
+      "bytes": 32344,
+      "path": "05_artifacts\\results\\raw\\v3_stegaware018_stat05_adv001_e3_coco50_025_clean.json",
+      "sha256": "01f6fd6f0887895f399fad533b00f85f269001dbbef4162c09ad1dc0eace65cc"
+    },
+    {
+      "bytes": 32562,
+      "path": "05_artifacts\\results\\raw\\v3_stegaware018_stat05_adv001_e3_steganalysis_caltech80_025.json",
+      "sha256": "679b67c58463d2634d9590a6f777a3c99d5876265a50e50122159dc14d491a64"
+    },
+    {
+      "bytes": 30248,
+      "path": "05_artifacts\\results\\raw\\v3_stegaware018_stat05_adv001_e3_steganalysis_coco80_025.json",
+      "sha256": "c71f10494f51af25cf7220b01420bb884063c1b2be506f23030a8c8372e04f51"
+    },
+    {
+      "bytes": 9564,
+      "path": "05_artifacts\\results\\tables\\adaptive_ecc_sample_025.csv",
+      "sha256": "229fcbf7c002e5afd7512f0eda10a924174721d5f6dd6afd3b526353255add23"
+    },
+    {
+      "bytes": 704,
+      "path": "05_artifacts\\results\\tables\\equal_bpp_benchmark.csv",
+      "sha256": "f15f7f763baaa8e655c279c6586e8481dcec816a5abd21f3e7f7e3e895e7833b"
+    },
+    {
+      "bytes": 16934,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech100_025_clean.csv",
+      "sha256": "526dbaa49e92a4589d54cdb37e3602655a71e0db028e919568b9a6b3822707b2"
+    },
+    {
+      "bytes": 16987,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech100_025_ecc128_clean.csv",
+      "sha256": "5758947273d14fbf8a18e24205c97679839328565e26502150dfcc2b890dff8c"
+    },
+    {
+      "bytes": 5488,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_0005_n64e16_clean_securitygate.csv",
+      "sha256": "e5a8aef4d81d6e3614904894e29dbcea04f89ce7ae6ae7c942436765ce0bb615"
+    },
+    {
+      "bytes": 5719,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_0005_n64e8_clean_securitygate.csv",
+      "sha256": "431af591b308c7a699e71a08b7f9e3415342acf548d645c699bd8e82feff25ae"
+    },
+    {
+      "bytes": 5281,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_00075_n128e32_clean_securitygate.csv",
+      "sha256": "93010ba1338c885b40aa5c229f6e1fa4053885c69e3f527c320eac9e5a9eeb24"
+    },
+    {
+      "bytes": 5407,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_001_clean_securitygate.csv",
+      "sha256": "40375af69ffec168d1de80a90d1f64708deb1f8ad78744e9277d7a9d569251ef"
+    },
+    {
+      "bytes": 39900,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_025_attacks.csv",
+      "sha256": "04c360759a71d934416ddc11d88e48b351e9dc3d369ad060876b02e398b0d834"
+    },
+    {
+      "bytes": 36937,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_025_ecc128_attacks.csv",
+      "sha256": "6af5872ee078f4db7c55c8ae91b7d30cfcc79a6f26c7535acdd63c40512800a9"
+    },
+    {
+      "bytes": 4568,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_diverse_00075_n128e32_clean_securitygate.csv",
+      "sha256": "b91dcfdb9a8d9b9a5a09fdeed9072141b6865fe222131b96ed1e0edc6f5fb32d"
+    },
+    {
+      "bytes": 4669,
+      "path": "05_artifacts\\results\\tables\\ethegan_caltech20_diverse_001_clean_securitygate.csv",
+      "sha256": "d729bc66118d01194b279c157c431bdc7a590104b9937a0ed0290254941bf0a3"
+    },
+    {
+      "bytes": 18495,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco100_010_clean.csv",
+      "sha256": "b35404ae48732e1a0d3e2fc996a40794dd58dc744422f78fbdadaee16e41942a"
+    },
+    {
+      "bytes": 17245,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco100_025_clean.csv",
+      "sha256": "82878285630aa899d8ff304ce7eb489bf4ff99f2c5f96ab9232462bae394389c"
+    },
+    {
+      "bytes": 16767,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco100_025_clean_erasures8.csv",
+      "sha256": "c9c2af24ad525efb6080b37f655d16219188a3debffd68e53211fba48fd8ef6f"
+    },
+    {
+      "bytes": 15772,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco100_025_ecc128_clean.csv",
+      "sha256": "8d536bd16a2a3f62b18c16f0d0385550ac5b88de298f4b0b32e20d44c8037422"
+    },
+    {
+      "bytes": 5122,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_0005_n64e16_clean_securitygate.csv",
+      "sha256": "bc8f4edd6277508ad6c8430bff202d2699b4cdacd41f02aa7f9c4dfdec571de5"
+    },
+    {
+      "bytes": 4930,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_0005_n64e8_clean_securitygate.csv",
+      "sha256": "965ba4343e11ee4c4e0ddff4f14eaa5931881692c7adeb635aef29bcd1b219cf"
+    },
+    {
+      "bytes": 4946,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_00075_n128e32_clean_securitygate.csv",
+      "sha256": "33e39121457e3bfa4e7207b840cb226cb7f5f28b1b7651f2d1c25fdd9d82648e"
+    },
+    {
+      "bytes": 5077,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_001_clean_securitygate.csv",
+      "sha256": "5fae7b564c18fbcae738e06a6ebfeefd3f43f9991d84462e71669f5d38b8fc93"
+    },
+    {
+      "bytes": 39700,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_025_attacks.csv",
+      "sha256": "9a564ab84dd5d904f59fb02d01de9b35276316a53ff14b4d570cfddc037b6ddf"
+    },
+    {
+      "bytes": 37372,
+      "path": "05_artifacts\\results\\tables\\ethegan_coco20_025_ecc128_attacks.csv",
+      "sha256": "3b432227b3f0c50eb7468682ef9f16978bcc591a3639a9cd12c4803876c9f861"
+    },
+    {
+      "bytes": 8827,
+      "path": "05_artifacts\\results\\tables\\ethegan_detectability_gate_40_00075_n128e32.csv",
+      "sha256": "f9aed9e145e12c5cd687e21093bf777a38b7d0eb8c390e4a56aa43535f7161bb"
+    },
+    {
+      "bytes": 8837,
+      "path": "05_artifacts\\results\\tables\\ethegan_detectability_gate_40_00075_n128e32_accept25.csv",
+      "sha256": "bedcb468f0a254321e6d409bffc396d302308d780fcdfc9267e27185da23748b"
+    },
+    {
+      "bytes": 60148,
+      "path": "05_artifacts\\results\\tables\\ethegan_equalbpp_40_00075_n128e32_attacks.csv",
+      "sha256": "b49dc1c5aa9a5a0d752145b547f3aaae0163ff52e08263252cae5cb5b0f0fd40"
+    },
+    {
+      "bytes": 5973,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_caltech20_00075_n128e32_securitygate.csv",
+      "sha256": "91ae52341403e703132fc7e835e3805f3dcde073a56035b860c9037a905a942c"
+    },
+    {
+      "bytes": 5959,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_caltech20_001_securitygate.csv",
+      "sha256": "fe8295ac1557c41e5c759040f8c9c1b8b258be21fcd8fee1a9de0891988862a6"
+    },
+    {
+      "bytes": 4073,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_caltech20_diverse_00075_n128e32_securitygate.csv",
+      "sha256": "9fed9172ce92c8056b97f5f0558d34f519e291dd42cff06ac4930c7a9af305f7"
+    },
+    {
+      "bytes": 4054,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_caltech20_diverse_001_securitygate.csv",
+      "sha256": "5b7017af7b7cdb7e02d77a4a2c3ed2f80b0a71683bf22c9cd30fcabff53cebd4"
+    },
+    {
+      "bytes": 5359,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_coco20_00075_n128e32_securitygate.csv",
+      "sha256": "34472f65302a58c8414205fae5d50b9ebd1988c184a6968c558f699e9d0e5992"
+    },
+    {
+      "bytes": 5414,
+      "path": "05_artifacts\\results\\tables\\ethegan_simple_coco20_001_securitygate.csv",
+      "sha256": "89ab56112cfe3bb365817e81dd208edcac188b566ff859922f76617a4496ea5f"
+    },
+    {
+      "bytes": 5874,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_caltech20_00075_n128e32_securitygate.csv",
+      "sha256": "be122bc26052fbfe83f89fd5fc51c34b6f92a5312af72a65c0379bc752a4278e"
+    },
+    {
+      "bytes": 5914,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_caltech20_001_securitygate.csv",
+      "sha256": "bc6a5163475c8a9df4d788a2a28a9689f5e396ea911ba3287908cc7f8bf67b3b"
+    },
+    {
+      "bytes": 3847,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_caltech20_diverse_00075_n128e32_securitygate.csv",
+      "sha256": "d5c5025a80639efad988bdb80504ac7da7cbf429f7a1f56656f7686c7da63b84"
+    },
+    {
+      "bytes": 4038,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_caltech20_diverse_001_securitygate.csv",
+      "sha256": "51bb9ef8f6332ff34bceb202839cc41b161f617c4fb7b9f4654cb95b2ca0f71d"
+    },
+    {
+      "bytes": 5334,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_coco20_00075_n128e32_securitygate.csv",
+      "sha256": "c929f1527ad59d96db69bd965899376856b617646c25d2975e875235fcba903e"
+    },
+    {
+      "bytes": 5413,
+      "path": "05_artifacts\\results\\tables\\ethegan_spam_coco20_001_securitygate.csv",
+      "sha256": "1340d4e748a1d0bea599ef20f8232c9dac112439c7dfd6933a3a8698c2c78740"
+    },
+    {
+      "bytes": 12379,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_caltech80_025_ecc128_seed2026.csv",
+      "sha256": "6fcd269e40c5e40f7c7c7f00e43d67eca1fefa8b4cd4bacd62afc048b8e175ca"
+    },
+    {
+      "bytes": 12411,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_caltech80_025_ecc128_seed2027.csv",
+      "sha256": "0c2039a28f376187ab0c5dec89aefd2ac5ad70cbe6aa0ab2b83d6fc04be7ed1e"
+    },
+    {
+      "bytes": 12373,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_caltech80_025_ecc128_seed2028.csv",
+      "sha256": "c39712f58ed8ed212fd17c964ee433a6960490343e0db61837e170573f8c85b5"
+    },
+    {
+      "bytes": 12407,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_caltech80_025_seed2027.csv",
+      "sha256": "5ec42e3e7233957aaa8f04aa8891c3b00323afe9ea6355ea1e5ff491b2312fce"
+    },
+    {
+      "bytes": 12387,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_caltech80_025_seed2028.csv",
+      "sha256": "83d278164ca1fd560fe52f41ea798a4fbc4f664b767692a45aa8e201a0dc2259"
+    },
+    {
+      "bytes": 10195,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_coco80_025_ecc128_seed2026.csv",
+      "sha256": "61480a97801200d0cc59c5a787a2ab00f658aa19ee916f22811ac73d92f13103"
+    },
+    {
+      "bytes": 10159,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_coco80_025_ecc128_seed2027.csv",
+      "sha256": "208cdedbd51455b5c52b78d4ea3ce69b1129c34fc0ae8960e6d4a8f9ddbd16aa"
+    },
+    {
+      "bytes": 10180,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_coco80_025_ecc128_seed2028.csv",
+      "sha256": "dc7edef82bd80c4f34ed40584b4a4645c0472c21f9c6666c46dc5bf4df4a134f"
+    },
+    {
+      "bytes": 10159,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_coco80_025_seed2027.csv",
+      "sha256": "1f0addb43b86556dd574092d5ec21b7c54c7dade3f93d0f82c954041d5331524"
+    },
+    {
+      "bytes": 10190,
+      "path": "05_artifacts\\results\\tables\\ethegan_steganalysis_coco80_025_seed2028.csv",
+      "sha256": "3216d8420af88bdd4e29832f40dc68ade0d1af34dd9358f3c7a2dc389900c7fa"
+    },
+    {
+      "bytes": 300,
+      "path": "05_artifacts\\results\\tables\\spam_steganalysis_sample_025.csv",
+      "sha256": "b112daa1ec9d6bb142233acb891766602621c08e25464f43f3f735f25c9a0757"
+    },
+    {
+      "bytes": 3604,
+      "path": "05_artifacts\\results\\tables\\v3_packet_caltech20_025_clean.csv",
+      "sha256": "132b65b8314854d7d6d5a1d1e9970e1bb5a34c48d4993616e0ec3c2cab68d3b9"
+    },
+    {
+      "bytes": 9624,
+      "path": "05_artifacts\\results\\tables\\v3_packet_caltech50_005_clean.csv",
+      "sha256": "6b75f3ebebfb5ac7fcfd8ccf9940438e72e30aa826cfece765bf79db31f5231a"
+    },
+    {
+      "bytes": 9532,
+      "path": "05_artifacts\\results\\tables\\v3_packet_caltech50_010_clean.csv",
+      "sha256": "4b883a2bddbf29f71c5f975efc89699a864803335a3e7a2edc44b126dbba4fb7"
+    },
+    {
+      "bytes": 8638,
+      "path": "05_artifacts\\results\\tables\\v3_packet_caltech50_025_clean.csv",
+      "sha256": "653c2f2af7ab56faeab58072e6e4be8c0528196f117bf9a8809e1efaa1f6382a"
+    },
+    {
+      "bytes": 18921,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco10_025_attacks.csv",
+      "sha256": "72c40a344d9711e3befb3913454f7e4c1f55cf89cdb287bd5efbe74b2d281e0d"
+    },
+    {
+      "bytes": 3789,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco10_025_noise_erasures8.csv",
+      "sha256": "27bcadfe64a6d99f7836173b698be3f9294f360134a0465595f5700767605b5f"
+    },
+    {
+      "bytes": 3325,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco20_025_clean.csv",
+      "sha256": "3e5618c022549b5778b686baff18775c8b09500a05c709a01fa1be9e6f8fe1e6"
+    },
+    {
+      "bytes": 45102,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco30_025_attacks.csv",
+      "sha256": "6dbd9d17763820456344789ce8314ca4e8df7d3463c14b67474a9d2cc253a588"
+    },
+    {
+      "bytes": 9579,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco50_005_clean.csv",
+      "sha256": "0898a0272edefb7607838b0395216a326e5a941c71929940ba950cd40fbe9c80"
+    },
+    {
+      "bytes": 9492,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco50_010_clean.csv",
+      "sha256": "11e7af70c13cf4ac27883628b48fde44698029b12ae5ada5985f4e75f4872680"
+    },
+    {
+      "bytes": 7928,
+      "path": "05_artifacts\\results\\tables\\v3_packet_coco50_025_clean.csv",
+      "sha256": "d6b7203bebb9d75e967f684417c50d4e73340add0a68059af3d9ec05f29ec5cb"
+    },
+    {
+      "bytes": 619,
+      "path": "05_artifacts\\results\\tables\\v3_packet_sample_005_clean.csv",
+      "sha256": "2274b021cf3138c0c9b2d08960653e9cf78ccd516b63e0fd31e66556a86841f7"
+    },
+    {
+      "bytes": 611,
+      "path": "05_artifacts\\results\\tables\\v3_packet_sample_010_clean.csv",
+      "sha256": "19a2e53a20d1c513fab35a67156cd3b7e8606ee07e757393a44aff9e27fe7347"
+    },
+    {
+      "bytes": 575,
+      "path": "05_artifacts\\results\\tables\\v3_packet_sample_025_clean.csv",
+      "sha256": "e93f7e2bf9618cab1bed2351030f793cbadb6d67508fa1f52b2c80695cfeef35"
+    },
+    {
+      "bytes": 8614,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img12_ft3_caltech50_025_clean.csv",
+      "sha256": "1db67a23cea18cdce8a760177c749861d559026e9f5b7be723e84c0669239959"
+    },
+    {
+      "bytes": 8396,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img12_ft3_coco50_025_clean.csv",
+      "sha256": "626af3d177b5a95fe84fb56724b00cbb338019f918d1aedfe66b5ebbe2729493"
+    },
+    {
+      "bytes": 8395,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img12_ft3_coco50_025_clean_erasures8.csv",
+      "sha256": "800902ba2d094c5499e36ffed94cfd0d6b75b684c72311b0c1f6461047ae6fea"
+    },
+    {
+      "bytes": 8629,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img20_caltech50_025_clean.csv",
+      "sha256": "b6bc7d46c98ca3fec0dbbbf54c2073ae626dc5f98d7456e98235877a67792c55"
+    },
+    {
+      "bytes": 8397,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img20_coco50_025_clean.csv",
+      "sha256": "5aa195d39391be94e04c0c6f0683e8feaaa6697cbc35a12e90dc9a4a5ffa5de1"
+    },
+    {
+      "bytes": 12398,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img20_steganalysis_caltech80_025.csv",
+      "sha256": "2f26e01ce90dc7cc4ca7d4fcd9fbbdf066cf2d24b70dec2d06dbc32c6706ba9a"
+    },
+    {
+      "bytes": 10178,
+      "path": "05_artifacts\\results\\tables\\v3_residual015_img20_steganalysis_coco80_025.csv",
+      "sha256": "e67b583cf97a0c31b88fc917937843ce95668928c3de71e7961722865b9bddf1"
+    },
+    {
+      "bytes": 8621,
+      "path": "05_artifacts\\results\\tables\\v3_residual018_img16_caltech50_025_clean.csv",
+      "sha256": "e219e368c1e5a4e4b8dfafece8ff8023c21ce1521945f5b486ccfdd97fb26aed"
+    },
+    {
+      "bytes": 7958,
+      "path": "05_artifacts\\results\\tables\\v3_residual018_img16_coco50_025_clean.csv",
+      "sha256": "221a7498e833ad82373f4dbd244637e65d89233ee13853cf69be8b0cff6dbcd8"
+    },
+    {
+      "bytes": 1023,
+      "path": "05_artifacts\\results\\tables\\v3_residual018_img16_coco5_025_clean_debug.csv",
+      "sha256": "d71d5c03b89200b46baf63c54c4e9146f2ef227ebbc61001525c03e3ca0a0e6e"
+    },
+    {
+      "bytes": 12387,
+      "path": "05_artifacts\\results\\tables\\v3_residual018_img16_steganalysis_caltech80_025.csv",
+      "sha256": "60bbc75eee76700317f2f22254f7ddf16a215990a93fdcde67464d6cadb1568d"
+    },
+    {
+      "bytes": 10183,
+      "path": "05_artifacts\\results\\tables\\v3_residual018_img16_steganalysis_coco80_025.csv",
+      "sha256": "26ab33333f4b41f0f6e6dcce815b759920138a1453945a6a69b38ae975cc359a"
+    },
+    {
+      "bytes": 8646,
+      "path": "05_artifacts\\results\\tables\\v3_residual01_img30_caltech50_025_clean.csv",
+      "sha256": "75626e347a351ab139657fb4e785c47e2524b0d2d9bac6ff3bf694bcd356fc06"
+    },
+    {
+      "bytes": 9940,
+      "path": "05_artifacts\\results\\tables\\v3_residual01_img30_coco50_025_clean.csv",
+      "sha256": "45460ec912d60e76297d6c17f2bcff097a9afa3686ea4f36cb479eb0f30706dd"
+    },
+    {
+      "bytes": 12375,
+      "path": "05_artifacts\\results\\tables\\v3_residual01_img30_steganalysis_caltech80_025.csv",
+      "sha256": "e0801f724ce17a844017859c45acca83aba5467f4a1419e8bb10e7c40de8f159"
+    },
+    {
+      "bytes": 10188,
+      "path": "05_artifacts\\results\\tables\\v3_residual01_img30_steganalysis_coco80_025.csv",
+      "sha256": "2ff952773fd9d495333b66e325f05c5719f6a0103583cac98f0441604731cd6d"
+    },
+    {
+      "bytes": 12398,
+      "path": "05_artifacts\\results\\tables\\v3_simple_steganalysis_caltech80_025.csv",
+      "sha256": "cdcc02046a7ad5b04de9173a3891a65f4311377fc8f7fffd9ed06729260aa649"
+    },
+    {
+      "bytes": 10207,
+      "path": "05_artifacts\\results\\tables\\v3_simple_steganalysis_coco80_025.csv",
+      "sha256": "84bab5aa025a64da1d295b2492fe8de41b17f3098ad447a4f8b3fa5b4ee970e2"
+    },
+    {
+      "bytes": 8618,
+      "path": "05_artifacts\\results\\tables\\v3_stegaware018_stat05_adv001_e3_caltech50_025_clean.csv",
+      "sha256": "64dff48a27be0d7a74964733fffe37950732081148c24cc26d9a6d2aeb65fd98"
+    },
+    {
+      "bytes": 7971,
+      "path": "05_artifacts\\results\\tables\\v3_stegaware018_stat05_adv001_e3_coco50_025_clean.csv",
+      "sha256": "c5a29e72dffbb244457a68437e2cd4b6a18cbcaebeff51a1f1fc05c5d657a9a4"
+    },
+    {
+      "bytes": 12370,
+      "path": "05_artifacts\\results\\tables\\v3_stegaware018_stat05_adv001_e3_steganalysis_caltech80_025.csv",
+      "sha256": "1780f9ae8d392e6c291b41f5480bdb0542aab1e0bbf1e3b9710462142d2b21ff"
+    },
+    {
+      "bytes": 10207,
+      "path": "05_artifacts\\results\\tables\\v3_stegaware018_stat05_adv001_e3_steganalysis_coco80_025.csv",
+      "sha256": "f249f546057a2af8ffa8dc4d91d315b7500a25747208f5686e4352947d91801c"
+    },
+    {
+      "bytes": 2950,
+      "path": "07_review_readiness\\editorial_risk_register.md",
+      "sha256": "7103fdda11304d94095df671b5c324de237f7a7dbbc83c12af81769b6dc09981"
+    },
+    {
+      "bytes": 7712,
+      "path": "07_review_readiness\\execution_status_2026-07-13.md",
+      "sha256": "c909ebf79364ea097b2ae01424c3593aa5beb6f1817ed30c177240cb19c64821"
+    },
+    {
+      "bytes": 3298,
+      "path": "07_review_readiness\\final_defect_closure_2026-07-16.md",
+      "sha256": "007695997101c9d2a6f4b8b66b02687b6eccfa50df9873bbb5bbeac014c30f4d"
+    },
+    {
+      "bytes": 4953,
+      "path": "07_review_readiness\\first5_execution_status_2026-07-15.md",
+      "sha256": "cc7622bf9749c891be280ea8f3ab940bef76d2238d9ca483ec77a65f340e0ab5"
+    },
+    {
+      "bytes": 8364,
+      "path": "07_review_readiness\\limit_resolution_mechanisms_2026-07-16.md",
+      "sha256": "93d23c911bec3f7b7fc1a15d668bcdf5384069bf809c36021e65dce23c6ab38e"
+    },
+    {
+      "bytes": 4464,
+      "path": "07_review_readiness\\promises_evidence_matrix.md",
+      "sha256": "b65c730936e7133406cd3702e4abd3cbca8f8d162928c450b2716a70835f788d"
+    },
+    {
+      "bytes": 2112,
+      "path": "07_review_readiness\\q1_acceptance_gate.md",
+      "sha256": "cc4c792c0e58d3befea779683ec1f3e3eaa97717684087fff6766509457ec633"
+    },
+    {
+      "bytes": 10196,
+      "path": "07_review_readiness\\q1_action_plan.md",
+      "sha256": "a1823d09dfeebc88c449fdceeec1fc3888813a11958620626616ecdad9bd7379"
+    },
+    {
+      "bytes": 4676,
+      "path": "07_review_readiness\\vq_fountain_evidence_matrix.md",
+      "sha256": "59454fd5b88029bb40f47dac38caa7a93deed667eb22cb0a9d886f81bdb40972"
+    },
+    {
+      "bytes": 346,
+      "path": "paper\\highlights.txt",
+      "sha256": "91cef63733b91ce0a97bea72519b72db5eaea1152138a6547f13fb417a4d4cac"
+    },
+    {
+      "bytes": 50308,
+      "path": "paper\\main.tex",
+      "sha256": "5352dd855add0ad6796431f63350051e01102dbd636801767ed6a3168d29ea8c"
+    },
+    {
+      "bytes": 7771,
+      "path": "paper\\references.bib",
+      "sha256": "239f6e8d486ceb401dd4b6e2b25ad38c14371d7728df94724e8110a59e893be3"
+    },
+    {
+      "bytes": 3642,
+      "path": "tools\\audit_confidentiality_support.py",
+      "sha256": "5f53619f11186c74c0d9978b77159fccb7358e23cf0b45dd94824e646a76f724"
+    },
+    {
+      "bytes": 7684,
+      "path": "tools\\audit_public_baselines.py",
+      "sha256": "e312610ed7afcc819904cef5fa3d2e320f69550f23576cca1037647cab6438f9"
+    },
+    {
+      "bytes": 4565,
+      "path": "tools\\freeze_reproducibility_manifest.py",
+      "sha256": "1f6d5cb3ab356f6d7ec625fc4c64423ae076763d5a862c6071e153dc340631cc"
+    },
+    {
+      "bytes": 11637,
+      "path": "tools\\run_equal_bpp_benchmark.py",
+      "sha256": "17d8be3d7b86adac53254fd0f788b9dbfadde064ed87a7d67afd8880ed0cbffa"
+    }
+  ],
+  "patterns": [
+    "paper/main.tex",
+    "paper/references.bib",
+    "paper/highlights.txt",
+    "05_artifacts/code/etehgan/*.py",
+    "05_artifacts/code/etehgan/README.md",
+    "05_artifacts/models/etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "05_artifacts/models/ethegan_attackaware_005_small_e2.pt",
+    "05_artifacts/results/tables/ethegan_*.csv",
+    "05_artifacts/results/tables/equal_bpp_*.csv",
+    "05_artifacts/results/tables/v3_*.csv",
+    "05_artifacts/results/tables/adaptive_ecc_*.csv",
+    "05_artifacts/results/tables/spam_steganalysis_*.csv",
+    "05_artifacts/results/raw/ethegan_*.json",
+    "05_artifacts/results/raw/equal_bpp_*.json",
+    "05_artifacts/results/raw/aead_self_test.json",
+    "05_artifacts/results/raw/v3_*.json",
+    "05_artifacts/results/raw/adaptive_ecc_*.json",
+    "05_artifacts/results/raw/spam_steganalysis_*.json",
+    "05_artifacts/data/security_gate/**/*",
+    "05_artifacts/baselines/baseline_execution_audit.json",
+    "tools/audit_*.py",
+    "tools/run_*.py",
+    "tools/freeze_reproducibility_manifest.py",
+    "07_review_readiness/*.md",
+    "04_experiments/results/*ethegan*.md",
+    "04_experiments/results/*v3*.md",
+    "04_experiments/results/confidentiality_support_audit_*.md",
+    "04_experiments/results/equal_bpp_*.md",
+    "04_experiments/results/limit_mechanism_execution_*.md"
+  ],
+  "root": "C:\\Users\\User\\Documents\\Articles\\NGEH ANNA"
+}

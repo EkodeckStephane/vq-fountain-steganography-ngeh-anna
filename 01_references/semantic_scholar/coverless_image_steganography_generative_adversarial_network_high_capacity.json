@@ -1,0 +1,537 @@
+﻿{
+    "total":  346,
+    "offset":  0,
+    "next":  10,
+    "data":  [
+                 {
+                     "paperId":  "8922bd92719b9c4fc89b013431f7625fc74152c4",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/JahromiHS24",
+                                         "DOI":  "10.1007/s11042-023-16278-w",
+                                         "CorpusId":  260031205
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/8922bd92719b9c4fc89b013431f7625fc74152c4",
+                     "title":  "Deep learning semantic image synthesis: a novel method for unlimited capacity, high noise resistance coverless video steganography",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2023,
+                     "citationCount":  7,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-023-16278-w?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-023-16278-w, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2224237664",
+                                         "name":  "Zeinab Torabi Jahromi"
+                                     },
+                                     {
+                                         "authorId":  "1799131",
+                                         "name":  "S. Hasheminejad"
+                                     },
+                                     {
+                                         "authorId":  "30653217",
+                                         "name":  "S. V. Shojaedini"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "710b123d8a06df98fc5ff8b3026a10682ce5ecb4",
+                     "externalIds":  {
+                                         "DOI":  "10.3390/app14031225",
+                                         "CorpusId":  267494450
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "136edf8d-0f88-4c2c-830f-461c6a9b842e",
+                                              "name":  "Applied Sciences",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Appl Sci"
+                                                                  ],
+                                              "issn":  "2076-3417",
+                                              "url":  "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-217814",
+                                              "alternate_urls":  [
+                                                                     "http://www.mathem.pub.ro/apps/",
+                                                                     "https://www.mdpi.com/journal/applsci",
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-217814"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/710b123d8a06df98fc5ff8b3026a10682ce5ecb4",
+                     "title":  "A High-Capacity and High-Security Image Steganography Network Based on Chaotic Mapping and Generative Adversarial Networks",
+                     "venue":  "Applied Sciences",
+                     "year":  2024,
+                     "citationCount":  25,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2076-3417/14/3/1225/pdf?version=1706775206",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/app14031225?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/app14031225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2272991515",
+                                         "name":  "Lin Huo"
+                                     },
+                                     {
+                                         "authorId":  "2273656816",
+                                         "name":  "R. Chen"
+                                     },
+                                     {
+                                         "authorId":  "2282781972",
+                                         "name":  "Jie Wei"
+                                     },
+                                     {
+                                         "authorId":  "2273394753",
+                                         "name":  "Lang Huang"
+                                     }
+                                 ],
+                     "abstract":  "With the enhancement of information volume, people are not satisfied with transmitting only a single secret image at a time but chase to hide multiple secret images in a single picture; however, the large-capacity steganographic scale can easily lead to the degradation of the quality of the image, which attracts the attention of eavesdroppers. In this paper, we propose a Chaotic mapping-enHanced imAge Steganography nEtwork (CHASE), which pioneers to hide colour images in grey images and reduces the difference between the container image and the cover image through the image permutation method, so as to enhance the security of the steganography. The method demonstrates excellent steganalysis resistance in experiments and introduces Generative Adversarial Networks (GANs) to improve the image fidelity in large-capacity steganographic scales. The fusion of chaotic mapping and GAN optimisation enables the steganographic network to simultaneously balance security and image quality. The experimental results show that CHASE can keep the secret image with good invisibility under large-capacity steganographic scales, and at the same time, it can reveal the secret image with high fidelity, and its steganalysis-resistant capability is much better than other state-of-the-art methods."
+                 },
+                 {
+                     "paperId":  "48ab13db93cd28e64b8ac69931ab8eae43313d50",
+                     "externalIds":  {
+                                         "DBLP":  "journals/sigpro/WangZCWY25",
+                                         "DOI":  "10.1016/j.sigpro.2025.109988",
+                                         "CorpusId":  276927052
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "20298d29-1b7a-4631-8e1d-e0a5d34bcf58",
+                                              "name":  "Signal Processing",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Signal Process"
+                                                                  ],
+                                              "issn":  "0165-1684",
+                                              "url":  "https://www.journals.elsevier.com/signal-processing",
+                                              "alternate_urls":  [
+                                                                     "http://www.sciencedirect.com/science/journal/01651684"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/48ab13db93cd28e64b8ac69931ab8eae43313d50",
+                     "title":  "High-accuracy image steganography with invertible neural network and generative adversarial network",
+                     "venue":  "Signal Processing",
+                     "year":  2025,
+                     "citationCount":  11,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.sigpro.2025.109988?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1016/j.sigpro.2025.109988, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2272586829",
+                                         "name":  "Ke Wang"
+                                     },
+                                     {
+                                         "authorId":  "2153095815",
+                                         "name":  "Yani Zhu"
+                                     },
+                                     {
+                                         "authorId":  "2267528638",
+                                         "name":  "Qi Chang"
+                                     },
+                                     {
+                                         "authorId":  "2286495252",
+                                         "name":  "Junyu Wang"
+                                     },
+                                     {
+                                         "authorId":  "2110221454",
+                                         "name":  "Ye Yao"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "cd3cff269257b176c9ad5f05f47d91a689096521",
+                     "externalIds":  {
+                                         "DBLP":  "journals/eswa/YaoWCRM24",
+                                         "DOI":  "10.1016/j.eswa.2024.123540",
+                                         "CorpusId":  267906584
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "987139ae-a65d-49bb-aaf6-fb764dc40b19",
+                                              "name":  "Expert systems with applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Expert syst appl",
+                                                                      "Expert Systems With Applications",
+                                                                      "Expert Syst Appl"
+                                                                  ],
+                                              "issn":  "0957-4174",
+                                              "url":  "https://www.journals.elsevier.com/expert-systems-with-applications/",
+                                              "alternate_urls":  [
+                                                                     "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+                                                                     "http://www.sciencedirect.com/science/journal/09574174"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/cd3cff269257b176c9ad5f05f47d91a689096521",
+                     "title":  "High invisibility image steganography with wavelet transform and generative adversarial network",
+                     "venue":  "Expert systems with applications",
+                     "year":  2024,
+                     "citationCount":  59,
+                     "influentialCitationCount":  2,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.eswa.2024.123540?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1016/j.eswa.2024.123540, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2110221454",
+                                         "name":  "Ye Yao"
+                                     },
+                                     {
+                                         "authorId":  "2286495252",
+                                         "name":  "Junyu Wang"
+                                     },
+                                     {
+                                         "authorId":  "2267528638",
+                                         "name":  "Qi Chang"
+                                     },
+                                     {
+                                         "authorId":  "2281098209",
+                                         "name":  "Yizhi Ren"
+                                     },
+                                     {
+                                         "authorId":  "2237779415",
+                                         "name":  "Weizhi Meng"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "14eb84e4771e71edd9559e0170c5c19e832f7b69",
+                     "externalIds":  {
+                                         "DOI":  "10.3390/electronics12132881",
+                                         "CorpusId":  259747992
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "ccd8e532-73c6-414f-bc91-271bbb2933e2",
+                                              "name":  "Electronics",
+                                              "type":  "journal",
+                                              "issn":  "1450-5843",
+                                              "alternate_issns":  [
+                                                                      "2079-9292",
+                                                                      "0883-4989"
+                                                                  ],
+                                              "url":  "http://www.electronics.etfbl.net/",
+                                              "alternate_urls":  [
+                                                                     "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-247562",
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-247562",
+                                                                     "https://www.mdpi.com/journal/electronics"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/14eb84e4771e71edd9559e0170c5c19e832f7b69",
+                     "title":  "IDGAN: Information-Driven Generative Adversarial Network of Coverless Image Steganography",
+                     "venue":  "Electronics",
+                     "year":  2023,
+                     "citationCount":  13,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2079-9292/12/13/2881/pdf?version=1688037983",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/electronics12132881?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/electronics12132881, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2189027432",
+                                         "name":  "Chunying Zhang"
+                                     },
+                                     {
+                                         "authorId":  "2188571349",
+                                         "name":  "Xinkai Gao"
+                                     },
+                                     {
+                                         "authorId":  "2222765524",
+                                         "name":  "Xiaoxiao Liu"
+                                     },
+                                     {
+                                         "authorId":  "2213932046",
+                                         "name":  "Wei Hou"
+                                     },
+                                     {
+                                         "authorId":  "2214135617",
+                                         "name":  "Guanghui Yang"
+                                     },
+                                     {
+                                         "authorId":  "2173733606",
+                                         "name":  "Tao Xue"
+                                     },
+                                     {
+                                         "authorId":  "2108947838",
+                                         "name":  "Liya Wang"
+                                     },
+                                     {
+                                         "authorId":  "145412331",
+                                         "name":  "Lu Liu"
+                                     }
+                                 ],
+                     "abstract":  "Traditional image steganography techniques complete the steganography process by embedding secret information into cover images, but steganalysis tools can easily detect detectable pixel changes that lead to the leakage of confidential information. The use of a generative adversarial network (GAN) makes it possible to embed information using a combination of information and noise in generating images to achieve steganography. However, this approach is usually accompanied by issues such as poor image quality and low steganography capacity. To address these challenges, we propose a steganography model based on a novel information-driven generative adversarial network (IDGAN), which fuses a GAN, attention mechanisms, and image interpolation techniques. We introduced an attention mechanism on top of the original GAN model to improve image accuracy. In the generation model, we replaced some transposed convolution operations with image interpolation for better quality of dense images. In contrast to traditional steganographic methods, the IDGAN generates images containing confidential information without using cover images and utilizes GANs for information embedding, thus having better anti-detection capability. Moreover, the IDGAN uses an attention mechanism to improve the image details and clarity and optimizes the steganography effect through an image interpolation algorithm. Experimental results demonstrate that the IDGAN achieves an accuracy of 99.4%, 95.4%, 93.2%, and 100% on the MNIST, Intel Image Classification, Flowers, and Face datasets, respectively, with an embedding rate of 0.17 bpp. The model effectively protects confidential information while maintaining high image quality."
+                 },
+                 {
+                     "paperId":  "b752fd8678b32917c8fd2e96c2270c9fb8d7e07f",
+                     "externalIds":  {
+                                         "DBLP":  "journals/jei/SultanW24",
+                                         "DOI":  "10.1117/1.JEI.33.3.033026",
+                                         "CorpusId":  270155914
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/b752fd8678b32917c8fd2e96c2270c9fb8d7e07f",
+                     "title":  "Enhancing steganography capacity through multi-stage generator model in generative adversarial network based image concealment",
+                     "venue":  "J. Electronic Imaging",
+                     "year":  2024,
+                     "citationCount":  1,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1117/1.JEI.33.3.033026?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1117/1.JEI.33.3.033026, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2106945105",
+                                         "name":  "Bisma Sultan"
+                                     },
+                                     {
+                                         "authorId":  "2242563726",
+                                         "name":  "M. A. Wani"
+                                     }
+                                 ],
+                     "abstract":  "Abstract. Traditional steganography algorithms use procedures created by human experts to conceal the secret message inside a cover medium. Generative adversarial networks (GANs) have recently been used to automate this process. However, GAN based steganography has some limitations. The capacity of these models is limited. By increasing the steganography capacity, security is decreased, and distortion is increased. The performance of the extractor network also decreases with increasing the steganography capacity. In this work, an approach for developing a generator model for image steganography is proposed. The approach involves building a generator model, called the late embedding generator model, in two stages. The first stage of the generator model uses only the flattened cover image, and second stage uses a secret message and the first stage’s output to generate the stego image. Furthermore, a dual-training strategy is employed to train the generator network: the first stage focuses on learning fundamental image features through a reconstruction loss, and the second stage is trained with three loss terms, including an adversarial loss, to incorporate the secret message. The proposed approach demonstrates that hiding data only in the deeper layers of the generator network boosts capacity without requiring complex architectures, reducing computational storage requirements. The efficacy of the proposed approach is evaluated by varying the depth of these two stages, resulting in four generator models. A comprehensive set of experiments was performed on the CelebA dataset, which contains more than 200,000 samples. The results show that the late embedding model performs better than the state-of-the-art models. Also, it increases the steganography capacity to more than four times compared with the existing GAN-based steganography methods. The extracted payload achieves an accuracy of 99.98%, with the extractor model successfully decoding the secret message."
+                 },
+                 {
+                     "paperId":  "35f10be570228fe3690d2ff0b8223a49087e6ab2",
+                     "externalIds":  {
+                                         "PubMedCentral":  "11940965",
+                                         "DBLP":  "journals/entropy/FanJL25",
+                                         "DOI":  "10.3390/e27030282",
+                                         "CorpusId":  276918072,
+                                         "PubMed":  "40149206"
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "8270cfe1-3713-4325-a7bd-c6a87eed889e",
+                                              "name":  "Entropy",
+                                              "type":  "journal",
+                                              "issn":  "1099-4300",
+                                              "url":  "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-155606",
+                                              "alternate_urls":  [
+                                                                     "http://www.mdpi.com/journal/entropy/",
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-155606",
+                                                                     "https://www.mdpi.com/journal/entropy"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/35f10be570228fe3690d2ff0b8223a49087e6ab2",
+                     "title":  "AGASI: A Generative Adversarial Network-Based Approach to Strengthening Adversarial Image Steganography",
+                     "venue":  "Entropy",
+                     "year":  2025,
+                     "citationCount":  11,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://doi.org/10.3390/e27030282",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11940965, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2292923942",
+                                         "name":  "Haiju Fan"
+                                     },
+                                     {
+                                         "authorId":  "2349579133",
+                                         "name":  "Changyuan Jin"
+                                     },
+                                     {
+                                         "authorId":  "2277688680",
+                                         "name":  "Ming Li"
+                                     }
+                                 ],
+                     "abstract":  "Steganography has been widely used in the field of image privacy protection. However, with the advancement of steganalysis techniques, deep learning-based models are now capable of accurately detecting modifications in stego-images, posing a significant threat to traditional steganography. To address this, we propose AGASI, a GAN-based approach for strengthening adversarial image steganography. This method employs an encoder as the generator in conjunction with a discriminator to form a generative adversarial network (GAN), thereby enhancing the robustness of stego-images against steganalysis tools. Additionally, the GAN framework reduces the gap between the original secret image and the extracted image, while the decoder effectively extracts the secret image from the stego-image, achieving the goal of image privacy protection. Experimental results demonstrate that the AGASI method not only ensures high-quality secret images but also effectively reduces the accuracy of neural network classifiers, inducing misclassifications and significantly increasing the embedding capacity of the steganography system. For instance, under PGD attack, the adversarial stego-images generated by the GAN, at higher disturbance levels, successfully maintain the quality of the secret image while achieving an 84.73% misclassification rate in neural network detection. Compared to images with the same visual quality, our method increased the misclassification rate by 23.31%."
+                 },
+                 {
+                     "paperId":  "250c801afef9b68af223a83d08594aa12409370e",
+                     "externalIds":  {
+                                         "DBLP":  "journals/mta/HashemiM26",
+                                         "DOI":  "10.1007/s11042-026-21341-3",
+                                         "CorpusId":  286020554
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "477368e9-7a8e-475a-8c93-6d623797fd06",
+                                              "name":  "Multimedia tools and applications",
+                                              "type":  "journal",
+                                              "alternate_names":  [
+                                                                      "Multimedia Tools and Applications",
+                                                                      "Multimedia Tool Appl",
+                                                                      "Multimedia tool appl"
+                                                                  ],
+                                              "issn":  "1380-7501",
+                                              "url":  "https://www.springer.com/computer/information+systems+and+applications/journal/11042",
+                                              "alternate_urls":  [
+                                                                     "https://link.springer.com/journal/11042"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/250c801afef9b68af223a83d08594aa12409370e",
+                     "title":  "ISGI steganography scheme: image steganography scheme leveraging a novel cryptography algorithm and generative adversarial network",
+                     "venue":  "Multimedia tools and applications",
+                     "year":  2026,
+                     "citationCount":  0,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  null,
+                                           "license":  null,
+                                           "disclaimer":  "Notice: The following paper fields have been elided by the publisher: {\u0027abstract\u0027}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11042-026-21341-3?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1007/s11042-026-21341-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2055832593",
+                                         "name":  "S. Hashemi"
+                                     },
+                                     {
+                                         "authorId":  "51198917",
+                                         "name":  "M. Majidi"
+                                     }
+                                 ],
+                     "abstract":  null
+                 },
+                 {
+                     "paperId":  "a2a74cbb5d84441be098bf3d671d46a23a9f9b04",
+                     "externalIds":  {
+                                         "MAG":  "3055851871",
+                                         "DOI":  "10.3390/math8091394",
+                                         "CorpusId":  225217384
+                                     },
+                     "publicationVenue":  {
+                                              "id":  "6175efe8-6f8e-4cbe-8cee-d154f4e78627",
+                                              "name":  "Mathematics",
+                                              "issn":  "2227-7390",
+                                              "url":  "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-283014",
+                                              "alternate_urls":  [
+                                                                     "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-283014",
+                                                                     "https://www.mdpi.com/journal/mathematics"
+                                                                 ]
+                                          },
+                     "url":  "https://www.semanticscholar.org/paper/a2a74cbb5d84441be098bf3d671d46a23a9f9b04",
+                     "title":  "Coverless Image Steganography Based on Generative Adversarial Network",
+                     "venue":  "Mathematics",
+                     "year":  2020,
+                     "citationCount":  55,
+                     "influentialCitationCount":  1,
+                     "isOpenAccess":  true,
+                     "openAccessPdf":  {
+                                           "url":  "https://www.mdpi.com/2227-7390/8/9/1394/pdf?version=1597981412",
+                                           "status":  "GOLD",
+                                           "license":  "CCBY",
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/math8091394?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.3390/math8091394, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "143901420",
+                                         "name":  "Jiaohua Qin"
+                                     },
+                                     {
+                                         "authorId":  "2152445678",
+                                         "name":  "Jing Wang"
+                                     },
+                                     {
+                                         "authorId":  "1575998714",
+                                         "name":  "Yun Tan"
+                                     },
+                                     {
+                                         "authorId":  "1866502",
+                                         "name":  "Huajun Huang"
+                                     },
+                                     {
+                                         "authorId":  "2869309",
+                                         "name":  "Xuyu Xiang"
+                                     },
+                                     {
+                                         "authorId":  "2109964492",
+                                         "name":  "Zhibin He"
+                                     }
+                                 ],
+                     "abstract":  "Traditional image steganography needs to modify or be embedded into the cover image for transmitting secret messages. However, the distortion of the cover image can be easily detected by steganalysis tools which lead the leakage of the secret message. So coverless steganography has become a topic of research in recent years, which has the advantage of hiding secret messages without modification. But current coverless steganography still has problems such as low capacity and poor quality .To solve these problems, we use a generative adversarial network (GAN), an effective deep learning framework, to encode secret messages into the cover image and optimize the quality of the steganographic image by adversaring. Experiments show that our model not only achieves a payload of 2.36 bits per pixel, but also successfully escapes the detection of steganalysis tools."
+                 },
+                 {
+                     "paperId":  "fa58f46b7f545da5d640d7245a37d71be1e9751b",
+                     "externalIds":  {
+                                         "DBLP":  "journals/tcsv/MaWXWLL25",
+                                         "DOI":  "10.1109/TCSVT.2024.3508849",
+                                         "CorpusId":  274410886
+                                     },
+                     "publicationVenue":  null,
+                     "url":  "https://www.semanticscholar.org/paper/fa58f46b7f545da5d640d7245a37d71be1e9751b",
+                     "title":  "Color Image High-Capacity Differential Steganography Algorithm Based on Multiple Adversarial Networks",
+                     "venue":  "IEEE transactions on circuits and systems for video technology (Print)",
+                     "year":  2025,
+                     "citationCount":  9,
+                     "influentialCitationCount":  0,
+                     "isOpenAccess":  false,
+                     "openAccessPdf":  {
+                                           "url":  "",
+                                           "status":  "CLOSED",
+                                           "license":  null,
+                                           "disclaimer":  "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TCSVT.2024.3508849?email=\u003cINSERT_YOUR_EMAIL\u003e or https://doi.org/10.1109/TCSVT.2024.3508849, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+                                       },
+                     "authors":  [
+                                     {
+                                         "authorId":  "2084600423",
+                                         "name":  "B. Ma"
+                                     },
+                                     {
+                                         "authorId":  "2145335527",
+                                         "name":  "Haocheng Wang"
+                                     },
+                                     {
+                                         "authorId":  "2110980278",
+                                         "name":  "Jian Xu"
+                                     },
+                                     {
+                                         "authorId":  "2118775548",
+                                         "name":  "Xiaoyu Wang"
+                                     },
+                                     {
+                                         "authorId":  "2237951356",
+                                         "name":  "Xiaolong Li"
+                                     },
+                                     {
+                                         "authorId":  "2151965572",
+                                         "name":  "Jian Li"
+                                     }
+                                 ],
+                     "abstract":  "Aiming to mitigate image distortion caused by steganography algorithms at high-capacity information embedding and enhance the steganalysis resistance capability of generated stego images, this paper proposes a high-capacity differential steganography algorithm for color images based on multiple adversarial networks. Instead of directly modifying the pixels of the cover image, the algorithm embeds the secret information into the differential plane generated by the two most similar channels of the cover image. Consequently, the distortion of the stego image is minimized while embedding a secret image of the same size. At the same time, the fidelity of the stego and extracted secret images is continually improved through adversarial training between the generator and discriminator in the proposed steganography network. Furthermore, multiple steganalysis networks are parallelly utilized to enhance the steganalysis resistance capability of stego images. In addition, the Lion optimizer is utilized for the first time to improve the convergence speed of the proposed steganographic network. Experimental results show that the comprehensive performance of the proposed algorithm outperforms other state-of-the-art steganography algorithms significantly."
+                 }
+             ]
+}

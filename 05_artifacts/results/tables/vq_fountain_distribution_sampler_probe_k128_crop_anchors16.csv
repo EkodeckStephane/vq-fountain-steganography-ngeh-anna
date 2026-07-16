@@ -1,0 +1,7 @@
+payload_bytes,packet_bytes,block_size,bits_per_token,overhead,image_copies,attack,binning,position_mode,margin,geometry_search,anchor_count,source_symbols,encoded_symbols,used_token_slots,raw_capacity_bits,recovered_symbols,exact_symbols,crc_valid_symbols,crc_rejected_symbols,anchor_matches,anchor_total,anchor_match_rate,token_match_rate,value_match_rate,exact_recovery,failure,capacity_exhausted,selected_crop_ratio
+32,44,1,1,4.0,16,crop090,projection,center,2,anchors,16,44,220,1760,1760,220,48,48,172,218,256,0.851562,0.080566,0.838636,True,,False,0.88
+32,44,1,1,4.0,24,crop090,projection,center,2,anchors,16,44,220,1760,1760,220,48,48,172,328,384,0.854167,0.080078,0.838636,True,,False,0.88
+32,44,1,1,4.0,32,crop090,projection,center,2,anchors,16,44,220,1760,1760,220,48,48,172,443,512,0.865234,0.081055,0.838636,True,,False,0.88
+64,76,1,1,4.0,16,crop090,projection,center,2,anchors,16,76,380,2048,2048,256,59,59,197,220,256,0.859375,0.081787,0.838867,False,decoder stopped with 17 missing source blocks,True,0.88
+64,76,1,1,4.0,24,crop090,projection,center,2,anchors,16,76,380,3040,3040,380,78,78,302,320,384,0.833333,0.081868,0.829276,True,,False,0.88
+64,76,1,1,4.0,32,crop090,projection,center,2,anchors,16,76,380,3040,3040,380,78,78,302,435,512,0.849609,0.082397,0.829276,True,,False,0.88

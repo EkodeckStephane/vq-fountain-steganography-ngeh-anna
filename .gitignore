@@ -1,0 +1,44 @@
+# Article source/PDF must stay local and must not be pushed to GitHub.
+paper_vq_fountain/main.tex
+paper_vq_fountain/main.pdf
+paper/*.tex
+paper/*.pdf
+
+# LaTeX build byproducts.
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.git_artifacts/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+
+# Large model/checkpoint binaries should be documented by manifest, not
+# committed directly to the GitHub artifact repository.
+*.bin
+*.pt
+*.pyt
+*.pth
+*.ckpt
+*.safetensors
+
+# Public baseline clones are tracked through audit notes/results, not as broken
+# nested Git repositories.
+05_artifacts/baselines/HiDDeN/
+05_artifacts/baselines/StegaStamp/

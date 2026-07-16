@@ -1,0 +1,73 @@
+payload_bytes,packet_bytes,block_size,bits_per_token,overhead,image_copies,schedule,source_symbols,encoded_symbols,delivered_symbols,slots_per_symbol,used_token_slots,raw_capacity_bits,exact_recovery,failure
+32,44,8,1,0.5,2,stability,6,9,0,64,512,512,False,no symbols available
+32,44,8,1,0.5,4,stability,6,9,7,64,576,576,True,
+32,44,8,1,0.5,8,stability,6,9,7,64,576,576,True,
+32,44,8,1,0.5,12,stability,6,9,7,64,576,576,True,
+32,44,8,1,0.8,2,stability,6,11,0,64,512,512,False,no symbols available
+32,44,8,1,0.8,4,stability,6,11,9,64,704,704,True,
+32,44,8,1,0.8,8,stability,6,11,9,64,704,704,True,
+32,44,8,1,0.8,12,stability,6,11,9,64,704,704,True,
+32,44,8,1,1.2,2,stability,6,14,0,64,512,512,False,no symbols available
+32,44,8,1,1.2,4,stability,6,14,11,64,896,896,True,
+32,44,8,1,1.2,8,stability,6,14,11,64,896,896,True,
+32,44,8,1,1.2,12,stability,6,14,11,64,896,896,True,
+32,44,8,2,0.5,2,stability,6,9,8,32,288,576,True,
+32,44,8,2,0.5,4,stability,6,9,8,32,288,576,True,
+32,44,8,2,0.5,8,stability,6,9,8,32,288,576,True,
+32,44,8,2,0.5,12,stability,6,9,8,32,288,576,True,
+32,44,8,2,0.8,2,stability,6,11,10,32,352,704,True,
+32,44,8,2,0.8,4,stability,6,11,10,32,352,704,True,
+32,44,8,2,0.8,8,stability,6,11,10,32,352,704,True,
+32,44,8,2,0.8,12,stability,6,11,10,32,352,704,True,
+32,44,8,2,1.2,2,stability,6,14,13,32,448,896,True,
+32,44,8,2,1.2,4,stability,6,14,13,32,448,896,True,
+32,44,8,2,1.2,8,stability,6,14,13,32,448,896,True,
+32,44,8,2,1.2,12,stability,6,14,13,32,448,896,True,
+64,76,8,1,0.5,2,stability,10,15,0,64,512,512,False,no symbols available
+64,76,8,1,0.5,4,stability,10,15,12,64,960,960,True,
+64,76,8,1,0.5,8,stability,10,15,12,64,960,960,True,
+64,76,8,1,0.5,12,stability,10,15,12,64,960,960,True,
+64,76,8,1,0.8,2,stability,10,18,0,64,512,512,False,no symbols available
+64,76,8,1,0.8,4,stability,10,18,0,64,1024,1024,False,no symbols available
+64,76,8,1,0.8,8,stability,10,18,14,64,1152,1152,True,
+64,76,8,1,0.8,12,stability,10,18,14,64,1152,1152,True,
+64,76,8,1,1.2,2,stability,10,22,0,64,512,512,False,no symbols available
+64,76,8,1,1.2,4,stability,10,22,0,64,1024,1024,False,no symbols available
+64,76,8,1,1.2,8,stability,10,22,17,64,1408,1408,True,
+64,76,8,1,1.2,12,stability,10,22,17,64,1408,1408,True,
+64,76,8,2,0.5,2,stability,10,15,14,32,480,960,True,
+64,76,8,2,0.5,4,stability,10,15,14,32,480,960,True,
+64,76,8,2,0.5,8,stability,10,15,14,32,480,960,True,
+64,76,8,2,0.5,12,stability,10,15,14,32,480,960,True,
+64,76,8,2,0.8,2,stability,10,18,0,32,512,1024,False,no symbols available
+64,76,8,2,0.8,4,stability,10,18,16,32,576,1152,True,
+64,76,8,2,0.8,8,stability,10,18,16,32,576,1152,True,
+64,76,8,2,0.8,12,stability,10,18,16,32,576,1152,True,
+64,76,8,2,1.2,2,stability,10,22,0,32,512,1024,False,no symbols available
+64,76,8,2,1.2,4,stability,10,22,20,32,704,1408,True,
+64,76,8,2,1.2,8,stability,10,22,20,32,704,1408,True,
+64,76,8,2,1.2,12,stability,10,22,20,32,704,1408,True,
+128,140,8,1,0.5,2,stability,18,27,0,64,512,512,False,no symbols available
+128,140,8,1,0.5,4,stability,18,27,0,64,1024,1024,False,no symbols available
+128,140,8,1,0.5,8,stability,18,27,21,64,1728,1728,True,
+128,140,8,1,0.5,12,stability,18,27,21,64,1728,1728,True,
+128,140,8,1,0.8,2,stability,18,33,0,64,512,512,False,no symbols available
+128,140,8,1,0.8,4,stability,18,33,0,64,1024,1024,False,no symbols available
+128,140,8,1,0.8,8,stability,18,33,0,64,2048,2048,False,no symbols available
+128,140,8,1,0.8,12,stability,18,33,25,64,2112,2112,True,
+128,140,8,1,1.2,2,stability,18,40,0,64,512,512,False,no symbols available
+128,140,8,1,1.2,4,stability,18,40,0,64,1024,1024,False,no symbols available
+128,140,8,1,1.2,8,stability,18,40,0,64,2048,2048,False,no symbols available
+128,140,8,1,1.2,12,stability,18,40,30,64,2560,2560,True,
+128,140,8,2,0.5,2,stability,18,27,0,32,512,1024,False,no symbols available
+128,140,8,2,0.5,4,stability,18,27,24,32,864,1728,True,
+128,140,8,2,0.5,8,stability,18,27,24,32,864,1728,True,
+128,140,8,2,0.5,12,stability,18,27,24,32,864,1728,True,
+128,140,8,2,0.8,2,stability,18,33,0,32,512,1024,False,no symbols available
+128,140,8,2,0.8,4,stability,18,33,0,32,1024,2048,False,no symbols available
+128,140,8,2,0.8,8,stability,18,33,29,32,1056,2112,True,
+128,140,8,2,0.8,12,stability,18,33,29,32,1056,2112,True,
+128,140,8,2,1.2,2,stability,18,40,0,32,512,1024,False,no symbols available
+128,140,8,2,1.2,4,stability,18,40,0,32,1024,2048,False,no symbols available
+128,140,8,2,1.2,8,stability,18,40,35,32,1280,2560,True,
+128,140,8,2,1.2,12,stability,18,40,35,32,1280,2560,True,

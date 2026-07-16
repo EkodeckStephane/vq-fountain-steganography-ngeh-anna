@@ -1,0 +1,2 @@
+model_dir,model_subfolder,payload_bytes,payload_images,reference_images,train_samples,test_samples,epochs,stable_pool_0,stable_pool_1,cnn_detector_auc,cnn_detector_accuracy
+05_artifacts\models\vqgan_f4_8192_diffusers_converted,,32,88,88,114,62,12,40,22,0.51092612,0.5

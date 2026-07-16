@@ -1,0 +1,10 @@
+image,tokenizer,image_size,patch_size,levels,codebook_size,token_grid,token_count,attacks,stable_positions_all_attacks,stable_position_rate_all_attacks,mean_changed_tokens,mean_token_match_rate
+05_artifacts/data/sample_images/000000001503.jpg,patch-vq,256,16,8,512,16x16,256,clean jpeg95 jpeg85 resize075 blur1 noise002 crop090,99,0.386719,,
+05_artifacts/data/sample_images/dog_0031.jpg,patch-vq,256,16,8,512,16x16,256,clean jpeg95 jpeg85 resize075 blur1 noise002 crop090,95,0.371094,,
+<aggregate>,patch-vq,,,,,,256,blur1,,,6.5,0.974609
+<aggregate>,patch-vq,,,,,,256,clean,,,0.0,1.0
+<aggregate>,patch-vq,,,,,,256,crop090,,,157.5,0.384765
+<aggregate>,patch-vq,,,,,,256,jpeg85,,,2.0,0.992188
+<aggregate>,patch-vq,,,,,,256,jpeg95,,,0.5,0.998047
+<aggregate>,patch-vq,,,,,,256,noise002,,,1.5,0.994141
+<aggregate>,patch-vq,,,,,,256,resize075,,,2.0,0.992188

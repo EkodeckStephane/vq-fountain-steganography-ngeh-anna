@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual02_025_caltech20_coco20_e3.pt",
+    "payload_bpp_requested": 0.05,
+    "nominal_bpp_used": 0.04998779296875,
+    "payload_bytes": 1114,
+    "max_payload_bytes": 1114,
+    "max_effective_user_bpp": 0.03399658203125,
+    "effective_user_bpp": 0.03399658203125,
+    "ecc_bytes": 64,
+    "nsize": 255,
+    "rs_chunks": 6,
+    "unused_tail_bytes": 108,
+    "summary_by_attack": {
+      "clean": {
+        "n": 2,
+        "hard_exact_rate": 1.0,
+        "erasure_exact_rate": 1.0,
+        "mean_raw_bit_ber": 0.0004578754578754579,
+        "max_raw_bit_ber": 0.0005341880341880342,
+        "mean_psnr_db": 41.32284079451252,
+        "mean_global_ssim": 0.9993488380346668
+      }
+    }
+  },
+  "rows": [
+    {
+      "image": "05_artifacts\\data\\sample_images\\000000001503.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp_requested": 0.05,
+      "nominal_bpp_used": 0.04998779296875,
+      "effective_user_bpp": 0.03399658203125,
+      "payload_bytes": 1114,
+      "max_payload_bytes": 1114,
+      "ecc_bytes": 64,
+      "rs_chunks": 6,
+      "packet_seed": 7,
+      "raw_bit_ber": 0.0005341880341880342,
+      "hard_exact": true,
+      "hard_error": "",
+      "erasure_exact": true,
+      "erasure_error": "",
+      "max_erasures_per_chunk": 0,
+      "psnr_db": 40.95554927090238,
+      "global_ssim": 0.9992822909966749
+    },
+    {
+      "image": "05_artifacts\\data\\sample_images\\dog_0031.jpg",
+      "trial": 0,
+      "attack": "clean",
+      "payload_bpp_requested": 0.05,
+      "nominal_bpp_used": 0.04998779296875,
+      "effective_user_bpp": 0.03399658203125,
+      "payload_bytes": 1114,
+      "max_payload_bytes": 1114,
+      "ecc_bytes": 64,
+      "rs_chunks": 6,
+      "packet_seed": 7,
+      "raw_bit_ber": 0.00038156288156288156,
+      "hard_exact": true,
+      "hard_error": "",
+      "erasure_exact": true,
+      "erasure_error": "",
+      "max_erasures_per_chunk": 0,
+      "psnr_db": 41.690132318122664,
+      "global_ssim": 0.9994153850726587
+    }
+  ]
+}

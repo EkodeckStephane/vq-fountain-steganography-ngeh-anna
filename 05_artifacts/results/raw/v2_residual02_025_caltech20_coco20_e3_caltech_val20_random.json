@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v2_residual02_025_caltech20_coco20_e3.pt",
+    "payload_bpp": 0.25,
+    "num_rows": 20,
+    "mean_useful_ber": 0.000820159912109375,
+    "mean_full_ber": 0.01148223876953125,
+    "mean_psnr_db": 36.58120211821751,
+    "mean_global_ssim": 0.9985457521149422
+  },
+  "rows": [
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01661.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005035400390625,
+      "full_ber": 0.00582122802734375,
+      "psnr_db": 37.23120774737423,
+      "global_ssim": 0.9981297264222063
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01662.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.000579833984375,
+      "full_ber": 0.023843765258789062,
+      "psnr_db": 36.0325758154175,
+      "global_ssim": 0.9988649852777838
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01663.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0001068115234375,
+      "full_ber": 0.003543853759765625,
+      "psnr_db": 37.225332291484904,
+      "global_ssim": 0.9983466701546921
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01664.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0013275146484375,
+      "full_ber": 0.010284423828125,
+      "psnr_db": 36.1501493761515,
+      "global_ssim": 0.9982921112659446
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\test_01665.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0004730224609375,
+      "full_ber": 0.0059185028076171875,
+      "psnr_db": 36.35367387402842,
+      "global_ssim": 0.9989683779517251
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00960.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 4.57763671875e-05,
+      "full_ber": 0.0015468597412109375,
+      "psnr_db": 37.22597924739022,
+      "global_ssim": 0.9963329304587184
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00961.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0003662109375,
+      "full_ber": 0.00547027587890625,
+      "psnr_db": 37.36193253000386,
+      "global_ssim": 0.9984252557406378
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00962.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0010833740234375,
+      "full_ber": 0.013261795043945312,
+      "psnr_db": 36.006031368743244,
+      "global_ssim": 0.9991610295203601
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00963.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005340576171875,
+      "full_ber": 0.010873794555664062,
+      "psnr_db": 36.70449703914084,
+      "global_ssim": 0.9989792955288942
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00964.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0001068115234375,
+      "full_ber": 0.0056972503662109375,
+      "psnr_db": 37.059763467837556,
+      "global_ssim": 0.9982877707477993
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00965.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.001434326171875,
+      "full_ber": 0.022031784057617188,
+      "psnr_db": 35.78058833005401,
+      "global_ssim": 0.998573629216853
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00966.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0003509521484375,
+      "full_ber": 0.009679794311523438,
+      "psnr_db": 37.0828281747577,
+      "global_ssim": 0.9984936555840183
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00967.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0005950927734375,
+      "full_ber": 0.015672683715820312,
+      "psnr_db": 36.30442841609631,
+      "global_ssim": 0.9989356787923539
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00968.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0008087158203125,
+      "full_ber": 0.007335662841796875,
+      "psnr_db": 37.285321636899106,
+      "global_ssim": 0.9984840294013082
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00969.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.004486083984375,
+      "full_ber": 0.017641067504882812,
+      "psnr_db": 36.02474364866066,
+      "global_ssim": 0.9987558995566531
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00970.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0002899169921875,
+      "full_ber": 0.013269424438476562,
+      "psnr_db": 37.01329080680237,
+      "global_ssim": 0.9991613990031424
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00971.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.00091552734375,
+      "full_ber": 0.020320892333984375,
+      "psnr_db": 35.83381956402167,
+      "global_ssim": 0.9982681987279461
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00972.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.0006256103515625,
+      "full_ber": 0.018182754516601562,
+      "psnr_db": 36.00785290797212,
+      "global_ssim": 0.9990019501459473
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00973.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.000518798828125,
+      "full_ber": 0.00615692138671875,
+      "psnr_db": 36.78918370655658,
+      "global_ssim": 0.9984306297372756
+    },
+    {
+      "image": "<CALTECH101_IMAGES_DIR>\\accordion\\train_00974.jpg",
+      "trial": 0,
+      "payload_bpp": 0.25,
+      "useful_bits": 65536,
+      "useful_ber": 0.001251220703125,
+      "full_ber": 0.013092041015625,
+      "psnr_db": 36.15084241495742,
+      "global_ssim": 0.9990218190645876
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "calibration_summary": {
+    "best_by_value": {
+      "0": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 751,
+          "unique_received_tokens": 29
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 1557,
+          "unique_received_tokens": 23
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 1739,
+          "unique_received_tokens": 26
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2028,
+          "unique_received_tokens": 44
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2503,
+          "unique_received_tokens": 34
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2606,
+          "unique_received_tokens": 28
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 2626,
+          "unique_received_tokens": 46
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2889,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2915,
+          "unique_received_tokens": 40
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 2967,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3377,
+          "unique_received_tokens": 41
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 1,
+          "token_id": 3501,
+          "unique_received_tokens": 24
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3573,
+          "unique_received_tokens": 35
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3579,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3617,
+          "unique_received_tokens": 21
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 3847,
+          "unique_received_tokens": 19
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 4869,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5509,
+          "unique_received_tokens": 30
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5682,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 0,
+          "target_value": 0,
+          "token_id": 5788,
+          "unique_received_tokens": 33
+        }
+      ],
+      "1": [
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1499,
+          "unique_received_tokens": 36
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2095,
+          "unique_received_tokens": 45
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2625,
+          "unique_received_tokens": 21
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 3602,
+          "unique_received_tokens": 37
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4371,
+          "unique_received_tokens": 31
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4503,
+          "unique_received_tokens": 44
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4663,
+          "unique_received_tokens": 23
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4832,
+          "unique_received_tokens": 28
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4840,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 5176,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 1.0,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 5284,
+          "unique_received_tokens": 26
+        },
+        {
+          "majority_fraction": 0.99707,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 1260,
+          "unique_received_tokens": 33
+        },
+        {
+          "majority_fraction": 0.99707,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 4956,
+          "unique_received_tokens": 43
+        },
+        {
+          "majority_fraction": 0.99707,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 5735,
+          "unique_received_tokens": 32
+        },
+        {
+          "majority_fraction": 0.995117,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 6457,
+          "unique_received_tokens": 45
+        },
+        {
+          "majority_fraction": 0.994141,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 2959,
+          "unique_received_tokens": 47
+        },
+        {
+          "majority_fraction": 0.993164,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 3157,
+          "unique_received_tokens": 39
+        },
+        {
+          "majority_fraction": 0.985352,
+          "received_value": 1,
+          "target_value": 1,
+          "token_id": 7979,
+          "unique_received_tokens": 49
+        },
+        {
+          "majority_fraction": 0.979492,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 2409,
+          "unique_received_tokens": 53
+        },
+        {
+          "majority_fraction": 0.970703,
+          "received_value": 1,
+          "target_value": 0,
+          "token_id": 7239,
+          "unique_received_tokens": 42
+        }
+      ]
+    },
+    "calibration_seed": "real-vqgan-calibration-v1-latent32",
+    "count": 256,
+    "stable_pool_0": 41,
+    "stable_pool_1": 28,
+    "test_seeds": [
+      "real-vqgan-128-test-a"
+    ],
+    "threshold": 0.9
+  },
+  "rows": [
+    {
+      "attack": "clean",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1-latent32",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 4,
+      "crc_valid_symbols": 108,
+      "dropped_images": 0,
+      "encoded_symbols": 112,
+      "erased_symbols": 0,
+      "exact_recovery": true,
+      "exact_symbols": 108,
+      "failure": "",
+      "image_count": 14,
+      "latent_side": 32,
+      "macro_cell_size": 4,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "overhead": 3.0,
+      "packet_bytes": 28,
+      "payload_bytes": 16,
+      "payload_seed": "real-vqgan-128-test-a",
+      "recovered_symbols": 112,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "source_symbols": 28,
+      "stable_pool_0": 41,
+      "stable_pool_1": 28,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.000209,
+      "value_match_rate": 0.995536
+    },
+    {
+      "attack": "crop090+jpeg85+drop25",
+      "bits_per_token": 1,
+      "block_size": 1,
+      "calibration_count": 256,
+      "calibration_seed": "real-vqgan-calibration-v1-latent32",
+      "calibration_threshold": 0.9,
+      "crc_rejected_symbols": 23,
+      "crc_valid_symbols": 49,
+      "dropped_images": 5,
+      "encoded_symbols": 112,
+      "erased_symbols": 40,
+      "exact_recovery": true,
+      "exact_symbols": 49,
+      "failure": "",
+      "image_count": 14,
+      "latent_side": 32,
+      "macro_cell_size": 4,
+      "macro_cells_per_image": 64,
+      "model_dir": "05_artifacts\\models\\vqgan_f4_8192_diffusers_converted",
+      "overhead": 3.0,
+      "packet_bytes": 28,
+      "payload_bytes": 16,
+      "payload_seed": "real-vqgan-128-test-a",
+      "recovered_symbols": 72,
+      "sample_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "source_symbols": 28,
+      "stable_pool_0": 41,
+      "stable_pool_1": 28,
+      "symbols_per_image": 8,
+      "token_match_rate": 0.000217,
+      "value_match_rate": 0.946181
+    }
+  ]
+}

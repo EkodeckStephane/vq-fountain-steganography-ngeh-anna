@@ -1,0 +1,77 @@
+{
+  "baseline": "HiDDeN",
+  "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+  "exact_trials": 0,
+  "mean_bit_error_rate": 0.31333333,
+  "message_bits": 30,
+  "options_file": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\options-and-config.pickle",
+  "rows": [
+    {
+      "baseline": "HiDDeN",
+      "bit_error_rate": 0.46666667,
+      "bit_errors": 14,
+      "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+      "decoder_mse": 0.22295354,
+      "encoder_mse": 0.00215172,
+      "exact_recovery": false,
+      "message_bits": 30,
+      "reported_bitwise_error": 0.46666667,
+      "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "trial": 0
+    },
+    {
+      "baseline": "HiDDeN",
+      "bit_error_rate": 0.13333333,
+      "bit_errors": 4,
+      "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+      "decoder_mse": 0.11589124,
+      "encoder_mse": 0.00184958,
+      "exact_recovery": false,
+      "message_bits": 30,
+      "reported_bitwise_error": 0.13333333,
+      "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "trial": 1
+    },
+    {
+      "baseline": "HiDDeN",
+      "bit_error_rate": 0.5,
+      "bit_errors": 15,
+      "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+      "decoder_mse": 0.28309447,
+      "encoder_mse": 0.00209563,
+      "exact_recovery": false,
+      "message_bits": 30,
+      "reported_bitwise_error": 0.5,
+      "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "trial": 2
+    },
+    {
+      "baseline": "HiDDeN",
+      "bit_error_rate": 0.26666667,
+      "bit_errors": 8,
+      "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+      "decoder_mse": 0.17245415,
+      "encoder_mse": 0.00206567,
+      "exact_recovery": false,
+      "message_bits": 30,
+      "reported_bitwise_error": 0.26666667,
+      "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "trial": 3
+    },
+    {
+      "baseline": "HiDDeN",
+      "bit_error_rate": 0.2,
+      "bit_errors": 6,
+      "checkpoint": "05_artifacts\\baselines\\HiDDeN\\experiments\\combined-noise\\checkpoints\\combined-noise--epoch-400.pyt",
+      "decoder_mse": 0.19820683,
+      "encoder_mse": 0.00165677,
+      "exact_recovery": false,
+      "message_bits": 30,
+      "reported_bitwise_error": 0.2,
+      "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+      "trial": 4
+    }
+  ],
+  "source_image": "05_artifacts\\results\\raw\\vq_fountain_real_vqgan_payload_sample_128px.png",
+  "trials": 5
+}

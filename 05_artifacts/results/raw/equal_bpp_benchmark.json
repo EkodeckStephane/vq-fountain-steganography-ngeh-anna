@@ -1,0 +1,193 @@
+{
+  "dct_details": {
+    "attacks": {
+      "blur1": {
+        "exact_rate": 1.0,
+        "mean_ber": 0.0,
+        "mean_psnr_db": 34.73979491168076,
+        "n": 40
+      },
+      "clean": {
+        "exact_rate": 1.0,
+        "mean_ber": 0.0,
+        "mean_psnr_db": 34.73979491168076,
+        "n": 40
+      },
+      "crop090": {
+        "exact_rate": 0.0,
+        "mean_ber": 0.496875,
+        "mean_psnr_db": 34.73979491168076,
+        "n": 40
+      },
+      "jpeg85": {
+        "exact_rate": 1.0,
+        "mean_ber": 0.0,
+        "mean_psnr_db": 34.73979491168076,
+        "n": 40
+      },
+      "resize075": {
+        "exact_rate": 1.0,
+        "mean_ber": 0.0,
+        "mean_psnr_db": 34.73979491168076,
+        "n": 40
+      }
+    },
+    "effective_bpp": 0.001953125,
+    "images": 40,
+    "message_bits": 32,
+    "method": "DCT-spread",
+    "simple_detector": {
+      "test_accuracy": 0.625,
+      "test_auc": 0.73,
+      "train_accuracy": 0.875,
+      "train_auc": 0.9725
+    },
+    "spam_detector": {
+      "test_accuracy": 0.95,
+      "test_auc": 0.95,
+      "train_accuracy": 1.0,
+      "train_auc": 1.0
+    }
+  },
+  "decision": "ETHEGAN shows clean-channel superiority over the local HiDDeN compatibility run and higher clean PSNR than DCT-spread at matched effective bpp, but DCT-spread is superior under the tested active transformations. Do not claim universal SOTA superiority.",
+  "ethegan_attacks": {
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "ecc_bytes": 32,
+    "effective_user_bpp": 0.001953125,
+    "max_effective_user_bpp": 0.001953125,
+    "max_payload_bytes": 64,
+    "nominal_bpp_used": 0.007476806640625,
+    "nsize": 128,
+    "payload_bpp_requested": 0.0075,
+    "payload_bytes": 64,
+    "rs_chunks": 1,
+    "summary_by_attack": {
+      "blur1": {
+        "erasure_exact_rate": 0.0,
+        "hard_exact_rate": 0.0,
+        "max_raw_bit_ber": 0.35816326530612247,
+        "mean_global_ssim": 0.9997714668793798,
+        "mean_psnr_db": 45.28213034374153,
+        "mean_raw_bit_ber": 0.14178571428571426,
+        "n": 40
+      },
+      "clean": {
+        "erasure_exact_rate": 0.95,
+        "hard_exact_rate": 0.95,
+        "max_raw_bit_ber": 0.22448979591836735,
+        "mean_global_ssim": 0.9997714668793798,
+        "mean_psnr_db": 45.28213034374153,
+        "mean_raw_bit_ber": 0.011530612244897959,
+        "n": 40
+      },
+      "jpeg95": {
+        "erasure_exact_rate": 0.0,
+        "hard_exact_rate": 0.0,
+        "max_raw_bit_ber": 0.47244897959183674,
+        "mean_global_ssim": 0.9997714668793798,
+        "mean_psnr_db": 45.28213034374153,
+        "mean_raw_bit_ber": 0.23869897959183675,
+        "n": 40
+      },
+      "resize0.75": {
+        "erasure_exact_rate": 0.0,
+        "hard_exact_rate": 0.0,
+        "max_raw_bit_ber": 0.31581632653061226,
+        "mean_global_ssim": 0.9997714668793798,
+        "mean_psnr_db": 45.28213034374153,
+        "mean_raw_bit_ber": 0.12540816326530613,
+        "n": 40
+      }
+    },
+    "unused_tail_bytes": 117
+  },
+  "ethegan_gate": {
+    "accept_fraction_requested": 0.25,
+    "acceptance_rate": 0.25,
+    "accepted_images": 10,
+    "checkpoint": "05_artifacts\\models\\etehgan_v3_stegaware018_stat05_adv001_e3.pt",
+    "ecc_bytes": 32,
+    "effective_user_bpp": 0.001953125,
+    "exact_recovery_accepted_rate": 1.0,
+    "exact_recovery_all_rate": 0.975,
+    "gate_rule": "accept exact-recovery images with lowest combined simple/SPAM cover-stego feature-distance score",
+    "images_tested": 40,
+    "mean_psnr_accepted": 46.37585768321092,
+    "mean_ssim_accepted": 0.9997509467259655,
+    "nominal_bpp_used": 0.007476806640625,
+    "nsize": 128,
+    "payload_bpp_requested": 0.0075,
+    "payload_bytes": 64,
+    "simple_detector_on_accepted": {
+      "accepted_images": 10,
+      "test_accuracy": 0.5,
+      "test_auc": 0.58,
+      "test_images": 5,
+      "train_accuracy": 1.0,
+      "train_auc": 1.0,
+      "train_images": 5
+    },
+    "spam_detector_on_accepted": {
+      "accepted_images": 10,
+      "test_accuracy": 0.5,
+      "test_auc": 0.52,
+      "test_images": 5,
+      "train_accuracy": 1.0,
+      "train_auc": 1.0,
+      "train_images": 5
+    }
+  },
+  "hidden_summary": {
+    "effective_bpp": 0.0018310546875,
+    "exact_trials": 0,
+    "mean_bit_error_rate": 0.31333333,
+    "message_bits": 30,
+    "trials": 5
+  },
+  "summary_rows": [
+    {
+      "clean_exact_rate": 1.0,
+      "effective_bpp": 0.001953125,
+      "images": 10,
+      "jpeg_or_attack_exact": "0.0 under JPEG95/blur1/resize0.75 on ungated 40-image check",
+      "mean_psnr_db": 46.37585768321092,
+      "method": "ETHEGAN gated low-payload",
+      "scope": "clean-channel accepted images only",
+      "simple_auc": 0.58,
+      "spam_auc": 0.52
+    },
+    {
+      "clean_exact_rate": 0.95,
+      "effective_bpp": 0.001953125,
+      "images": 40,
+      "jpeg_or_attack_exact": "0.0 under JPEG95/blur1/resize0.75",
+      "mean_psnr_db": 45.28213034374153,
+      "method": "ETHEGAN ungated low-payload",
+      "scope": "clean-channel all images, no passive-security claim",
+      "simple_auc": "",
+      "spam_auc": ""
+    },
+    {
+      "clean_exact_rate": 1.0,
+      "effective_bpp": 0.001953125,
+      "images": 40,
+      "jpeg_or_attack_exact": "jpeg85=1.0, resize075=1.0, blur1=1.0, crop090=0.0",
+      "mean_psnr_db": 34.73979491168076,
+      "method": "DCT-spread",
+      "scope": "classical transform baseline",
+      "simple_auc": 0.73,
+      "spam_auc": 0.95
+    },
+    {
+      "clean_exact_rate": 0.0,
+      "effective_bpp": 0.0018310546875,
+      "images": 5,
+      "jpeg_or_attack_exact": "not rerun in this compatibility smoke",
+      "mean_psnr_db": "",
+      "method": "HiDDeN local public checkpoint",
+      "scope": "local checkpoint compatibility smoke",
+      "simple_auc": "",
+      "spam_auc": ""
+    }
+  ]
+}

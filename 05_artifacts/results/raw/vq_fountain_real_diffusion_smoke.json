@@ -1,0 +1,12 @@
+{
+  "device": "cpu",
+  "image_size": [
+    128,
+    128
+  ],
+  "model_id": "diffusers/tiny-stable-diffusion-torch",
+  "out_image": "05_artifacts\\results\\raw\\vq_fountain_real_diffusion_smoke.png",
+  "prompt": "a clean geometric test image",
+  "seed": 1234,
+  "steps": 2
+}
