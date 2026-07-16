@@ -97,9 +97,9 @@
       "sha256": "fb573efef414262e882e62019898de07ad2f708a16beaeae6b7be828ece668ab"
     },
     {
-      "bytes": 36073,
+      "bytes": 39316,
       "path": "04_experiments\\results\\vq_fountain_reproducibility_manifest_2026-07-16.md",
-      "sha256": "92e82817d3c97b39f6ba707951018c9834d0e60beab065e62845be85cfcdf7cd"
+      "sha256": "b55e3479f87c3e1094a39db1c42b33b0152c8a85ccce1dadfd88c7d30b68ae03"
     },
     {
       "bytes": 4100,
@@ -747,9 +747,9 @@
       "sha256": "21f0e82a99a1f8c5cb103682f42e00469bd029e6d79fd901d2460240cb9fd8ad"
     },
     {
-      "bytes": 50536,
+      "bytes": 55641,
       "path": "05_artifacts\\results\\raw\\vq_fountain_reproducibility_manifest.json",
-      "sha256": "5d5a98bdaac5d29c0266cd5b30e486c595517b21aacf3b13aec856dd8e2cdfba"
+      "sha256": "88e8eba7f2ba6973afbe649314c374366a754f9384b4695fb6bfbeca016b038c"
     },
     {
       "bytes": 5337,
@@ -1102,9 +1102,9 @@
       "sha256": "a82da49842adaff98ef4df8daa00cf1428a9c5862384431c07a65287941c3258"
     },
     {
-      "bytes": 2208,
+      "bytes": 2334,
       "path": "paper_vq_fountain\\Elsevier\\README_JISA.md",
-      "sha256": "4b4a1dbaa61e81158b34525e87641896217503aa18a4de9a6197a6267e65b50c"
+      "sha256": "868159dd2c562274f9d36d4a14fb8f537434900283210847fd9cb7538c8e99f6"
     },
     {
       "bytes": 76688,

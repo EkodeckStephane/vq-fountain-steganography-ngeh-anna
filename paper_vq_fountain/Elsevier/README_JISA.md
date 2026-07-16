@@ -4,6 +4,8 @@ This directory contains a local Elsevier CAS double-column preparation of the
 VQ-Fountain manuscript for a potential submission to the Journal of Information
 Security and Applications (JISA).
 
+Artifact DOI: `https://doi.org/10.5281/zenodo.21400722`
+
 ## Source Files
 
 - `main_jisa_casdc.tex`: local CAS double-column manuscript source.
@@ -31,7 +33,8 @@ repository.
 - References: SOTA positioning table includes citations for the named external
   comparators.
 - Data availability: the article contains the GitHub artifact link while keeping
-  article `.tex` and PDF outside the repository.
+  article `.tex` and PDF outside the repository; it also contains the Zenodo
+  DOI for the archived artifact release.
 - Declarations: competing interest, funding, acknowledgements, CRediT, and
   generative-AI-use declaration sections are included for author review.
 

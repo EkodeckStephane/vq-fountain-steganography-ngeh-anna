@@ -1,5 +1,7 @@
 # VQ-Fountain Steganography - Reproducibility Workspace
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21400722.svg)](https://doi.org/10.5281/zenodo.21400722)
+
 This workspace contains the local article package and the reproducibility
 artifacts for the NGEH Anna VQ-Fountain paper:
 
@@ -13,6 +15,10 @@ source file and compiled PDF must not be uploaded.
 Artifact repository URL used in the paper:
 
 `https://github.com/EkodeckStephane/vq-fountain-steganography-ngeh-anna`
+
+Archived artifact release DOI used in the paper:
+
+`https://doi.org/10.5281/zenodo.21400722`
 
 ## Upload Policy
 
